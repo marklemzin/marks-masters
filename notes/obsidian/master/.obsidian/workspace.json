@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/07.03.md",
+                "file": "Reference/10.03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07.03"
+              "title": "10.03"
             }
           }
         ]
@@ -188,8 +188,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6fd8436070ca5867",
+  "active": "79822d5eae1f5bec",
   "lastOpenFiles": [
+    "www.fpbase.org.md",
+    "Reference/10.03.md",
     "Reference/07.03.md",
     "Reference/_notes_read_me.md",
     "Reference/06.03.md",
