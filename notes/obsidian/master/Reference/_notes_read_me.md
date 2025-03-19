@@ -24,3 +24,8 @@ Generally though, this should serve as an indicator, or running journal of probl
 [[07.03]]
 [[10.03]]
 [[11.03]]
+[[12.03]]
+[[13.03]]
+[[14.03]]
+[[17.03]]
+[[18.03]]
