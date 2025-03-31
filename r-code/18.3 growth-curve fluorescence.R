@@ -16,7 +16,7 @@ library(ggplot2)
 
 #### OD600: Area under the curve ####
 directory <- '../raw-data/'
-raw_filename <- '17.3 pilot 308.309.311 OD.csv'
+raw_filename <- '31.3 fpscreen OD.csv'
 source <- paste0(directory,raw_filename)
 
 Sample_ID <- data.table::fread(source, header = TRUE, data.table=F)
@@ -40,6 +40,13 @@ values_for_plot <- merge(values_for_plot, media_glossary, by='media')
 values_for_plot$strain <- values_for_plot$fixed_strain
 values_for_plot$media <- values_for_plot$named_media
 
+values_for_plot$no_engineer <- stringr::word(sub('', '', values_for_plot$fixed_strain), 1)
+
+values_for_plot$fp <- rep('NA', length(values_for_plot$media))
+values_for_plot$fp[grep('GFP',values_for_plot$fixed_strain)] <- 'GFP'
+values_for_plot$fp[grep('YFP',values_for_plot$fixed_strain)] <- 'YFP'
+values_for_plot$fp[grep('FarRed',values_for_plot$fixed_strain)] <- 'FarRed'
+
 #Standardize to blank
 values_for_lb <- values_for_plot[grep('lb', values_for_plot$sample),]
 values_for_lb <- values_for_lb[-grep('blank', values_for_lb$strain),]
@@ -47,31 +54,51 @@ values_for_lb <- values_for_lb[-grep('blank', values_for_lb$strain),]
 values_for_lb$auc_e <- sapply(values_for_lb$auc_e, function(x) x - 
                                 mean(values_for_plot[grep('lb blank', values_for_plot$condition),10]))
 
-#As above for TCM
-values_for_tcm <- values_for_plot[grep('tcm', values_for_plot$sample),]
-values_for_tcm <- values_for_tcm[-grep('blank', values_for_tcm$strain),]
+#As above for TSB
+values_for_tsb <- values_for_plot[grep('tsb', values_for_plot$sample),]
+values_for_tsb <- values_for_tsb[-grep('blank', values_for_tsb$strain),]
 #For average blank AUC_e, use the 8th column
-values_for_tcm$auc_e <- sapply(values_for_tcm$auc_e, function(x) x - 
-                                mean(values_for_plot[grep('tcm blank', values_for_plot$condition),10]))
+values_for_tsb$auc_e <- sapply(values_for_tsb$auc_e, function(x) x - 
+                                mean(values_for_plot[grep('tsb blank', values_for_plot$condition),10]))
 
-plot_title <- 'Good growth in LB across strains'
+strain_of_interest <- 'PA14'
+plot_title <- paste0('Growth of ', strain_of_interest)
 y_label <- 'AUC_e (OD600 x h)'
 
-ggplot2::ggplot(values_for_lb, aes(x=media, y=auc_e, fill=media)) +
-  facet_grid( . ~ strain ) +
+#Can use values_for_tsb
+
+ggplot2::ggplot(values_for_lb[grep(strain_of_interest,values_for_lb$no_engineer), ], aes(x=strain, y=auc_e, fill = fp)) +
   geom_point(alpha=0.3) +
   stat_summary(fun.y=mean, geom="bar", alpha=0.3, color='black' ) +
   stat_summary(fun.y=function(auc_e) {mean(auc_e) + sd(auc_e)*c(-1,1)}, geom="point", shape="\U2014", 
                size=7, colour="black") +
+  stat_compare_means(method = "anova", label.y = 12) +
   stat_compare_means(label = "p.signif", method = "t.test",
-                     comparisons = list(c('LB','LB + Gm50')), label.y = 12.5) +
+                     ref.group = paste0(strain_of_interest,' (wild-type)'),
+                     label.y = 11) +
   theme(legend.position="none") +
-  paletteer::scale_fill_paletteer_d("palettetown::ariados") +
+  scale_fill_manual(values=c("#097969", "#D3D3D3", "#FDDA0D")) +
   theme_bw() +
   ylab(y_label) +
+  xlab('') +
+  theme(axis.text.x = element_text(angle = 45, hjust=1)) +
   ggtitle(plot_title)
 
-#Temporary tcm plot
+#Growth for all Pa strains
+
+ggplot2::ggplot(values_for_lb, aes(x=strain, y=auc_e, fill = fp)) +
+  geom_point(alpha=0.3) +
+  stat_summary(fun.y=mean, geom="bar", alpha=0.3, color='black' ) +
+  stat_summary(fun.y=function(auc_e) {mean(auc_e) + sd(auc_e)*c(-1,1)}, geom="point", shape="\U2014", 
+               size=7, colour="black") +
+  scale_fill_manual(values=c("#097969", "#D3D3D3", "#FDDA0D")) +
+  theme_bw() +
+  ylab(y_label) +
+  xlab('') +
+  theme(axis.text.x = element_text(angle = 45, hjust=1)) +
+  ggtitle('OD (auc_e) of all strains')
+
+#Alternate version for multiple media (wip)
 
 plot_title <- 'No growth in TCM across strains'
 y_label <- 'AUC_e (OD600 x h)'
@@ -100,9 +127,19 @@ for ( i in 1:length(condition_list) ) {
 
 od_auc_sum <- data.frame( condition = condition_list , od_auc = od_mean_auc )
 
+#for TSB
+condition_list <- unique(values_for_tsb$condition)
+od_mean_auc <- numeric(length=length(condition_list))
+
+for ( i in 1:length(condition_list) ) {
+  od_mean_auc[i] <- mean(values_for_tsb$auc_e[grep(condition_list[i], values_for_tsb$condition)])
+}
+
+od_auc_sum <- data.frame( condition = condition_list , od_auc = od_mean_auc )
+
 #### Fluorescence: Area under the curve ####
 directory <- '../raw-data/'
-raw_filename <- '17.3 pilot 308.309.311 YFP.csv'
+raw_filename <- '31.3 fpscreen FarRed.csv'
 source <- paste0(directory,raw_filename)
 
 Sample_ID <- data.table::fread(source, header = TRUE, data.table=F)
@@ -123,31 +160,83 @@ values_for_plot <- merge(values_for_plot, media_glossary, by='media')
 values_for_plot$strain <- values_for_plot$fixed_strain
 values_for_plot$media <- values_for_plot$named_media
 
+values_for_plot$no_engineer <- stringr::word(sub('', '', values_for_plot$fixed_strain), 1)
+
+values_for_plot$fp <- rep('NA', length(values_for_plot$media))
+values_for_plot$fp[grep('GFP',values_for_plot$fixed_strain)] <- 'GFP'
+values_for_plot$fp[grep('YFP',values_for_plot$fixed_strain)] <- 'YFP'
+values_for_plot$fp[grep('FarRed',values_for_plot$fixed_strain)] <- 'FarRed'
+
 values_for_lb <- values_for_plot[grep('lb', values_for_plot$sample),]
 values_for_lb <- values_for_lb[-grep('blank', values_for_lb$strain),]
 values_for_lb$auc_e <- sapply(values_for_lb$auc_e, function(x) x - 
                                 mean(values_for_plot[grep('lb blank', values_for_plot$condition),8]))
 
+values_for_tsb <- values_for_plot[grep('tsb', values_for_plot$sample),]
+values_for_tsb <- values_for_tsb[-grep('blank', values_for_tsb$strain),]
+values_for_tsb$auc_e <- sapply(values_for_tsb$auc_e, function(x) x - 
+                                mean(values_for_plot[grep('tsb blank', values_for_plot$condition),8]))
+
 #Only different component: RFU calculation
 lb_fl_od <- merge(values_for_lb, od_auc_sum , by = "condition")
 lb_fl_od$rfu <- lb_fl_od$auc_e / lb_fl_od$od_auc
 
-graph_title <- '500/543 is good for YFP, less so for eGFP (16h growth)'
-y_label <- 'RFU (YFP; 500/543)'
+tsb_fl_od <- merge(values_for_tsb, od_auc_sum , by = "condition")
+tsb_fl_od$rfu <- tsb_fl_od$auc_e / tsb_fl_od$od_auc
 
-ggplot2::ggplot(lb_fl_od, aes(x=media, y=rfu, fill=media)) +
-  facet_grid( . ~ strain ) +
+strain_of_interest <- 'LESB58'
+plot_title <- paste0('Fluorescence (500/543) of ', strain_of_interest)
+y_label <- 'RFU auc-fl/(OD600 x h)'
+
+ggplot2::ggplot(lb_fl_od[grep(strain_of_interest,lb_fl_od$no_engineer), ], aes(x=strain, y=auc_e, fill = fp)) +
   geom_point(alpha=0.3) +
   stat_summary(fun.y=mean, geom="bar", alpha=0.3, color='black' ) +
   stat_summary(fun.y=function(rfu) {mean(rfu) + sd(rfu)*c(-1,1)}, geom="point", shape="\U2014", 
                size=7, colour="black") +
+  stat_compare_means(method = "anova") +
   stat_compare_means(label = "p.signif", method = "t.test",
-                     comparisons = list(c('LB','LB + Gm50'))) +
+                     ref.group = paste0(strain_of_interest,' (wild-type)')) +
   theme(legend.position="none") +
-  paletteer::scale_fill_paletteer_d("palettetown::ariados") +
-  ggtitle(graph_title) +
+  scale_fill_manual(values=c("#097969","#D3D3D3", "#FDDA0D")) +
+  theme_bw() +
   ylab(y_label) +
-  theme_bw()
+  xlab('') +
+  theme(axis.text.x = element_text(angle = 45, hjust=1)) +
+  ggtitle(plot_title)
+
+ggplot2::ggplot(lb_fl_od, aes(x=strain, y=auc_e, fill = fp)) +
+  geom_point(alpha=0.3) +
+  stat_summary(fun.y=mean, geom="bar", alpha=0.3, color='black' ) +
+  stat_summary(fun.y=function(rfu) {mean(rfu) + sd(rfu)*c(-1,1)}, geom="point", shape="\U2014", 
+               size=7, colour="black") +
+  scale_fill_manual(values=c("#097969", "#D3D3D3", "#FDDA0D")) +
+  theme_bw() +
+  ylab(y_label) +
+  xlab('') +
+  theme(axis.text.x = element_text(angle = 45, hjust=1)) +
+  ggtitle('Fluorescence (500/543) of all strains')
+
+#Variant for LAC300
+
+strain_of_interest <- 'USA300'
+plot_title <- paste0('Fluorescence (592/650) of ', strain_of_interest)
+y_label <- 'RFU auc-fl/(OD600 x h)'
+
+ggplot2::ggplot(tsb_fl_od[grep(strain_of_interest,tsb_fl_od$no_engineer), ], aes(x=strain, y=auc_e, fill = fp)) +
+  geom_point(alpha=0.3) +
+  stat_summary(fun.y=mean, geom="bar", alpha=0.3, color='black' ) +
+  stat_summary(fun.y=function(rfu) {mean(rfu) + sd(rfu)*c(-1,1)}, geom="point", shape="\U2014", 
+               size=7, colour="black") +
+  stat_compare_means(method = "anova") +
+  stat_compare_means(label = "p.signif", method = "t.test",
+                     ref.group = paste0(strain_of_interest,' (wild-type)')) +
+  theme(legend.position="none") +
+  scale_fill_manual(values=c("#A45A52", "#D3D3D3")) +
+  theme_bw() +
+  ylab(y_label) +
+  xlab('') +
+  theme(axis.text.x = element_text(angle = 45, hjust=1)) +
+  ggtitle(plot_title)
 
 #### OD600: curve ####
 directory <- '../raw-data/'
