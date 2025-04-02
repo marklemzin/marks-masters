@@ -10,6 +10,7 @@ library(growthcurver)
 library(stringr)
 library(paletteer)
 library(ggpubr)
+library(patchwork)
 
 #tidyverse
 library(ggplot2)
@@ -41,6 +42,7 @@ values_for_plot$strain <- values_for_plot$fixed_strain
 values_for_plot$media <- values_for_plot$named_media
 
 values_for_plot$no_engineer <- stringr::word(sub('', '', values_for_plot$fixed_strain), 1)
+values_for_plot$engineer <- stringr::word(sub('', '', values_for_plot$fixed_strain), 2)
 
 values_for_plot$fp <- rep('NA', length(values_for_plot$media))
 values_for_plot$fp[grep('GFP',values_for_plot$fixed_strain)] <- 'GFP'
@@ -61,42 +63,114 @@ values_for_tsb <- values_for_tsb[-grep('blank', values_for_tsb$strain),]
 values_for_tsb$auc_e <- sapply(values_for_tsb$auc_e, function(x) x - 
                                 mean(values_for_plot[grep('tsb blank', values_for_plot$condition),10]))
 
-strain_of_interest <- 'PA14'
-plot_title <- paste0('Growth of ', strain_of_interest)
+#For PAO1
+strain_of_interest <- 'PAO1'
+plot_title <- paste0('auc_e (OD) of ', strain_of_interest,' mutants')
 y_label <- 'AUC_e (OD600 x h)'
 
-#Can use values_for_tsb
+p_PAO1 <- ggplot2::ggplot(values_for_lb[grep(strain_of_interest,values_for_lb$no_engineer), ], aes(x=strain, y=auc_e, fill = fp)) +
+    geom_point(alpha=0.3) +
+    stat_summary(fun.y=mean, geom="bar", alpha=0.3, color='black' ) +
+    stat_summary(fun.y=function(auc_e) {mean(auc_e) + sd(auc_e)*c(-1,1)}, geom="point", shape="\U2014", 
+                 size=7, colour="black") +
+    stat_compare_means(label = "p.signif", method = "t.test",
+                       ref.group = paste0(strain_of_interest,' (wild-type)'),
+                       label.y = 12.5) +
+    theme(legend.position="none") +
+    scale_fill_manual(values=c("#097969", "#D3D3D3", "#FDDA0D")) +
+    theme_bw() +
+    ylab(y_label) +
+    xlab('') +
+    theme(legend.position="none") +
+    ylim(c(0,22)) +
+    theme(axis.text.x = element_text(angle = 45, hjust=1)) +
+    ggtitle(plot_title)
 
-ggplot2::ggplot(values_for_lb[grep(strain_of_interest,values_for_lb$no_engineer), ], aes(x=strain, y=auc_e, fill = fp)) +
+#For PA14
+strain_of_interest <- 'PA14'
+plot_title <- paste0('auc_e (OD) of ', strain_of_interest,' mutants')
+
+p_PA14 <- ggplot2::ggplot(values_for_lb[grep(strain_of_interest,values_for_lb$no_engineer), ], aes(x=strain, y=auc_e, fill = fp)) +
   geom_point(alpha=0.3) +
   stat_summary(fun.y=mean, geom="bar", alpha=0.3, color='black' ) +
   stat_summary(fun.y=function(auc_e) {mean(auc_e) + sd(auc_e)*c(-1,1)}, geom="point", shape="\U2014", 
                size=7, colour="black") +
-  stat_compare_means(method = "anova", label.y = 12) +
   stat_compare_means(label = "p.signif", method = "t.test",
                      ref.group = paste0(strain_of_interest,' (wild-type)'),
                      label.y = 11) +
   theme(legend.position="none") +
   scale_fill_manual(values=c("#097969", "#D3D3D3", "#FDDA0D")) +
   theme_bw() +
-  ylab(y_label) +
+  ylab('') +
   xlab('') +
+  ylim(c(0,22)) +
+  theme(legend.position="none") +
   theme(axis.text.x = element_text(angle = 45, hjust=1)) +
   ggtitle(plot_title)
 
-#Growth for all Pa strains
+#For LESB58
+strain_of_interest <- 'LESB58'
+plot_title <- paste0('auc_e (OD) of ', strain_of_interest,' mutants')
 
-ggplot2::ggplot(values_for_lb, aes(x=strain, y=auc_e, fill = fp)) +
+p_LESB58 <- ggplot2::ggplot(values_for_lb[grep(strain_of_interest,values_for_lb$no_engineer), ], aes(x=strain, y=auc_e, fill = fp)) +
   geom_point(alpha=0.3) +
+  stat_summary(fun.y=mean, geom="bar", alpha=0.3, color='black' ) +
+  stat_summary(fun.y=function(auc_e) {mean(auc_e) + sd(auc_e)*c(-1,1)}, geom="point", shape="\U2014", 
+               size=7, colour="black") +
+  stat_compare_means(label = "p.signif", method = "t.test",
+                     ref.group = paste0(strain_of_interest,' (wild-type)'),
+                     label.y = 9) +
+  theme(legend.position="none") +
+  scale_fill_manual(values=c("#097969", "#D3D3D3", "#FDDA0D")) +
+  theme_bw() +
+  ylab('') +
+  xlab('') +
+  ylim(c(0,22)) +
+  theme(legend.position="none") +
+  theme(axis.text.x = element_text(angle = 45, hjust=1)) +
+  ggtitle(plot_title)
+
+#For USA300
+strain_of_interest <- 'USA300'
+plot_title <- paste0('auc_e (OD) of ', strain_of_interest,' mutants')
+
+p_USA300 <- ggplot2::ggplot(values_for_tsb[grep(strain_of_interest,values_for_tsb$no_engineer), ], aes(x=strain, y=auc_e, fill = fp)) +
+  geom_point(alpha=0.3) +
+  stat_summary(fun.y=mean, geom="bar", alpha=0.3, color='black' ) +
+  stat_summary(fun.y=function(auc_e) {mean(auc_e) + sd(auc_e)*c(-1,1)}, geom="point", shape="\U2014", 
+               size=7, colour="black") +
+  stat_compare_means(label = "p.signif", method = "t.test",
+                     ref.group = paste0(strain_of_interest,' (wild-type)'),
+                     label.y = 21) +
+  theme(legend.position="none") +
+  scale_fill_manual(values=c("#A45A52", "#D3D3D3")) +
+  theme_bw() +
+  ylab('') +
+  xlab('') +
+  ylim(c(0,22)) +
+  theme(legend.position="none") +
+  theme(axis.text.x = element_text(angle = 45, hjust=1)) +
+  ggtitle(plot_title)
+
+#Adding all 4 plots: PAO1, PA14, LESB58, USA300
+p_PAO1 + p_PA14 + p_LESB58 + p_USA300
+
+#Growth for all Pa strains
+my_comparisons <- list( c('(wild-type)','pUCP.eGFP-2') )
+
+ggplot2::ggplot(values_for_lb, aes(x=engineer, y=auc_e, fill = fp)) +
+  geom_point(alpha=0.3) +
+  facet_wrap( . ~ no_engineer , scales = "free_x") +
   stat_summary(fun.y=mean, geom="bar", alpha=0.3, color='black' ) +
   stat_summary(fun.y=function(auc_e) {mean(auc_e) + sd(auc_e)*c(-1,1)}, geom="point", shape="\U2014", 
                size=7, colour="black") +
   scale_fill_manual(values=c("#097969", "#D3D3D3", "#FDDA0D")) +
   theme_bw() +
-  ylab(y_label) +
+  ylab('RFU') +
   xlab('') +
   theme(axis.text.x = element_text(angle = 45, hjust=1)) +
-  ggtitle('OD (auc_e) of all strains')
+  theme(legend.position="none") +
+  ggtitle('auc_e OD of all Pseudomonas strains')
 
 #Alternate version for multiple media (wip)
 
@@ -117,6 +191,8 @@ ggplot2::ggplot(values_for_tcm, aes(x=media, y=auc_e, fill=media)) +
   ylab(y_label) +
   ggtitle(plot_title)
 
+####OD600: average for fl calculations####
+
 #Average AUC. For fluorescence calculations
 condition_list <- unique(values_for_lb$condition)
 od_mean_auc <- numeric(length=length(condition_list))
@@ -125,7 +201,7 @@ for ( i in 1:length(condition_list) ) {
   od_mean_auc[i] <- mean(values_for_lb$auc_e[grep(condition_list[i], values_for_lb$condition)])
 }
 
-od_auc_sum <- data.frame( condition = condition_list , od_auc = od_mean_auc )
+od_auc_sum_lb <- data.frame( condition = condition_list , od_auc = od_mean_auc )
 
 #for TSB
 condition_list <- unique(values_for_tsb$condition)
@@ -135,9 +211,12 @@ for ( i in 1:length(condition_list) ) {
   od_mean_auc[i] <- mean(values_for_tsb$auc_e[grep(condition_list[i], values_for_tsb$condition)])
 }
 
-od_auc_sum <- data.frame( condition = condition_list , od_auc = od_mean_auc )
+od_auc_sum_tsb <- data.frame( condition = condition_list , od_auc = od_mean_auc )
 
 #### Fluorescence: Area under the curve ####
+
+#For FarRed
+
 directory <- '../raw-data/'
 raw_filename <- '31.3 fpscreen FarRed.csv'
 source <- paste0(directory,raw_filename)
@@ -150,8 +229,7 @@ Sample_ID_out <- growthcurver::SummarizeGrowthByPlate(Sample_ID,
 Sample_ID_out$condition <- ifelse(is.na(stringr::word(Sample_ID_out$sample, 1, 2)),
                                   Sample_ID_out$sample,
                                   stringr::word(Sample_ID_out$sample, 1, 2))
-
-values_for_plot <- Sample_ID_out[-grepl('empty',Sample_ID_out$condition),]
+values_for_plot <- Sample_ID_out
 values_for_plot$media <- stringr::word(sub('', '', values_for_plot$condition), 1)
 values_for_plot$strain <- stringr::word(sub('', '', values_for_plot$condition), 2)
 
@@ -161,6 +239,173 @@ values_for_plot$strain <- values_for_plot$fixed_strain
 values_for_plot$media <- values_for_plot$named_media
 
 values_for_plot$no_engineer <- stringr::word(sub('', '', values_for_plot$fixed_strain), 1)
+values_for_plot$engineer <- stringr::word(sub('', '', values_for_plot$fixed_strain), 2)
+
+values_for_plot$fp <- rep('NA', length(values_for_plot$media))
+values_for_plot$fp[grep('GFP',values_for_plot$fixed_strain)] <- 'GFP'
+values_for_plot$fp[grep('YFP',values_for_plot$fixed_strain)] <- 'YFP'
+values_for_plot$fp[grep('FarRed',values_for_plot$fixed_strain)] <- 'FarRed'
+
+values_for_tsb <- values_for_plot[grep('tsb', values_for_plot$sample),]
+values_for_tsb <- values_for_tsb[-grep('blank', values_for_tsb$strain),]
+values_for_tsb$auc_e <- sapply(values_for_tsb$auc_e, function(x) x - 
+                                mean(values_for_plot[grep('tsb blank', values_for_plot$condition),8]))
+
+#Only different component: RFU calculation
+tsb_fl_od <- merge(values_for_tsb, od_auc_sum_tsb , by = "condition")
+tsb_fl_od$rfu <- tsb_fl_od$auc_e / tsb_fl_od$od_auc
+
+strain_of_interest <- 'USA300'
+plot_title <- paste0('Fluorescence (592/650) of ', strain_of_interest)
+y_label <- 'RFU auc_e'
+
+ggplot2::ggplot(tsb_fl_od, aes(x=strain, y=auc_e, fill = fp)) +
+  geom_point(alpha=0.3) +
+  stat_summary(fun.y=mean, geom="bar", alpha=0.3, color='black' ) +
+  stat_summary(fun.y=function(rfu) {mean(rfu) + sd(rfu)*c(-1,1)}, geom="point", shape="\U2014", 
+               size=7, colour="black") +
+  stat_compare_means(label = "p.signif", method = "t.test",
+                     ref.group = paste0(strain_of_interest,' (wild-type)')) +
+  scale_fill_manual(values=c("#A45A52", "#D3D3D3")) +
+  theme_bw() +
+  ylab(y_label) +
+  xlab('') +
+  theme(legend.position="none") +
+  theme(axis.text.x = element_text(angle = 45, hjust=1)) +
+  ggtitle(plot_title)
+
+#For YFP
+
+directory <- '../raw-data/'
+raw_filename <- '31.3 fpscreen yfp.csv'
+source <- paste0(directory,raw_filename)
+
+Sample_ID <- data.table::fread(source, header = TRUE, data.table=F)
+Sample_ID_out <- growthcurver::SummarizeGrowthByPlate(Sample_ID,
+                                                      plot_fit = TRUE,
+                                                      plot_file = paste0(directory,'troubleshooting.pdf'))
+
+Sample_ID_out$condition <- ifelse(is.na(stringr::word(Sample_ID_out$sample, 1, 2)),
+                                  Sample_ID_out$sample,
+                                  stringr::word(Sample_ID_out$sample, 1, 2))
+values_for_plot <- Sample_ID_out
+values_for_plot$media <- stringr::word(sub('', '', values_for_plot$condition), 1)
+values_for_plot$strain <- stringr::word(sub('', '', values_for_plot$condition), 2)
+
+values_for_plot <- merge(values_for_plot, strain_glossary, by='strain')
+values_for_plot <- merge(values_for_plot, media_glossary, by='media')
+values_for_plot$strain <- values_for_plot$fixed_strain
+values_for_plot$media <- values_for_plot$named_media
+
+values_for_plot$no_engineer <- stringr::word(sub('', '', values_for_plot$fixed_strain), 1)
+values_for_plot$engineer <- stringr::word(sub('', '', values_for_plot$fixed_strain), 2)
+
+values_for_plot$fp <- rep('NA', length(values_for_plot$media))
+values_for_plot$fp[grep('GFP',values_for_plot$fixed_strain)] <- 'GFP'
+values_for_plot$fp[grep('YFP',values_for_plot$fixed_strain)] <- 'YFP'
+values_for_plot$fp[grep('FarRed',values_for_plot$fixed_strain)] <- 'FarRed'
+
+values_for_lb <- values_for_plot[grep('lb', values_for_plot$sample),]
+values_for_lb <- values_for_lb[-grep('blank', values_for_lb$strain),]
+values_for_lb$auc_e <- sapply(values_for_lb$auc_e, function(x) x - 
+                                 mean(values_for_plot[grep('lb blank', values_for_plot$condition),8]))
+
+#Only different component: RFU calculation
+lb_fl_od <- merge(values_for_lb, od_auc_sum_lb , by = "condition")
+lb_fl_od$rfu <- lb_fl_od$auc_e / lb_fl_od$od_auc
+
+#For PAO1
+strain_of_interest <- 'PAO1'
+plot_title <- paste0('Fluorescence (500/543) of ', strain_of_interest)
+y_label <- 'RFU auc_e'
+
+p_PAO1_yfp <- ggplot2::ggplot(lb_fl_od[grep(strain_of_interest,lb_fl_od$no_engineer), ], aes(x=strain, y=auc_e, fill = fp)) +
+  geom_point(alpha=0.3) +
+  stat_summary(fun.y=mean, geom="bar", alpha=0.3, color='black' ) +
+  stat_summary(fun.y=function(rfu) {mean(rfu) + sd(rfu)*c(-1,1)}, geom="point", shape="\U2014", 
+               size=7, colour="black") +
+  stat_compare_means(label = "p.signif", method = "t.test",
+                     ref.group = paste0(strain_of_interest,' (wild-type)')) +
+  scale_fill_manual(values=c("#D3D3D3", "#FDDA0D")) +
+  theme_bw() +
+  ylab('') +
+  xlab('') +
+  ylim(c(0,7*10^6)) +
+  theme(legend.position="none") +
+  theme(axis.text.x = element_text(angle = 45, hjust=1)) +
+  ggtitle(plot_title)
+
+#For PA14
+strain_of_interest <- 'PA14'
+plot_title <- paste0('Fluorescence (500/545) of ', strain_of_interest)
+y_label <- 'RFU auc_e'
+
+p_PA14_yfp <- ggplot2::ggplot(lb_fl_od[grep(strain_of_interest,lb_fl_od$no_engineer), ], aes(x=strain, y=auc_e, fill = fp)) +
+  geom_point(alpha=0.3) +
+  stat_summary(fun.y=mean, geom="bar", alpha=0.3, color='black' ) +
+  stat_summary(fun.y=function(rfu) {mean(rfu) + sd(rfu)*c(-1,1)}, geom="point", shape="\U2014", 
+               size=7, colour="black") +
+  stat_compare_means(label = "p.signif", method = "t.test",
+                     ref.group = paste0(strain_of_interest,' (wild-type)')) +
+  scale_fill_manual(values=c("#D3D3D3", "#FDDA0D")) +
+  theme_bw() +
+  ylab(y_label) +
+  xlab('') +
+  ylim(c(0,7*10^6)) +
+  theme(legend.position="none") +
+  theme(axis.text.x = element_text(angle = 45, hjust=1)) +
+  ggtitle(plot_title)
+
+#For LESB58
+strain_of_interest <- 'LESB58'
+plot_title <- paste0('Fluorescence (500/545) of ', strain_of_interest)
+y_label <- 'RFU auc_e'
+
+p_LESB58_yfp <- ggplot2::ggplot(lb_fl_od[grep(strain_of_interest,lb_fl_od$no_engineer), ], aes(x=strain, y=auc_e, fill = fp)) +
+  geom_point(alpha=0.3) +
+  stat_summary(fun.y=mean, geom="bar", alpha=0.3, color='black' ) +
+  stat_summary(fun.y=function(rfu) {mean(rfu) + sd(rfu)*c(-1,1)}, geom="point", shape="\U2014", 
+               size=7, colour="black") +
+  stat_compare_means(label = "p.signif", method = "t.test",
+                     ref.group = paste0(strain_of_interest,' (wild-type)')) +
+  scale_fill_manual(values=c("#D3D3D3", "#FDDA0D")) +
+  theme_bw() +
+  ylab('') +
+  xlab('') +
+  ylim(c(0,7*10^6)) +
+  theme(legend.position="none") +
+  theme(axis.text.x = element_text(angle = 45, hjust=1)) +
+  ggtitle(plot_title)
+
+#gfp facet
+(p_PA14_yfp + p_LESB58_yfp) +
+  p_PAO1_yfp
+
+#For GFP
+
+directory <- '../raw-data/'
+raw_filename <- '31.3 fpscreen gfp.csv'
+source <- paste0(directory,raw_filename)
+
+Sample_ID <- data.table::fread(source, header = TRUE, data.table=F)
+Sample_ID_out <- growthcurver::SummarizeGrowthByPlate(Sample_ID,
+                                                      plot_fit = TRUE,
+                                                      plot_file = paste0(directory,'troubleshooting.pdf'))
+
+Sample_ID_out$condition <- ifelse(is.na(stringr::word(Sample_ID_out$sample, 1, 2)),
+                                  Sample_ID_out$sample,
+                                  stringr::word(Sample_ID_out$sample, 1, 2))
+values_for_plot <- Sample_ID_out
+values_for_plot$media <- stringr::word(sub('', '', values_for_plot$condition), 1)
+values_for_plot$strain <- stringr::word(sub('', '', values_for_plot$condition), 2)
+
+values_for_plot <- merge(values_for_plot, strain_glossary, by='strain')
+values_for_plot <- merge(values_for_plot, media_glossary, by='media')
+values_for_plot$strain <- values_for_plot$fixed_strain
+values_for_plot$media <- values_for_plot$named_media
+
+values_for_plot$no_engineer <- stringr::word(sub('', '', values_for_plot$fixed_strain), 1)
+values_for_plot$engineer <- stringr::word(sub('', '', values_for_plot$fixed_strain), 2)
 
 values_for_plot$fp <- rep('NA', length(values_for_plot$media))
 values_for_plot$fp[grep('GFP',values_for_plot$fixed_strain)] <- 'GFP'
@@ -172,71 +417,77 @@ values_for_lb <- values_for_lb[-grep('blank', values_for_lb$strain),]
 values_for_lb$auc_e <- sapply(values_for_lb$auc_e, function(x) x - 
                                 mean(values_for_plot[grep('lb blank', values_for_plot$condition),8]))
 
-values_for_tsb <- values_for_plot[grep('tsb', values_for_plot$sample),]
-values_for_tsb <- values_for_tsb[-grep('blank', values_for_tsb$strain),]
-values_for_tsb$auc_e <- sapply(values_for_tsb$auc_e, function(x) x - 
-                                mean(values_for_plot[grep('tsb blank', values_for_plot$condition),8]))
-
 #Only different component: RFU calculation
-lb_fl_od <- merge(values_for_lb, od_auc_sum , by = "condition")
+lb_fl_od <- merge(values_for_lb, od_auc_sum_lb , by = "condition")
 lb_fl_od$rfu <- lb_fl_od$auc_e / lb_fl_od$od_auc
 
-tsb_fl_od <- merge(values_for_tsb, od_auc_sum , by = "condition")
-tsb_fl_od$rfu <- tsb_fl_od$auc_e / tsb_fl_od$od_auc
+#For PAO1
+strain_of_interest <- 'PAO1'
+plot_title <- paste0('Fluorescence (470/515) of ', strain_of_interest)
+y_label <- 'RFU auc_e'
 
-strain_of_interest <- 'LESB58'
-plot_title <- paste0('Fluorescence (500/543) of ', strain_of_interest)
-y_label <- 'RFU auc-fl/(OD600 x h)'
-
-ggplot2::ggplot(lb_fl_od[grep(strain_of_interest,lb_fl_od$no_engineer), ], aes(x=strain, y=auc_e, fill = fp)) +
+p_PAO1_gfp <- ggplot2::ggplot(lb_fl_od[grep(strain_of_interest,lb_fl_od$no_engineer), ], aes(x=strain, y=auc_e, fill = fp)) +
   geom_point(alpha=0.3) +
   stat_summary(fun.y=mean, geom="bar", alpha=0.3, color='black' ) +
   stat_summary(fun.y=function(rfu) {mean(rfu) + sd(rfu)*c(-1,1)}, geom="point", shape="\U2014", 
                size=7, colour="black") +
-  stat_compare_means(method = "anova") +
   stat_compare_means(label = "p.signif", method = "t.test",
                      ref.group = paste0(strain_of_interest,' (wild-type)')) +
-  theme(legend.position="none") +
-  scale_fill_manual(values=c("#097969","#D3D3D3", "#FDDA0D")) +
-  theme_bw() +
-  ylab(y_label) +
-  xlab('') +
-  theme(axis.text.x = element_text(angle = 45, hjust=1)) +
-  ggtitle(plot_title)
-
-ggplot2::ggplot(lb_fl_od, aes(x=strain, y=auc_e, fill = fp)) +
-  geom_point(alpha=0.3) +
-  stat_summary(fun.y=mean, geom="bar", alpha=0.3, color='black' ) +
-  stat_summary(fun.y=function(rfu) {mean(rfu) + sd(rfu)*c(-1,1)}, geom="point", shape="\U2014", 
-               size=7, colour="black") +
   scale_fill_manual(values=c("#097969", "#D3D3D3", "#FDDA0D")) +
   theme_bw() +
   ylab(y_label) +
   xlab('') +
+  ylim(c(0,2.4*10^7)) +
+  theme(legend.position="none") +
   theme(axis.text.x = element_text(angle = 45, hjust=1)) +
-  ggtitle('Fluorescence (500/543) of all strains')
+  ggtitle(plot_title)
 
-#Variant for LAC300
+#For PA14
+strain_of_interest <- 'PA14'
+plot_title <- paste0('Fluorescence (470/515) of ', strain_of_interest)
+y_label <- 'RFU auc_e'
 
-strain_of_interest <- 'USA300'
-plot_title <- paste0('Fluorescence (592/650) of ', strain_of_interest)
-y_label <- 'RFU auc-fl/(OD600 x h)'
-
-ggplot2::ggplot(tsb_fl_od[grep(strain_of_interest,tsb_fl_od$no_engineer), ], aes(x=strain, y=auc_e, fill = fp)) +
+p_PA14_gfp <- ggplot2::ggplot(lb_fl_od[grep(strain_of_interest,lb_fl_od$no_engineer), ], aes(x=strain, y=auc_e, fill = fp)) +
   geom_point(alpha=0.3) +
   stat_summary(fun.y=mean, geom="bar", alpha=0.3, color='black' ) +
   stat_summary(fun.y=function(rfu) {mean(rfu) + sd(rfu)*c(-1,1)}, geom="point", shape="\U2014", 
                size=7, colour="black") +
-  stat_compare_means(method = "anova") +
   stat_compare_means(label = "p.signif", method = "t.test",
                      ref.group = paste0(strain_of_interest,' (wild-type)')) +
-  theme(legend.position="none") +
-  scale_fill_manual(values=c("#A45A52", "#D3D3D3")) +
+  scale_fill_manual(values=c("#097969", "#D3D3D3", "#FDDA0D")) +
   theme_bw() +
-  ylab(y_label) +
+  ylab('') +
   xlab('') +
+  ylim(c(0,2.4*10^7)) +
+  theme(legend.position="none") +
   theme(axis.text.x = element_text(angle = 45, hjust=1)) +
   ggtitle(plot_title)
+
+#For LESB58
+strain_of_interest <- 'LESB58'
+plot_title <- paste0('Fluorescence (470/515) of ', strain_of_interest)
+y_label <- 'RFU auc_e'
+
+p_LESB58_gfp <- ggplot2::ggplot(lb_fl_od[grep(strain_of_interest,lb_fl_od$no_engineer), ], aes(x=strain, y=auc_e, fill = fp)) +
+  geom_point(alpha=0.3) +
+  stat_summary(fun.y=mean, geom="bar", alpha=0.3, color='black' ) +
+  stat_summary(fun.y=function(rfu) {mean(rfu) + sd(rfu)*c(-1,1)}, geom="point", shape="\U2014", 
+               size=7, colour="black") +
+  stat_compare_means(label = "p.signif", method = "t.test",
+                     ref.group = paste0(strain_of_interest,' (wild-type)')) +
+  scale_fill_manual(values=c("#097969", "#D3D3D3", "#FDDA0D")) +
+  theme_bw() +
+  ylab('') +
+  xlab('') +
+  ylim(c(0,2.4*10^7)) +
+  theme(legend.position="none") +
+  theme(axis.text.x = element_text(angle = 45, hjust=1)) +
+  ggtitle(plot_title)
+
+#gfp facet
+(p_PA14_gfp + p_LESB58_gfp) +
+  p_PAO1_gfp
+
 
 #### OD600: curve ####
 directory <- '../raw-data/'
