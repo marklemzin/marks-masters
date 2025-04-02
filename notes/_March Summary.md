@@ -69,8 +69,6 @@ The nature of adaptation over time however is not a core component of ecology. W
 
 Let me take a step back again - cells can be thought of as a unification of genes. Isn't it strange that genes are split across many different species when they could be part of a greater super-organism? That parts of the genes, like parts of a greater evolutionary machine are strewn between cells,, when they could be part of a single being? Such a thought is not entirely a fantasy. Genes can be producers of many metabolites or other extracellular particle, which have a role beyond the cell's barrier-like membrane.
 
-*A thought for Sam. Can we think of cells as being assembled from pre-determined-genes like how we know the pool of cards in a rogue-like game? Do genes exist before they are made?*
-
 Cells - crucially need at least two distinct functions (as opposed to only 1 essential function, when taking an evolutionary perspective) to participate in ecological interaction:
 (1) a consumer module: a gene product that can respond to extracellular stimuli.
 (2) a producer module: a gene product that can change the cell's extracellular environment.
@@ -208,6 +206,8 @@ If we imagine the whole of biology as a well tuned machine, then pulling out a c
 Cells go on a journey that disrupts their standard lifestyle and may never be able to return to their initial genetic/ecological state.
 
 *Gene distribution*
+
+*A thought for Sam. Can we think of cells as being assembled from pre-determined-genes like how we know the pool of cards in a rogue-like game? Do genes exist before they are made?*
 
 How well species related-ness predicts species co-operation is classic problem. It flows on from 'kin-selection' from classical genetics ('I would gladly give up my life for two brothers or eight cousins' - those sorts of vibes) and that general direction of research. I find statements like this to be something of a paradox. How much is there to gain from an isogenic twin ecologically-speaking? It makes sense that we'd better co-operate with something that offers an exotic function - a service that our own biology lacks.
 
