@@ -190,7 +190,8 @@ It's really a logic of balance: biofilms must always have an ecological state. C
 So antimicrobial treatments that disrupt the biofilm do not only remove prior ecological associations but also provide room for novel functionalities. A niche function of a species may become critically important if the cell is moved into a sub-optimal space for its primary survival strategy.
 
 *Science fiction*
-*Editor's notes. Achtung! This section is fairly opaque because I struggle with these concepts. I've only left it in for the sake of completion.*
+
+*Editor's note: Achtung! This section is fairly opaque because I struggle with these concepts. I've only left it in for the sake of completion.*
 
 It only hurts to idealize in retrospect. I'll conclude with a little about the sort of places I'd want this project to take me - answers to the little biting problems I have with my perspective on biology.
 
