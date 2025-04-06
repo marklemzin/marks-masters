@@ -155,7 +155,7 @@ p_USA300 <- ggplot2::ggplot(values_for_tsb[grep(strain_of_interest,values_for_ts
 #Adding all 4 plots: PAO1, PA14, LESB58, USA300
 p_PAO1 + p_PA14 + p_LESB58 + p_USA300
 
-#Growth for all Pa strains
+#Growth for all Pa strains (legacy)
 my_comparisons <- list( c('(wild-type)','pUCP.eGFP-2') )
 
 ggplot2::ggplot(values_for_lb, aes(x=engineer, y=auc_e, fill = fp)) +
@@ -172,7 +172,7 @@ ggplot2::ggplot(values_for_lb, aes(x=engineer, y=auc_e, fill = fp)) +
   theme(legend.position="none") +
   ggtitle('auc_e OD of all Pseudomonas strains')
 
-#Alternate version for multiple media (wip)
+#Alternate version for multiple media (legacy)
 
 plot_title <- 'No growth in TCM across strains'
 y_label <- 'AUC_e (OD600 x h)'
@@ -623,7 +623,7 @@ ggplot2::ggplot(tsb_for_plot, aes(x=time, y=od, color=fp, shape=engineer)) +
 
 #### For GFP: unstandardized ####
 directory <- '../raw-data/'
-raw_filename <- '31.3 fpscreen gfp.csv'
+raw_filename <- '6.4 lesbRESCREEN gfp.csv'
 source <- paste0(directory,raw_filename)
 
 Sample_ID <- data.table::fread(source, header = TRUE, data.table=F)
@@ -716,13 +716,12 @@ plot_LESB58_gfp <- ggplot2::ggplot(LESB58_plot, aes(x=time, y=od, color=fp, shap
   scale_shape_manual(values=1:length(unique(PAO1_plot$engineer))) +
   scale_color_manual(values=c("#097969", "#D3D3D3", "#FDDA0D")) +
   theme_bw() +
-  ylim(c(-5e4,2.75e6)) +
   ggtitle(plot_title) +
   ylab(y_lab)
 
 #### For YFP: unstandardized ####
 directory <- '../raw-data/'
-raw_filename <- '31.3 fpscreen yfp.csv'
+raw_filename <- '6.4 lesbRESCREEN yfp.csv'
 source <- paste0(directory,raw_filename)
 
 Sample_ID <- data.table::fread(source, header = TRUE, data.table=F)
