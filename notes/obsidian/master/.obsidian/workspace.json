@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07.04.md",
+                "file": "Reference/07.04.md",
                 "mode": "source",
                 "source": false
               },
@@ -174,10 +174,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "06e1d68e7e49aa87",
+  "active": "fa616bea1e5cc534",
   "lastOpenFiles": [
     "Reference/04.04.md",
-    "07.04.md",
+    "Reference/07.04.md",
     "Reference/04.03.md",
     "Reference/03.04.md",
     "Reference/02.04.md",
