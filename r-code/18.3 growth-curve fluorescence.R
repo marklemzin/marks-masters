@@ -17,7 +17,7 @@ library(ggplot2)
 
 #### OD600: Area under the curve ####
 directory <- '../raw-data/'
-raw_filename <- '31.3 fpscreen OD.csv'
+raw_filename <- '9.4 usaRESCREEN red.csv'
 source <- paste0(directory,raw_filename)
 
 Sample_ID <- data.table::fread(source, header = TRUE, data.table=F)
@@ -29,7 +29,7 @@ Sample_ID_out$condition <- ifelse(is.na(stringr::word(Sample_ID_out$sample, 1, 2
                                   Sample_ID_out$sample,
                                   stringr::word(Sample_ID_out$sample, 1, 2))
 
-values_for_plot <- Sample_ID_out[-grepl('empty',Sample_ID_out$condition),]
+values_for_plot <- Sample_ID_out
 values_for_plot$media <- stringr::word(sub('', '', values_for_plot$condition), 1)
 values_for_plot$strain <- stringr::word(sub('', '', values_for_plot$condition), 2)
 
@@ -597,7 +597,7 @@ plot_title <- 'Growth curve (OD600) of LESB58 in LB'
 y_lab <- 'OD600'
 
 ggplot2::ggplot(LESB58_plot, aes(x=time, y=od, color=fp, shape=engineer)) +
-  geom_point(alpha=0.5) +
+  geom_point(alpha=1) +
   scale_shape_manual(values=1:length(unique(PAO1_plot$engineer))) +
   theme(legend.position="none") +
   scale_color_manual(values=c("#097969", "#D3D3D3", "#FDDA0D")) +
@@ -623,7 +623,7 @@ ggplot2::ggplot(tsb_for_plot, aes(x=time, y=od, color=fp, shape=engineer)) +
 
 #### For GFP: unstandardized ####
 directory <- '../raw-data/'
-raw_filename <- '6.4 lesbRESCREEN gfp.csv'
+raw_filename <- '9.4 usaRESCREEN red.csv'
 source <- paste0(directory,raw_filename)
 
 Sample_ID <- data.table::fread(source, header = TRUE, data.table=F)
@@ -675,6 +675,20 @@ lb_for_plot$od <- sapply(lb_for_plot$od, function(x) x -
                            mean(lb_for_plot[grep('lb blank', lb_for_plot$condition),3]))
 lb_for_plot <- lb_for_plot[-grep('blank', lb_for_plot$strain),]
 
+#For USA300
+USA_plot <- lb_for_plot[grep('USA',lb_for_plot$no_engineer),]
+
+plot_title <- 'Fluorescence (570/635) of USA300 in LB'
+y_lab <- 'Fluorescence units (RAW)'
+
+plot_USA_red <- ggplot2::ggplot(USA_plot, aes(x=time, y=od, color=fp, shape=engineer)) +
+  geom_point(alpha=0.5) +
+  scale_shape_manual(values=1:length(unique(USA_plot$engineer))) +
+  scale_color_manual(values=c("#097969", "#D3D3D3", "#FDDA0D")) +
+  theme_bw() +
+  ggtitle(plot_title) +
+  ylab(y_lab)
+
 #For PAO1
 PAO1_plot <- lb_for_plot[grep('PAO1',lb_for_plot$no_engineer),]
 
@@ -687,7 +701,6 @@ plot_PAO1_gfp <- ggplot2::ggplot(PAO1_plot, aes(x=time, y=od, color=fp, shape=en
   scale_color_manual(values=c("#097969", "#D3D3D3", "#FDDA0D")) +
   theme_bw() +
   ggtitle(plot_title) +
-  ylim(c(-5e4,2.75e6)) +
   ylab(y_lab)
 
 #For PA14
@@ -702,7 +715,6 @@ plot_PA14_gfp <- ggplot2::ggplot(PA14_plot, aes(x=time, y=od, color=fp, shape=en
   scale_color_manual(values=c("#097969", "#D3D3D3", "#FDDA0D")) +
   theme_bw() +
   ggtitle(plot_title) +
-  ylim(c(-5e4,2.75e6)) +
   ylab(y_lab)
 
 #For LESB58
@@ -721,7 +733,7 @@ plot_LESB58_gfp <- ggplot2::ggplot(LESB58_plot, aes(x=time, y=od, color=fp, shap
 
 #### For YFP: unstandardized ####
 directory <- '../raw-data/'
-raw_filename <- '6.4 lesbRESCREEN yfp.csv'
+raw_filename <- '31.3 fpscreen yfp.csv'
 source <- paste0(directory,raw_filename)
 
 Sample_ID <- data.table::fread(source, header = TRUE, data.table=F)
@@ -785,8 +797,7 @@ plot_PAO1_yfp <- ggplot2::ggplot(PAO1_plot, aes(x=time, y=od, color=fp, shape=en
   scale_color_manual(values=c("#D3D3D3", "#FDDA0D")) +
   theme_bw() +
   ggtitle(plot_title) +
-  ylab(y_lab) +
-  ylim(c(-5e4,9e5))
+  ylab(y_lab)
 
 #For PA14
 PA14_plot <- lb_for_plot[grep('PA14',lb_for_plot$no_engineer),]
@@ -800,8 +811,7 @@ plot_PA14_yfp <- ggplot2::ggplot(PA14_plot, aes(x=time, y=od, color=fp, shape=en
   scale_color_manual(values=c("#D3D3D3", "#FDDA0D")) +
   theme_bw() +
   ggtitle(plot_title) +
-  ylab(y_lab) +
-  ylim(c(-5e4,9e5))
+  ylab(y_lab)
 
 #For LESB58
 LESB58_plot <- lb_for_plot[grep('LESB58',lb_for_plot$no_engineer),]
@@ -815,7 +825,6 @@ plot_LESB58_yfp <- ggplot2::ggplot(LESB58_plot, aes(x=time, y=od, color=fp, shap
   scale_color_manual(values=c("#D3D3D3", "#FDDA0D")) +
   theme_bw() +
   ggtitle(plot_title) +
-  ylim(c(-5e4,9e5)) +
   ylab(y_lab)
 
 plot_PAO1_yfp + plot_PA14_yfp + plot_LESB58_yfp
