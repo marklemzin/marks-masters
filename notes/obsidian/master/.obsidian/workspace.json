@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -202,12 +202,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fbb167acadd99f09",
+  "active": "2326b9ee4c433973",
   "lastOpenFiles": [
+    "Reference/08.04.md",
     "Reference/10.04.md",
     "Reference/11.03.md",
     "Reference/07.04.md",
-    "Reference/08.04.md",
     "Reference/06.03.md",
     "Reference/03.04.md",
     "Reference/04.04.md",
