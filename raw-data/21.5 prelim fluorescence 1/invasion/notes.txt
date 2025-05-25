@@ -1,0 +1,4 @@
+For GFP:
+317 is best with 10ms
+Other hover around 15ms
+I imaged wt and rhlA with 10ms, all others with 15ms.

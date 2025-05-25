@@ -1,0 +1,8 @@
+Consistent exposure from wild-type to fluorescent strain.
+Exposure set to fluorescent strain.
+Monoculture '6' looks contaminated with 323. Extremely pretty.
+gfp 75ms
+red 100ms
+bf variable
+
+Most are unmergable
