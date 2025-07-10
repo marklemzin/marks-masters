@@ -1,0 +1,998 @@
+LESB_Locus,Gene,Essentiality,Control,Condition,Replicates,LESB_Description,Gene Name,Product Description,Accession,GO Term,Namespace
+PALES_00031,gyrB,always essential,4,4,4,DNA gyrase subunit B,gyrB,DNA gyrase subunit B,GO:0003677,DNA binding,molecular_function
+PALES_00031,gyrB,always essential,4,4,4,DNA gyrase subunit B,gyrB,DNA gyrase subunit B,GO:0003918,"DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity",molecular_function
+PALES_00031,gyrB,always essential,4,4,4,DNA gyrase subunit B,gyrB,DNA gyrase subunit B,GO:0005524,ATP binding,molecular_function
+PALES_00031,gyrB,always essential,4,4,4,DNA gyrase subunit B,gyrB,DNA gyrase subunit B,GO:0006265,DNA topological change,biological_process
+PALES_00031,gyrB,always essential,4,4,4,DNA gyrase subunit B,gyrB,DNA gyrase subunit B,GO:0005694,chromosome,cellular_component
+PALES_00081,glyQ,always essential,4,4,4,glycyl-tRNA synthetase subunit alpha,glyQ,glycyl-tRNA synthetase subunit alpha,GO:0000166,nucleotide binding,molecular_function
+PALES_00081,glyQ,always essential,4,4,4,glycyl-tRNA synthetase subunit alpha,glyQ,glycyl-tRNA synthetase subunit alpha,GO:0004820,glycine-tRNA ligase activity,molecular_function
+PALES_00081,glyQ,always essential,4,4,4,glycyl-tRNA synthetase subunit alpha,glyQ,glycyl-tRNA synthetase subunit alpha,GO:0005524,ATP binding,molecular_function
+PALES_00081,glyQ,always essential,4,4,4,glycyl-tRNA synthetase subunit alpha,glyQ,glycyl-tRNA synthetase subunit alpha,GO:0005737,cytoplasm,cellular_component
+PALES_00081,glyQ,always essential,4,4,4,glycyl-tRNA synthetase subunit alpha,glyQ,glycyl-tRNA synthetase subunit alpha,GO:0006426,glycyl-tRNA aminoacylation,biological_process
+PALES_00201,PALES_00201,always essential,4,4,4,putative Rossmann fold nucleotide-binding protein,PALES_00201,putative Rossmann fold nucleotide-binding protein,GO:0009294,DNA mediated transformation,biological_process
+PALES_00231,hemF,always essential,4,4,4,coproporphyrinogen III oxidase,hemF,coproporphyrinogen III oxidase,GO:0006779,porphyrin-containing compound biosynthetic process,biological_process
+PALES_00231,hemF,always essential,4,4,4,coproporphyrinogen III oxidase,hemF,coproporphyrinogen III oxidase,GO:0055114,oxidation-reduction process,biological_process
+PALES_00231,hemF,always essential,4,4,4,coproporphyrinogen III oxidase,hemF,coproporphyrinogen III oxidase,GO:0004109,coproporphyrinogen oxidase activity,molecular_function
+PALES_00741,PALES_00741,always essential,4,4,4,putative ATP-binding component of ABC transporter,PALES_00741,putative ATP-binding component of ABC transporter,GO:0005524,ATP binding,molecular_function
+PALES_00741,PALES_00741,always essential,4,4,4,putative ATP-binding component of ABC transporter,PALES_00741,putative ATP-binding component of ABC transporter,GO:0016887,ATPase activity,molecular_function
+PALES_01261,PALES_01261,always essential,4,4,4,putative transcriptional regulator,PALES_01261,putative transcriptional regulator,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_01981,tonB2,always essential,4,4,4,putative TonB protein,tonB2,putative TonB protein,GO:0015343,siderophore transmembrane transporter activity,molecular_function
+PALES_01981,tonB2,always essential,4,4,4,putative TonB protein,tonB2,putative TonB protein,GO:0015891,siderophore transport,biological_process
+PALES_01981,tonB2,always essential,4,4,4,putative TonB protein,tonB2,putative TonB protein,GO:0030288,outer membrane-bounded periplasmic space,cellular_component
+PALES_01981,tonB2,always essential,4,4,4,putative TonB protein,tonB2,putative TonB protein,GO:0031992,energy transducer activity,molecular_function
+PALES_01981,tonB2,always essential,4,4,4,putative TonB protein,tonB2,putative TonB protein,GO:0055085,transmembrane transport,biological_process
+PALES_02081,PALES_02081,always essential,4,4,4,phosphoribosyl-dephospho-CoA transferase,PALES_02081,phosphoribosyl-dephospho-CoA transferase,GO:0016779,nucleotidyltransferase activity,molecular_function
+PALES_02251,pcaF,always essential,4,4,4,beta-ketoadipyl CoA thiolase,pcaF,beta-ketoadipyl CoA thiolase,GO:0003824,catalytic activity,molecular_function
+PALES_02251,pcaF,always essential,4,4,4,beta-ketoadipyl CoA thiolase,pcaF,beta-ketoadipyl CoA thiolase,GO:0016747,"transferase activity, transferring acyl groups other than amino-acyl groups",molecular_function
+PALES_02251,pcaF,always essential,4,4,4,beta-ketoadipyl CoA thiolase,pcaF,beta-ketoadipyl CoA thiolase,GO:0019619,"3,4-dihydroxybenzoate catabolic process",biological_process
+PALES_02331,PALES_02331,always essential,4,4,4,putative transcriptional regulator,PALES_02331,putative transcriptional regulator,GO:0003677,DNA binding,molecular_function
+PALES_02331,PALES_02331,always essential,4,4,4,putative transcriptional regulator,PALES_02331,putative transcriptional regulator,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_02741,PALES_02741,always essential,4,4,4,hypothetical protein,PALES_02741,hypothetical protein,GO:0016021,integral component of membrane,cellular_component
+PALES_02751,PALES_02751,always essential,4,4,4,putative transcriptional regulator,PALES_02751,putative transcriptional regulator,GO:0003700,DNA-binding transcription factor activity,molecular_function
+PALES_02751,PALES_02751,always essential,4,4,4,putative transcriptional regulator,PALES_02751,putative transcriptional regulator,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_03271,rpiA,always essential,4,4,4,ribose-5-phosphate isomerase A,rpiA,ribose-5-phosphate isomerase A,GO:0004751,ribose-5-phosphate isomerase activity,molecular_function
+PALES_03271,rpiA,always essential,4,4,4,ribose-5-phosphate isomerase A,rpiA,ribose-5-phosphate isomerase A,GO:0009052,"pentose-phosphate shunt, non-oxidative branch",biological_process
+PALES_03391,thyA,always essential,4,4,4,thymidylate synthase,thyA,thymidylate synthase,GO:0004799,thymidylate synthase activity,molecular_function
+PALES_03391,thyA,always essential,4,4,4,thymidylate synthase,thyA,thymidylate synthase,GO:0006231,dTMP biosynthetic process,biological_process
+PALES_03601,coaD,always essential,4,4,4,phosphopantetheine adenylyltransferase,coaD,phosphopantetheine adenylyltransferase,GO:0004595,pantetheine-phosphate adenylyltransferase activity,molecular_function
+PALES_03601,coaD,always essential,4,4,4,phosphopantetheine adenylyltransferase,coaD,phosphopantetheine adenylyltransferase,GO:0015937,coenzyme A biosynthetic process,biological_process
+PALES_03601,coaD,always essential,4,4,4,phosphopantetheine adenylyltransferase,coaD,phosphopantetheine adenylyltransferase,GO:0003824,catalytic activity,molecular_function
+PALES_03601,coaD,always essential,4,4,4,phosphopantetheine adenylyltransferase,coaD,phosphopantetheine adenylyltransferase,GO:0009058,biosynthetic process,biological_process
+PALES_03601,coaD,always essential,4,4,4,phosphopantetheine adenylyltransferase,coaD,phosphopantetheine adenylyltransferase,GO:0008771,[citrate (pro-3S)-lyase] ligase activity,molecular_function
+PALES_03701,ftsY,always essential,4,4,4,signal recognition particle receptor FtsY,ftsY,signal recognition particle receptor FtsY,GO:0005525,GTP binding,molecular_function
+PALES_03701,ftsY,always essential,4,4,4,signal recognition particle receptor FtsY,ftsY,signal recognition particle receptor FtsY,GO:0006614,SRP-dependent cotranslational protein targeting to membrane,biological_process
+PALES_04021,yqgF,always essential,4,4,4,Holliday junction resolvase-like protein,yqgF,Holliday junction resolvase-like protein,GO:0006364,rRNA processing,biological_process
+PALES_04021,yqgF,always essential,4,4,4,Holliday junction resolvase-like protein,yqgF,Holliday junction resolvase-like protein,GO:0006139,nucleobase-containing compound metabolic process,biological_process
+PALES_04151,chpE,always essential,4,4,4,putative chemotaxis protein,chpE,putative chemotaxis protein,GO:0006865,amino acid transport,biological_process
+PALES_04151,chpE,always essential,4,4,4,putative chemotaxis protein,chpE,putative chemotaxis protein,GO:0016020,membrane,cellular_component
+PALES_04181,bioA,always essential,4,4,4,adenosylmethionine--8-amino-7-oxononanoate transaminase,bioA,adenosylmethionine--8-amino-7-oxononanoate transaminase,GO:0004015,adenosylmethionine-8-amino-7-oxononanoate transaminase activity,molecular_function
+PALES_04181,bioA,always essential,4,4,4,adenosylmethionine--8-amino-7-oxononanoate transaminase,bioA,adenosylmethionine--8-amino-7-oxononanoate transaminase,GO:0009102,biotin biosynthetic process,biological_process
+PALES_04181,bioA,always essential,4,4,4,adenosylmethionine--8-amino-7-oxononanoate transaminase,bioA,adenosylmethionine--8-amino-7-oxononanoate transaminase,GO:0008483,transaminase activity,molecular_function
+PALES_04181,bioA,always essential,4,4,4,adenosylmethionine--8-amino-7-oxononanoate transaminase,bioA,adenosylmethionine--8-amino-7-oxononanoate transaminase,GO:0030170,pyridoxal phosphate binding,molecular_function
+PALES_04181,bioA,always essential,4,4,4,adenosylmethionine--8-amino-7-oxononanoate transaminase,bioA,adenosylmethionine--8-amino-7-oxononanoate transaminase,GO:0003824,catalytic activity,molecular_function
+PALES_04231,mexA,always essential,4,4,4,Resistance-Nodulation-Cell Division (RND) multidrug efflux membrane fusion protein MexA precursor,mexA,Resistance-Nodulation-Cell Division (RND) multidrug efflux membrane fusion protein MexA precursor,GO:0016020,membrane,cellular_component
+PALES_04231,mexA,always essential,4,4,4,Resistance-Nodulation-Cell Division (RND) multidrug efflux membrane fusion protein MexA precursor,mexA,Resistance-Nodulation-Cell Division (RND) multidrug efflux membrane fusion protein MexA precursor,GO:0022857,transmembrane transporter activity,molecular_function
+PALES_04231,mexA,always essential,4,4,4,Resistance-Nodulation-Cell Division (RND) multidrug efflux membrane fusion protein MexA precursor,mexA,Resistance-Nodulation-Cell Division (RND) multidrug efflux membrane fusion protein MexA precursor,GO:0055085,transmembrane transport,biological_process
+PALES_04231,mexA,always essential,4,4,4,Resistance-Nodulation-Cell Division (RND) multidrug efflux membrane fusion protein MexA precursor,mexA,Resistance-Nodulation-Cell Division (RND) multidrug efflux membrane fusion protein MexA precursor,GO:0042910,xenobiotic transmembrane transporter activity,molecular_function
+PALES_04231,mexA,always essential,4,4,4,Resistance-Nodulation-Cell Division (RND) multidrug efflux membrane fusion protein MexA precursor,mexA,Resistance-Nodulation-Cell Division (RND) multidrug efflux membrane fusion protein MexA precursor,GO:0046677,response to antibiotic,biological_process
+PALES_04251,oprM,always essential,4,4,4,Major intrinsic multiple antibiotic resistance efflux outer membrane protein OprM precursor,oprM,Major intrinsic multiple antibiotic resistance efflux outer membrane protein OprM precursor,GO:0016020,membrane,cellular_component
+PALES_04251,oprM,always essential,4,4,4,Major intrinsic multiple antibiotic resistance efflux outer membrane protein OprM precursor,oprM,Major intrinsic multiple antibiotic resistance efflux outer membrane protein OprM precursor,GO:0022857,transmembrane transporter activity,molecular_function
+PALES_04251,oprM,always essential,4,4,4,Major intrinsic multiple antibiotic resistance efflux outer membrane protein OprM precursor,oprM,Major intrinsic multiple antibiotic resistance efflux outer membrane protein OprM precursor,GO:0055085,transmembrane transport,biological_process
+PALES_04251,oprM,always essential,4,4,4,Major intrinsic multiple antibiotic resistance efflux outer membrane protein OprM precursor,oprM,Major intrinsic multiple antibiotic resistance efflux outer membrane protein OprM precursor,GO:0015562,efflux transmembrane transporter activity,molecular_function
+PALES_04251,oprM,always essential,4,4,4,Major intrinsic multiple antibiotic resistance efflux outer membrane protein OprM precursor,oprM,Major intrinsic multiple antibiotic resistance efflux outer membrane protein OprM precursor,GO:0042910,xenobiotic transmembrane transporter activity,molecular_function
+PALES_04801,PALES_04801,always essential,4,4,4,putative ACT domain protein,PALES_04801,putative ACT domain protein,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_04991,PALES_04991,always essential,4,4,4,putative biotin synthesis protein BioC,PALES_04991,putative biotin synthesis protein BioC,GO:0008168,methyltransferase activity,molecular_function
+PALES_04991,PALES_04991,always essential,4,4,4,putative biotin synthesis protein BioC,PALES_04991,putative biotin synthesis protein BioC,GO:0009102,biotin biosynthetic process,biological_process
+PALES_04991,PALES_04991,always essential,4,4,4,putative biotin synthesis protein BioC,PALES_04991,putative biotin synthesis protein BioC,GO:0010340,carboxyl-O-methyltransferase activity,molecular_function
+PALES_05141,nirC,always essential,4,4,4,putative c-type cytochrome precursor,nirC,putative c-type cytochrome precursor,GO:0009055,electron transfer activity,molecular_function
+PALES_05141,nirC,always essential,4,4,4,putative c-type cytochrome precursor,nirC,putative c-type cytochrome precursor,GO:0020037,heme binding,molecular_function
+PALES_05441,metK,always essential,4,4,4,S-adenosylmethionine synthetase,metK,S-adenosylmethionine synthetase,GO:0004478,methionine adenosyltransferase activity,molecular_function
+PALES_05441,metK,always essential,4,4,4,S-adenosylmethionine synthetase,metK,S-adenosylmethionine synthetase,GO:0005524,ATP binding,molecular_function
+PALES_05441,metK,always essential,4,4,4,S-adenosylmethionine synthetase,metK,S-adenosylmethionine synthetase,GO:0006556,S-adenosylmethionine biosynthetic process,biological_process
+PALES_05461,tktA,always essential,4,4,4,transketolase,tktA,transketolase,GO:0003824,catalytic activity,molecular_function
+PALES_05461,tktA,always essential,4,4,4,transketolase,tktA,transketolase,GO:0004802,transketolase activity,molecular_function
+PALES_05731,rpoD,always essential,4,4,4,RNA polymerase sigma factor RpoD,rpoD,RNA polymerase sigma factor RpoD,GO:0003700,DNA-binding transcription factor activity,molecular_function
+PALES_05731,rpoD,always essential,4,4,4,RNA polymerase sigma factor RpoD,rpoD,RNA polymerase sigma factor RpoD,GO:0006352,"DNA-templated transcription, initiation",biological_process
+PALES_05731,rpoD,always essential,4,4,4,RNA polymerase sigma factor RpoD,rpoD,RNA polymerase sigma factor RpoD,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_05731,rpoD,always essential,4,4,4,RNA polymerase sigma factor RpoD,rpoD,RNA polymerase sigma factor RpoD,GO:0003677,DNA binding,molecular_function
+PALES_05731,rpoD,always essential,4,4,4,RNA polymerase sigma factor RpoD,rpoD,RNA polymerase sigma factor RpoD,GO:0016987,sigma factor activity,molecular_function
+PALES_05741,dnaG,always essential,4,4,4,DNA primase,dnaG,DNA primase,GO:0003677,DNA binding,molecular_function
+PALES_05741,dnaG,always essential,4,4,4,DNA primase,dnaG,DNA primase,GO:0003896,DNA primase activity,molecular_function
+PALES_05741,dnaG,always essential,4,4,4,DNA primase,dnaG,DNA primase,GO:0006260,DNA replication,biological_process
+PALES_05741,dnaG,always essential,4,4,4,DNA primase,dnaG,DNA primase,GO:0008270,zinc ion binding,molecular_function
+PALES_05741,dnaG,always essential,4,4,4,DNA primase,dnaG,DNA primase,GO:0006269,"DNA replication, synthesis of RNA primer",biological_process
+PALES_05741,dnaG,always essential,4,4,4,DNA primase,dnaG,DNA primase,GO:0016779,nucleotidyltransferase activity,molecular_function
+PALES_05771,gcp,always essential,4,4,4,O-sialoglycoprotein endopeptidase,gcp,O-sialoglycoprotein endopeptidase,GO:0002949,tRNA threonylcarbamoyladenosine modification,biological_process
+PALES_05771,gcp,always essential,4,4,4,O-sialoglycoprotein endopeptidase,gcp,O-sialoglycoprotein endopeptidase,GO:0004222,metalloendopeptidase activity,molecular_function
+PALES_05791,folB,always essential,4,4,4,dihydroneopterin aldolase,folB,dihydroneopterin aldolase,GO:0004150,dihydroneopterin aldolase activity,molecular_function
+PALES_05791,folB,always essential,4,4,4,dihydroneopterin aldolase,folB,dihydroneopterin aldolase,GO:0006760,folic acid-containing compound metabolic process,biological_process
+PALES_06041,rpe,always essential,4,4,4,ribulose-phosphate 3-epimerase,rpe,ribulose-phosphate 3-epimerase,GO:0004750,ribulose-phosphate 3-epimerase activity,molecular_function
+PALES_06041,rpe,always essential,4,4,4,ribulose-phosphate 3-epimerase,rpe,ribulose-phosphate 3-epimerase,GO:0006098,pentose-phosphate shunt,biological_process
+PALES_06041,rpe,always essential,4,4,4,ribulose-phosphate 3-epimerase,rpe,ribulose-phosphate 3-epimerase,GO:0003824,catalytic activity,molecular_function
+PALES_06041,rpe,always essential,4,4,4,ribulose-phosphate 3-epimerase,rpe,ribulose-phosphate 3-epimerase,GO:0005975,carbohydrate metabolic process,biological_process
+PALES_06041,rpe,always essential,4,4,4,ribulose-phosphate 3-epimerase,rpe,ribulose-phosphate 3-epimerase,GO:0016857,"racemase and epimerase activity, acting on carbohydrates and derivatives",molecular_function
+PALES_06091,ptrB,always essential,4,4,4,"repressor, PtrB",ptrB,"repressor, PtrB",GO:0008270,zinc ion binding,molecular_function
+PALES_06091,ptrB,always essential,4,4,4,"repressor, PtrB",ptrB,"repressor, PtrB",GO:1900378,positive regulation of secondary metabolite biosynthetic process,biological_process
+PALES_06091,ptrB,always essential,4,4,4,"repressor, PtrB",ptrB,"repressor, PtrB",GO:0031328,positive regulation of cellular biosynthetic process,biological_process
+PALES_06341,PALES_06341,always essential,4,4,4,putative ubiquinone biosynthesis protein,PALES_06341,putative ubiquinone biosynthesis protein,GO:0006744,ubiquinone biosynthetic process,biological_process
+PALES_06341,PALES_06341,always essential,4,4,4,putative ubiquinone biosynthesis protein,PALES_06341,putative ubiquinone biosynthesis protein,GO:0055114,oxidation-reduction process,biological_process
+PALES_06441,PALES_06441,always essential,4,4,4,iron-sulfur cluster insertion protein ErpA,PALES_06441,iron-sulfur cluster insertion protein ErpA,GO:0005198,structural molecule activity,molecular_function
+PALES_06441,PALES_06441,always essential,4,4,4,iron-sulfur cluster insertion protein ErpA,PALES_06441,iron-sulfur cluster insertion protein ErpA,GO:0051536,iron-sulfur cluster binding,molecular_function
+PALES_06441,PALES_06441,always essential,4,4,4,iron-sulfur cluster insertion protein ErpA,PALES_06441,iron-sulfur cluster insertion protein ErpA,GO:0097428,protein maturation by iron-sulfur cluster transfer,biological_process
+PALES_06491,PALES_06491,always essential,4,4,4,pantothenate kinase,PALES_06491,pantothenate kinase,GO:0004594,pantothenate kinase activity,molecular_function
+PALES_06521,secE,always essential,4,4,4,preprotein translocase subunit SecE,secE,preprotein translocase subunit SecE,GO:0006605,protein targeting,biological_process
+PALES_06521,secE,always essential,4,4,4,preprotein translocase subunit SecE,secE,preprotein translocase subunit SecE,GO:0006886,intracellular protein transport,biological_process
+PALES_06521,secE,always essential,4,4,4,preprotein translocase subunit SecE,secE,preprotein translocase subunit SecE,GO:0016020,membrane,cellular_component
+PALES_06521,secE,always essential,4,4,4,preprotein translocase subunit SecE,secE,preprotein translocase subunit SecE,GO:0009306,protein secretion,biological_process
+PALES_06521,secE,always essential,4,4,4,preprotein translocase subunit SecE,secE,preprotein translocase subunit SecE,GO:0015450,P-P-bond-hydrolysis-driven protein transmembrane transporter activity,molecular_function
+PALES_06521,secE,always essential,4,4,4,preprotein translocase subunit SecE,secE,preprotein translocase subunit SecE,GO:0016021,integral component of membrane,cellular_component
+PALES_06531,nusG,always essential,4,4,4,transcription antitermination protein NusG,nusG,transcription antitermination protein NusG,GO:0032784,"regulation of DNA-templated transcription, elongation",biological_process
+PALES_06531,nusG,always essential,4,4,4,transcription antitermination protein NusG,nusG,transcription antitermination protein NusG,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_06541,rplK,always essential,4,4,4,50S ribosomal protein L11,rplK,50S ribosomal protein L11,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_06541,rplK,always essential,4,4,4,50S ribosomal protein L11,rplK,50S ribosomal protein L11,GO:0005840,ribosome,cellular_component
+PALES_06541,rplK,always essential,4,4,4,50S ribosomal protein L11,rplK,50S ribosomal protein L11,GO:0006412,translation,biological_process
+PALES_06551,rplA,always essential,4,4,4,50S ribosomal protein L1,rplA,50S ribosomal protein L1,GO:0003723,RNA binding,molecular_function
+PALES_06551,rplA,always essential,4,4,4,50S ribosomal protein L1,rplA,50S ribosomal protein L1,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_06551,rplA,always essential,4,4,4,50S ribosomal protein L1,rplA,50S ribosomal protein L1,GO:0006412,translation,biological_process
+PALES_06551,rplA,always essential,4,4,4,50S ribosomal protein L1,rplA,50S ribosomal protein L1,GO:0015934,large ribosomal subunit,cellular_component
+PALES_06561,rplJ,always essential,4,4,4,50S ribosomal protein L10,rplJ,50S ribosomal protein L10,GO:0042254,ribosome biogenesis,biological_process
+PALES_06561,rplJ,always essential,4,4,4,50S ribosomal protein L10,rplJ,50S ribosomal protein L10,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_06561,rplJ,always essential,4,4,4,50S ribosomal protein L10,rplJ,50S ribosomal protein L10,GO:0006412,translation,biological_process
+PALES_06561,rplJ,always essential,4,4,4,50S ribosomal protein L10,rplJ,50S ribosomal protein L10,GO:0015934,large ribosomal subunit,cellular_component
+PALES_06591,rpoC,always essential,4,4,4,DNA-directed RNA polymerase subunit beta',rpoC,DNA-directed RNA polymerase subunit beta',GO:0003677,DNA binding,molecular_function
+PALES_06591,rpoC,always essential,4,4,4,DNA-directed RNA polymerase subunit beta',rpoC,DNA-directed RNA polymerase subunit beta',GO:0003899,DNA-directed 5'-3' RNA polymerase activity,molecular_function
+PALES_06591,rpoC,always essential,4,4,4,DNA-directed RNA polymerase subunit beta',rpoC,DNA-directed RNA polymerase subunit beta',GO:0006351,"transcription, DNA-templated",biological_process
+PALES_06601,rpsL,always essential,4,4,4,30S ribosomal protein S12,rpsL,30S ribosomal protein S12,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_06601,rpsL,always essential,4,4,4,30S ribosomal protein S12,rpsL,30S ribosomal protein S12,GO:0005840,ribosome,cellular_component
+PALES_06601,rpsL,always essential,4,4,4,30S ribosomal protein S12,rpsL,30S ribosomal protein S12,GO:0006412,translation,biological_process
+PALES_06601,rpsL,always essential,4,4,4,30S ribosomal protein S12,rpsL,30S ribosomal protein S12,GO:0015935,small ribosomal subunit,cellular_component
+PALES_06611,rpsG,always essential,4,4,4,30S ribosomal protein S7,rpsG,30S ribosomal protein S7,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_06611,rpsG,always essential,4,4,4,30S ribosomal protein S7,rpsG,30S ribosomal protein S7,GO:0006412,translation,biological_process
+PALES_06611,rpsG,always essential,4,4,4,30S ribosomal protein S7,rpsG,30S ribosomal protein S7,GO:0015935,small ribosomal subunit,cellular_component
+PALES_06611,rpsG,always essential,4,4,4,30S ribosomal protein S7,rpsG,30S ribosomal protein S7,GO:0003723,RNA binding,molecular_function
+PALES_06701,rplV,always essential,4,4,4,50S ribosomal protein L22,rplV,50S ribosomal protein L22,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_06701,rplV,always essential,4,4,4,50S ribosomal protein L22,rplV,50S ribosomal protein L22,GO:0005840,ribosome,cellular_component
+PALES_06701,rplV,always essential,4,4,4,50S ribosomal protein L22,rplV,50S ribosomal protein L22,GO:0006412,translation,biological_process
+PALES_06701,rplV,always essential,4,4,4,50S ribosomal protein L22,rplV,50S ribosomal protein L22,GO:0015934,large ribosomal subunit,cellular_component
+PALES_06711,rpsC,always essential,4,4,4,30S ribosomal protein S3,rpsC,30S ribosomal protein S3,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_06711,rpsC,always essential,4,4,4,30S ribosomal protein S3,rpsC,30S ribosomal protein S3,GO:0006412,translation,biological_process
+PALES_06711,rpsC,always essential,4,4,4,30S ribosomal protein S3,rpsC,30S ribosomal protein S3,GO:0015935,small ribosomal subunit,cellular_component
+PALES_06711,rpsC,always essential,4,4,4,30S ribosomal protein S3,rpsC,30S ribosomal protein S3,GO:0003676,nucleic acid binding,molecular_function
+PALES_06711,rpsC,always essential,4,4,4,30S ribosomal protein S3,rpsC,30S ribosomal protein S3,GO:0003723,RNA binding,molecular_function
+PALES_06721,rplP,always essential,4,4,4,50S ribosomal protein L16,rplP,50S ribosomal protein L16,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_06721,rplP,always essential,4,4,4,50S ribosomal protein L16,rplP,50S ribosomal protein L16,GO:0005840,ribosome,cellular_component
+PALES_06721,rplP,always essential,4,4,4,50S ribosomal protein L16,rplP,50S ribosomal protein L16,GO:0006412,translation,biological_process
+PALES_06721,rplP,always essential,4,4,4,50S ribosomal protein L16,rplP,50S ribosomal protein L16,GO:0019843,rRNA binding,molecular_function
+PALES_06731,rpmC,always essential,4,4,4,50S ribosomal protein L29,rpmC,50S ribosomal protein L29,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_06731,rpmC,always essential,4,4,4,50S ribosomal protein L29,rpmC,50S ribosomal protein L29,GO:0005840,ribosome,cellular_component
+PALES_06731,rpmC,always essential,4,4,4,50S ribosomal protein L29,rpmC,50S ribosomal protein L29,GO:0006412,translation,biological_process
+PALES_06741,rpsQ,always essential,4,4,4,30S ribosomal protein S17,rpsQ,30S ribosomal protein S17,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_06741,rpsQ,always essential,4,4,4,30S ribosomal protein S17,rpsQ,30S ribosomal protein S17,GO:0005840,ribosome,cellular_component
+PALES_06741,rpsQ,always essential,4,4,4,30S ribosomal protein S17,rpsQ,30S ribosomal protein S17,GO:0006412,translation,biological_process
+PALES_06751,rplN,always essential,4,4,4,50S ribosomal protein L14,rplN,50S ribosomal protein L14,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_06751,rplN,always essential,4,4,4,50S ribosomal protein L14,rplN,50S ribosomal protein L14,GO:0005840,ribosome,cellular_component
+PALES_06751,rplN,always essential,4,4,4,50S ribosomal protein L14,rplN,50S ribosomal protein L14,GO:0006412,translation,biological_process
+PALES_06751,rplN,always essential,4,4,4,50S ribosomal protein L14,rplN,50S ribosomal protein L14,GO:0015934,large ribosomal subunit,cellular_component
+PALES_06761,rplX,always essential,4,4,4,50S ribosomal protein L24,rplX,50S ribosomal protein L24,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_06761,rplX,always essential,4,4,4,50S ribosomal protein L24,rplX,50S ribosomal protein L24,GO:0005840,ribosome,cellular_component
+PALES_06761,rplX,always essential,4,4,4,50S ribosomal protein L24,rplX,50S ribosomal protein L24,GO:0006412,translation,biological_process
+PALES_06771,rplE,always essential,4,4,4,50S ribosomal protein L5,rplE,50S ribosomal protein L5,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_06771,rplE,always essential,4,4,4,50S ribosomal protein L5,rplE,50S ribosomal protein L5,GO:0005840,ribosome,cellular_component
+PALES_06771,rplE,always essential,4,4,4,50S ribosomal protein L5,rplE,50S ribosomal protein L5,GO:0006412,translation,biological_process
+PALES_06781,rpsN,always essential,4,4,4,30S ribosomal protein S14,rpsN,30S ribosomal protein S14,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_06781,rpsN,always essential,4,4,4,30S ribosomal protein S14,rpsN,30S ribosomal protein S14,GO:0005840,ribosome,cellular_component
+PALES_06781,rpsN,always essential,4,4,4,30S ribosomal protein S14,rpsN,30S ribosomal protein S14,GO:0006412,translation,biological_process
+PALES_06791,rpsH,always essential,4,4,4,30S ribosomal protein S8,rpsH,30S ribosomal protein S8,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_06791,rpsH,always essential,4,4,4,30S ribosomal protein S8,rpsH,30S ribosomal protein S8,GO:0005840,ribosome,cellular_component
+PALES_06791,rpsH,always essential,4,4,4,30S ribosomal protein S8,rpsH,30S ribosomal protein S8,GO:0006412,translation,biological_process
+PALES_06801,rplF,always essential,4,4,4,50S ribosomal protein L6,rplF,50S ribosomal protein L6,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_06801,rplF,always essential,4,4,4,50S ribosomal protein L6,rplF,50S ribosomal protein L6,GO:0005840,ribosome,cellular_component
+PALES_06801,rplF,always essential,4,4,4,50S ribosomal protein L6,rplF,50S ribosomal protein L6,GO:0006412,translation,biological_process
+PALES_06801,rplF,always essential,4,4,4,50S ribosomal protein L6,rplF,50S ribosomal protein L6,GO:0019843,rRNA binding,molecular_function
+PALES_06811,rplR,always essential,4,4,4,50S ribosomal protein L18,rplR,50S ribosomal protein L18,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_06811,rplR,always essential,4,4,4,50S ribosomal protein L18,rplR,50S ribosomal protein L18,GO:0005840,ribosome,cellular_component
+PALES_06811,rplR,always essential,4,4,4,50S ribosomal protein L18,rplR,50S ribosomal protein L18,GO:0006412,translation,biological_process
+PALES_06821,rpsE,always essential,4,4,4,30S ribosomal protein S5,rpsE,30S ribosomal protein S5,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_06821,rpsE,always essential,4,4,4,30S ribosomal protein S5,rpsE,30S ribosomal protein S5,GO:0006412,translation,biological_process
+PALES_06821,rpsE,always essential,4,4,4,30S ribosomal protein S5,rpsE,30S ribosomal protein S5,GO:0015935,small ribosomal subunit,cellular_component
+PALES_06821,rpsE,always essential,4,4,4,30S ribosomal protein S5,rpsE,30S ribosomal protein S5,GO:0005840,ribosome,cellular_component
+PALES_06821,rpsE,always essential,4,4,4,30S ribosomal protein S5,rpsE,30S ribosomal protein S5,GO:0003723,RNA binding,molecular_function
+PALES_06831,rpmD,always essential,4,4,4,50S ribosomal protein L30,rpmD,50S ribosomal protein L30,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_06831,rpmD,always essential,4,4,4,50S ribosomal protein L30,rpmD,50S ribosomal protein L30,GO:0006412,translation,biological_process
+PALES_06831,rpmD,always essential,4,4,4,50S ribosomal protein L30,rpmD,50S ribosomal protein L30,GO:0015934,large ribosomal subunit,cellular_component
+PALES_06861,rpsM,always essential,4,4,4,30S ribosomal protein S13,rpsM,30S ribosomal protein S13,GO:0003723,RNA binding,molecular_function
+PALES_06861,rpsM,always essential,4,4,4,30S ribosomal protein S13,rpsM,30S ribosomal protein S13,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_06861,rpsM,always essential,4,4,4,30S ribosomal protein S13,rpsM,30S ribosomal protein S13,GO:0005840,ribosome,cellular_component
+PALES_06861,rpsM,always essential,4,4,4,30S ribosomal protein S13,rpsM,30S ribosomal protein S13,GO:0006412,translation,biological_process
+PALES_06861,rpsM,always essential,4,4,4,30S ribosomal protein S13,rpsM,30S ribosomal protein S13,GO:0003676,nucleic acid binding,molecular_function
+PALES_06871,rpsK,always essential,4,4,4,30S ribosomal protein S11,rpsK,30S ribosomal protein S11,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_06871,rpsK,always essential,4,4,4,30S ribosomal protein S11,rpsK,30S ribosomal protein S11,GO:0005840,ribosome,cellular_component
+PALES_06871,rpsK,always essential,4,4,4,30S ribosomal protein S11,rpsK,30S ribosomal protein S11,GO:0006412,translation,biological_process
+PALES_07051,PALES_07051,always essential,4,4,4,putative ATP-binding component of ABC transporter,PALES_07051,putative ATP-binding component of ABC transporter,GO:0005524,ATP binding,molecular_function
+PALES_07051,PALES_07051,always essential,4,4,4,putative ATP-binding component of ABC transporter,PALES_07051,putative ATP-binding component of ABC transporter,GO:0016021,integral component of membrane,cellular_component
+PALES_07051,PALES_07051,always essential,4,4,4,putative ATP-binding component of ABC transporter,PALES_07051,putative ATP-binding component of ABC transporter,GO:0042626,ATPase-coupled transmembrane transporter activity,molecular_function
+PALES_07051,PALES_07051,always essential,4,4,4,putative ATP-binding component of ABC transporter,PALES_07051,putative ATP-binding component of ABC transporter,GO:0055085,transmembrane transport,biological_process
+PALES_07051,PALES_07051,always essential,4,4,4,putative ATP-binding component of ABC transporter,PALES_07051,putative ATP-binding component of ABC transporter,GO:0016887,ATPase activity,molecular_function
+PALES_07111,phzG1,always essential,4,4,4,putative pyridoxamine 5'-phosphate oxidase,phzG1,putative pyridoxamine 5'-phosphate oxidase,GO:0016638,"oxidoreductase activity, acting on the CH-NH2 group of donors",molecular_function
+PALES_07111,phzG1,always essential,4,4,4,putative pyridoxamine 5'-phosphate oxidase,phzG1,putative pyridoxamine 5'-phosphate oxidase,GO:0055114,oxidation-reduction process,biological_process
+PALES_07111,phzG1,always essential,4,4,4,putative pyridoxamine 5'-phosphate oxidase,phzG1,putative pyridoxamine 5'-phosphate oxidase,GO:0004733,pyridoxamine-phosphate oxidase activity,molecular_function
+PALES_07111,phzG1,always essential,4,4,4,putative pyridoxamine 5'-phosphate oxidase,phzG1,putative pyridoxamine 5'-phosphate oxidase,GO:0008615,pyridoxine biosynthetic process,biological_process
+PALES_07111,phzG1,always essential,4,4,4,putative pyridoxamine 5'-phosphate oxidase,phzG1,putative pyridoxamine 5'-phosphate oxidase,GO:0010181,FMN binding,molecular_function
+PALES_07111,phzG1,always essential,4,4,4,putative pyridoxamine 5'-phosphate oxidase,phzG1,putative pyridoxamine 5'-phosphate oxidase,GO:0048037,obsolete cofactor binding,molecular_function
+PALES_07121,phzF1,always essential,4,4,4,putative phenazine biosynthesis protein,phzF1,putative phenazine biosynthesis protein,GO:0003824,catalytic activity,molecular_function
+PALES_07121,phzF1,always essential,4,4,4,putative phenazine biosynthesis protein,phzF1,putative phenazine biosynthesis protein,GO:0009058,biosynthetic process,biological_process
+PALES_07131,phzE1,always essential,4,4,4,phenazine biosynthesis protein PhzE,phzE1,phenazine biosynthesis protein PhzE,GO:0009058,biosynthetic process,biological_process
+PALES_07141,phzD1,always essential,4,4,4,phenazine biosynthesis protein PhzD,phzD1,phenazine biosynthesis protein PhzD,GO:0008908,isochorismatase activity,molecular_function
+PALES_07141,phzD1,always essential,4,4,4,phenazine biosynthesis protein PhzD,phzD1,phenazine biosynthesis protein PhzD,GO:0003824,catalytic activity,molecular_function
+PALES_07151,phzC1,always essential,4,4,4,phenazine biosynthesis protein PhzC,phzC1,phenazine biosynthesis protein PhzC,GO:0003849,3-deoxy-7-phosphoheptulonate synthase activity,molecular_function
+PALES_07151,phzC1,always essential,4,4,4,phenazine biosynthesis protein PhzC,phzC1,phenazine biosynthesis protein PhzC,GO:0009073,aromatic amino acid family biosynthetic process,biological_process
+PALES_07151,phzC1,always essential,4,4,4,phenazine biosynthesis protein PhzC,phzC1,phenazine biosynthesis protein PhzC,GO:0003824,catalytic activity,molecular_function
+PALES_07161,phzB1,always essential,4,4,4,putative phenazine biosynthesis protein,phzB1,putative phenazine biosynthesis protein,GO:0017000,antibiotic biosynthetic process,biological_process
+PALES_07781,PALES_07781,always essential,4,4,4,putative acetoin catabolism protein,PALES_07781,putative acetoin catabolism protein,GO:0003951,NAD+ kinase activity,molecular_function
+PALES_07781,PALES_07781,always essential,4,4,4,putative acetoin catabolism protein,PALES_07781,putative acetoin catabolism protein,GO:0006741,NADP biosynthetic process,biological_process
+PALES_07951,PALES_07951,always essential,4,4,4,NA,PALES_07951,"transcriptional regulator, LuxR family",GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_07951,PALES_07951,always essential,4,4,4,NA,PALES_07951,"transcriptional regulator, LuxR family",GO:0003677,DNA binding,molecular_function
+PALES_07961,PALES_07961,always essential,4,4,4,NA,PALES_07961,transcriptional regulator,GO:0003677,DNA binding,molecular_function
+PALES_08071,PALES_08071,always essential,4,4,4,NA,PALES_08071,DNA-binding protein,GO:0003677,DNA binding,molecular_function
+PALES_08521,aph,always essential,4,4,4,aminoglycoside 3'-phosphotransferase type IIb,aph,aminoglycoside 3'-phosphotransferase type IIb,GO:0005524,ATP binding,molecular_function
+PALES_08521,aph,always essential,4,4,4,aminoglycoside 3'-phosphotransferase type IIb,aph,aminoglycoside 3'-phosphotransferase type IIb,GO:0016773,"phosphotransferase activity, alcohol group as acceptor",molecular_function
+PALES_08521,aph,always essential,4,4,4,aminoglycoside 3'-phosphotransferase type IIb,aph,aminoglycoside 3'-phosphotransferase type IIb,GO:0046677,response to antibiotic,biological_process
+PALES_09241,nusB,always essential,4,4,4,transcription antitermination protein NusB,nusB,transcription antitermination protein NusB,GO:0003723,RNA binding,molecular_function
+PALES_09241,nusB,always essential,4,4,4,transcription antitermination protein NusB,nusB,transcription antitermination protein NusB,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_09241,nusB,always essential,4,4,4,transcription antitermination protein NusB,nusB,transcription antitermination protein NusB,GO:0006353,"DNA-templated transcription, termination",biological_process
+PALES_09251,thiL,always essential,4,4,4,thiamine monophosphate kinase,thiL,thiamine monophosphate kinase,GO:0009030,thiamine-phosphate kinase activity,molecular_function
+PALES_09251,thiL,always essential,4,4,4,thiamine monophosphate kinase,thiL,thiamine monophosphate kinase,GO:0009228,thiamine biosynthetic process,biological_process
+PALES_09291,ribA,always essential,4,4,4,GTP cyclohydrolase II,ribA,GTP cyclohydrolase II,GO:0003935,GTP cyclohydrolase II activity,molecular_function
+PALES_09291,ribA,always essential,4,4,4,GTP cyclohydrolase II,ribA,GTP cyclohydrolase II,GO:0009231,riboflavin biosynthetic process,biological_process
+PALES_09321,dxs,always essential,4,4,4,1-deoxy-D-xylulose-5-phosphate synthase,dxs,1-deoxy-D-xylulose-5-phosphate synthase,GO:0003824,catalytic activity,molecular_function
+PALES_09321,dxs,always essential,4,4,4,1-deoxy-D-xylulose-5-phosphate synthase,dxs,1-deoxy-D-xylulose-5-phosphate synthase,GO:0008661,1-deoxy-D-xylulose-5-phosphate synthase activity,molecular_function
+PALES_09321,dxs,always essential,4,4,4,1-deoxy-D-xylulose-5-phosphate synthase,dxs,1-deoxy-D-xylulose-5-phosphate synthase,GO:0016114,terpenoid biosynthetic process,biological_process
+PALES_09341,xseB,always essential,4,4,4,exodeoxyribonuclease VII small subunit,xseB,exodeoxyribonuclease VII small subunit,GO:0006308,DNA catabolic process,biological_process
+PALES_09341,xseB,always essential,4,4,4,exodeoxyribonuclease VII small subunit,xseB,exodeoxyribonuclease VII small subunit,GO:0008855,exodeoxyribonuclease VII activity,molecular_function
+PALES_09341,xseB,always essential,4,4,4,exodeoxyribonuclease VII small subunit,xseB,exodeoxyribonuclease VII small subunit,GO:0009318,exodeoxyribonuclease VII complex,cellular_component
+PALES_09571,PALES_09571,always essential,4,4,4,aromatic acid decarboxylase,PALES_09571,aromatic acid decarboxylase,GO:0003824,catalytic activity,molecular_function
+PALES_09731,pbpA,always essential,4,4,4,penicillin-binding protein 2,pbpA,penicillin-binding protein 2,GO:0008658,penicillin binding,molecular_function
+PALES_09731,pbpA,always essential,4,4,4,penicillin-binding protein 2,pbpA,penicillin-binding protein 2,GO:0009002,serine-type D-Ala-D-Ala carboxypeptidase activity,molecular_function
+PALES_09731,pbpA,always essential,4,4,4,penicillin-binding protein 2,pbpA,penicillin-binding protein 2,GO:0009252,peptidoglycan biosynthetic process,biological_process
+PALES_09731,pbpA,always essential,4,4,4,penicillin-binding protein 2,pbpA,penicillin-binding protein 2,GO:0016020,membrane,cellular_component
+PALES_09871,PALES_09871,always essential,4,4,4,hypothetical protein,PALES_09871,hypothetical protein,GO:0019867,outer membrane,cellular_component
+PALES_09871,PALES_09871,always essential,4,4,4,hypothetical protein,PALES_09871,hypothetical protein,GO:0043165,Gram-negative-bacterium-type cell outer membrane assembly,biological_process
+PALES_09911,lnt,always essential,4,4,4,apolipoprotein N-acyltransferase,lnt,apolipoprotein N-acyltransferase,GO:0006807,nitrogen compound metabolic process,biological_process
+PALES_09911,lnt,always essential,4,4,4,apolipoprotein N-acyltransferase,lnt,apolipoprotein N-acyltransferase,GO:0016021,integral component of membrane,cellular_component
+PALES_09911,lnt,always essential,4,4,4,apolipoprotein N-acyltransferase,lnt,apolipoprotein N-acyltransferase,GO:0016410,N-acyltransferase activity,molecular_function
+PALES_09911,lnt,always essential,4,4,4,apolipoprotein N-acyltransferase,lnt,apolipoprotein N-acyltransferase,GO:0042158,lipoprotein biosynthetic process,biological_process
+PALES_09931,PALES_09931,always essential,4,4,4,putative metalloprotease,PALES_09931,putative metalloprotease,GO:0004222,metalloendopeptidase activity,molecular_function
+PALES_09931,PALES_09931,always essential,4,4,4,putative metalloprotease,PALES_09931,putative metalloprotease,GO:0006364,rRNA processing,biological_process
+PALES_10371,PALES_10371,always essential,4,4,4,hypothetical protein,PALES_10371,hypothetical protein,GO:0016627,"oxidoreductase activity, acting on the CH-CH group of donors",molecular_function
+PALES_10371,PALES_10371,always essential,4,4,4,hypothetical protein,PALES_10371,hypothetical protein,GO:0050660,flavin adenine dinucleotide binding,molecular_function
+PALES_10371,PALES_10371,always essential,4,4,4,hypothetical protein,PALES_10371,hypothetical protein,GO:0055114,oxidation-reduction process,biological_process
+PALES_10591,moaC,always essential,4,4,4,molybdenum cofactor biosynthesis protein C,moaC,molybdenum cofactor biosynthesis protein C,GO:0006777,Mo-molybdopterin cofactor biosynthetic process,biological_process
+PALES_11361,PALES_11361,always essential,4,4,4,putative ATP-binding component of ABC transporter,PALES_11361,putative ATP-binding component of ABC transporter,GO:0005524,ATP binding,molecular_function
+PALES_11361,PALES_11361,always essential,4,4,4,putative ATP-binding component of ABC transporter,PALES_11361,putative ATP-binding component of ABC transporter,GO:0016887,ATPase activity,molecular_function
+PALES_11401,valS,always essential,4,4,4,valyl-tRNA synthetase,valS,valyl-tRNA synthetase,GO:0002161,aminoacyl-tRNA editing activity,molecular_function
+PALES_11401,valS,always essential,4,4,4,valyl-tRNA synthetase,valS,valyl-tRNA synthetase,GO:0006418,tRNA aminoacylation for protein translation,biological_process
+PALES_11401,valS,always essential,4,4,4,valyl-tRNA synthetase,valS,valyl-tRNA synthetase,GO:0000166,nucleotide binding,molecular_function
+PALES_11401,valS,always essential,4,4,4,valyl-tRNA synthetase,valS,valyl-tRNA synthetase,GO:0004812,aminoacyl-tRNA ligase activity,molecular_function
+PALES_11401,valS,always essential,4,4,4,valyl-tRNA synthetase,valS,valyl-tRNA synthetase,GO:0005524,ATP binding,molecular_function
+PALES_11401,valS,always essential,4,4,4,valyl-tRNA synthetase,valS,valyl-tRNA synthetase,GO:0004832,valine-tRNA ligase activity,molecular_function
+PALES_11401,valS,always essential,4,4,4,valyl-tRNA synthetase,valS,valyl-tRNA synthetase,GO:0006438,valyl-tRNA aminoacylation,biological_process
+PALES_11401,valS,always essential,4,4,4,valyl-tRNA synthetase,valS,valyl-tRNA synthetase,GO:0005737,cytoplasm,cellular_component
+PALES_11461,PALES_11461,always essential,4,4,4,putative permease,PALES_11461,putative permease,GO:0016021,integral component of membrane,cellular_component
+PALES_11461,PALES_11461,always essential,4,4,4,putative permease,PALES_11461,putative permease,GO:0043190,ATP-binding cassette (ABC) transporter complex,cellular_component
+PALES_11461,PALES_11461,always essential,4,4,4,putative permease,PALES_11461,putative permease,GO:0055085,transmembrane transport,biological_process
+PALES_11541,secF,always essential,4,4,4,preprotein translocase subunit SecF,secF,preprotein translocase subunit SecF,GO:0006886,intracellular protein transport,biological_process
+PALES_11541,secF,always essential,4,4,4,preprotein translocase subunit SecF,secF,preprotein translocase subunit SecF,GO:0015450,P-P-bond-hydrolysis-driven protein transmembrane transporter activity,molecular_function
+PALES_11721,hisS,always essential,4,4,4,histidyl-tRNA synthetase,hisS,histidyl-tRNA synthetase,GO:0005737,cytoplasm,cellular_component
+PALES_11721,hisS,always essential,4,4,4,histidyl-tRNA synthetase,hisS,histidyl-tRNA synthetase,GO:0004821,histidine-tRNA ligase activity,molecular_function
+PALES_11721,hisS,always essential,4,4,4,histidyl-tRNA synthetase,hisS,histidyl-tRNA synthetase,GO:0005524,ATP binding,molecular_function
+PALES_11721,hisS,always essential,4,4,4,histidyl-tRNA synthetase,hisS,histidyl-tRNA synthetase,GO:0006427,histidyl-tRNA aminoacylation,biological_process
+PALES_11751,PALES_11751,always essential,4,4,4,NA,engA,GTP-binding protein EngA,GO:0005525,GTP binding,molecular_function
+PALES_12041,guaB,always essential,4,4,4,inosine 5'-monophosphate dehydrogenase,guaB,inosine 5'-monophosphate dehydrogenase,GO:0003938,IMP dehydrogenase activity,molecular_function
+PALES_12041,guaB,always essential,4,4,4,inosine 5'-monophosphate dehydrogenase,guaB,inosine 5'-monophosphate dehydrogenase,GO:0006164,purine nucleotide biosynthetic process,biological_process
+PALES_12041,guaB,always essential,4,4,4,inosine 5'-monophosphate dehydrogenase,guaB,inosine 5'-monophosphate dehydrogenase,GO:0055114,oxidation-reduction process,biological_process
+PALES_12041,guaB,always essential,4,4,4,inosine 5'-monophosphate dehydrogenase,guaB,inosine 5'-monophosphate dehydrogenase,GO:0016491,oxidoreductase activity,molecular_function
+PALES_12041,guaB,always essential,4,4,4,inosine 5'-monophosphate dehydrogenase,guaB,inosine 5'-monophosphate dehydrogenase,GO:0003824,catalytic activity,molecular_function
+PALES_12051,guaA,always essential,4,4,4,GMP synthase,guaA,GMP synthase,GO:0003922,GMP synthase (glutamine-hydrolyzing) activity,molecular_function
+PALES_12051,guaA,always essential,4,4,4,GMP synthase,guaA,GMP synthase,GO:0005524,ATP binding,molecular_function
+PALES_12051,guaA,always essential,4,4,4,GMP synthase,guaA,GMP synthase,GO:0006164,purine nucleotide biosynthetic process,biological_process
+PALES_12051,guaA,always essential,4,4,4,GMP synthase,guaA,GMP synthase,GO:0006177,GMP biosynthetic process,biological_process
+PALES_12051,guaA,always essential,4,4,4,GMP synthase,guaA,GMP synthase,GO:0016462,pyrophosphatase activity,molecular_function
+PALES_12341,ffh,always essential,4,4,4,signal recognition particle protein Ffh,ffh,signal recognition particle protein Ffh,GO:0003924,GTPase activity,molecular_function
+PALES_12341,ffh,always essential,4,4,4,signal recognition particle protein Ffh,ffh,signal recognition particle protein Ffh,GO:0005525,GTP binding,molecular_function
+PALES_12341,ffh,always essential,4,4,4,signal recognition particle protein Ffh,ffh,signal recognition particle protein Ffh,GO:0006614,SRP-dependent cotranslational protein targeting to membrane,biological_process
+PALES_12341,ffh,always essential,4,4,4,signal recognition particle protein Ffh,ffh,signal recognition particle protein Ffh,GO:0048500,signal recognition particle,cellular_component
+PALES_12341,ffh,always essential,4,4,4,signal recognition particle protein Ffh,ffh,signal recognition particle protein Ffh,GO:0008312,7S RNA binding,molecular_function
+PALES_12351,rpsP,always essential,4,4,4,30S ribosomal protein S16,rpsP,30S ribosomal protein S16,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_12351,rpsP,always essential,4,4,4,30S ribosomal protein S16,rpsP,30S ribosomal protein S16,GO:0005840,ribosome,cellular_component
+PALES_12351,rpsP,always essential,4,4,4,30S ribosomal protein S16,rpsP,30S ribosomal protein S16,GO:0006412,translation,biological_process
+PALES_12431,dsbC,always essential,4,4,4,thiol:disulfide interchange protein DsbC,dsbC,thiol:disulfide interchange protein DsbC,GO:0042597,periplasmic space,cellular_component
+PALES_12431,dsbC,always essential,4,4,4,thiol:disulfide interchange protein DsbC,dsbC,thiol:disulfide interchange protein DsbC,GO:0045454,cell redox homeostasis,biological_process
+PALES_12711,PALES_12711,always essential,4,4,4,putative transcriptional regulator,PALES_12711,putative transcriptional regulator,GO:0003700,DNA-binding transcription factor activity,molecular_function
+PALES_12711,PALES_12711,always essential,4,4,4,putative transcriptional regulator,PALES_12711,putative transcriptional regulator,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_12821,PALES_12821,always essential,4,4,4,NA,PALES_12821,putative peptide chain release factor 2,GO:0003747,translation release factor activity,molecular_function
+PALES_12821,PALES_12821,always essential,4,4,4,NA,PALES_12821,putative peptide chain release factor 2,GO:0006415,translational termination,biological_process
+PALES_12821,PALES_12821,always essential,4,4,4,NA,PALES_12821,putative peptide chain release factor 2,GO:0005737,cytoplasm,cellular_component
+PALES_12821,PALES_12821,always essential,4,4,4,NA,PALES_12821,putative peptide chain release factor 2,GO:0016149,"translation release factor activity, codon specific",molecular_function
+PALES_12841,lysS,always essential,4,4,4,lysyl-tRNA synthetase,lysS,lysyl-tRNA synthetase,GO:0000166,nucleotide binding,molecular_function
+PALES_12841,lysS,always essential,4,4,4,lysyl-tRNA synthetase,lysS,lysyl-tRNA synthetase,GO:0004812,aminoacyl-tRNA ligase activity,molecular_function
+PALES_12841,lysS,always essential,4,4,4,lysyl-tRNA synthetase,lysS,lysyl-tRNA synthetase,GO:0005524,ATP binding,molecular_function
+PALES_12841,lysS,always essential,4,4,4,lysyl-tRNA synthetase,lysS,lysyl-tRNA synthetase,GO:0006418,tRNA aminoacylation for protein translation,biological_process
+PALES_12841,lysS,always essential,4,4,4,lysyl-tRNA synthetase,lysS,lysyl-tRNA synthetase,GO:0004824,lysine-tRNA ligase activity,molecular_function
+PALES_12841,lysS,always essential,4,4,4,lysyl-tRNA synthetase,lysS,lysyl-tRNA synthetase,GO:0005737,cytoplasm,cellular_component
+PALES_12841,lysS,always essential,4,4,4,lysyl-tRNA synthetase,lysS,lysyl-tRNA synthetase,GO:0006430,lysyl-tRNA aminoacylation,biological_process
+PALES_12841,lysS,always essential,4,4,4,lysyl-tRNA synthetase,lysS,lysyl-tRNA synthetase,GO:0003676,nucleic acid binding,molecular_function
+PALES_13061,PALES_13061,always essential,4,4,4,putative transcriptional regulator,PALES_13061,putative transcriptional regulator,GO:0003677,DNA binding,molecular_function
+PALES_13181,dapD,always essential,4,4,4,tetrahydrodipicolinate succinylase,dapD,tetrahydrodipicolinate succinylase,GO:0008666,"2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase activity",molecular_function
+PALES_13311,PALES_13311,always essential,4,4,4,NA,PALES_13311,DNA methylase N-4/N-6,GO:0003677,DNA binding,molecular_function
+PALES_13311,PALES_13311,always essential,4,4,4,NA,PALES_13311,DNA methylase N-4/N-6,GO:0006306,DNA methylation,biological_process
+PALES_13311,PALES_13311,always essential,4,4,4,NA,PALES_13311,DNA methylase N-4/N-6,GO:0008170,N-methyltransferase activity,molecular_function
+PALES_13311,PALES_13311,always essential,4,4,4,NA,PALES_13311,DNA methylase N-4/N-6,GO:0015667,site-specific DNA-methyltransferase (cytosine-N4-specific) activity,molecular_function
+PALES_13311,PALES_13311,always essential,4,4,4,NA,PALES_13311,DNA methylase N-4/N-6,GO:0090124,N-4 methylation of cytosine,biological_process
+PALES_13331,PALES_13331,always essential,4,4,4,NA,PALES_13331,"transcriptional regulator, LuxR family",GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_13331,PALES_13331,always essential,4,4,4,NA,PALES_13331,"transcriptional regulator, LuxR family",GO:0003677,DNA binding,molecular_function
+PALES_13801,tsf,always essential,4,4,4,elongation factor Ts,tsf,elongation factor Ts,GO:0003746,translation elongation factor activity,molecular_function
+PALES_13801,tsf,always essential,4,4,4,elongation factor Ts,tsf,elongation factor Ts,GO:0006414,translational elongation,biological_process
+PALES_13801,tsf,always essential,4,4,4,elongation factor Ts,tsf,elongation factor Ts,GO:0005515,protein binding,molecular_function
+PALES_13811,pyrH,always essential,4,4,4,uridylate kinase,pyrH,uridylate kinase,GO:0005737,cytoplasm,cellular_component
+PALES_13811,pyrH,always essential,4,4,4,uridylate kinase,pyrH,uridylate kinase,GO:0006221,pyrimidine nucleotide biosynthetic process,biological_process
+PALES_13811,pyrH,always essential,4,4,4,uridylate kinase,pyrH,uridylate kinase,GO:0033862,UMP kinase activity,molecular_function
+PALES_13811,pyrH,always essential,4,4,4,uridylate kinase,pyrH,uridylate kinase,GO:0009041,uridylate kinase activity,molecular_function
+PALES_13831,uppS,always essential,4,4,4,undecaprenyl pyrophosphate synthetase,uppS,undecaprenyl pyrophosphate synthetase,GO:0016765,"transferase activity, transferring alkyl or aryl (other than methyl) groups",molecular_function
+PALES_13841,cdsA,always essential,4,4,4,phosphatidate cytidylyltransferase,cdsA,phosphatidate cytidylyltransferase,GO:0016020,membrane,cellular_component
+PALES_13841,cdsA,always essential,4,4,4,phosphatidate cytidylyltransferase,cdsA,phosphatidate cytidylyltransferase,GO:0016772,"transferase activity, transferring phosphorus-containing groups",molecular_function
+PALES_13851,dxr,always essential,4,4,4,1-deoxy-d-xylulose 5-phosphate reductoisomerase,dxr,1-deoxy-d-xylulose 5-phosphate reductoisomerase,GO:0008299,isoprenoid biosynthetic process,biological_process
+PALES_13851,dxr,always essential,4,4,4,1-deoxy-d-xylulose 5-phosphate reductoisomerase,dxr,1-deoxy-d-xylulose 5-phosphate reductoisomerase,GO:0030604,1-deoxy-D-xylulose-5-phosphate reductoisomerase activity,molecular_function
+PALES_13851,dxr,always essential,4,4,4,1-deoxy-d-xylulose 5-phosphate reductoisomerase,dxr,1-deoxy-d-xylulose 5-phosphate reductoisomerase,GO:0046872,metal ion binding,molecular_function
+PALES_13851,dxr,always essential,4,4,4,1-deoxy-d-xylulose 5-phosphate reductoisomerase,dxr,1-deoxy-d-xylulose 5-phosphate reductoisomerase,GO:0055114,oxidation-reduction process,biological_process
+PALES_13851,dxr,always essential,4,4,4,1-deoxy-d-xylulose 5-phosphate reductoisomerase,dxr,1-deoxy-d-xylulose 5-phosphate reductoisomerase,GO:0005515,protein binding,molecular_function
+PALES_13851,dxr,always essential,4,4,4,1-deoxy-d-xylulose 5-phosphate reductoisomerase,dxr,1-deoxy-d-xylulose 5-phosphate reductoisomerase,GO:0070402,NADPH binding,molecular_function
+PALES_13881,PALES_13881,always essential,4,4,4,putative outer membrane protein precursor,PALES_13881,putative outer membrane protein precursor,GO:0051082,unfolded protein binding,molecular_function
+PALES_13891,lpxD,always essential,4,4,4,UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase,lpxD,UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase,GO:0016740,transferase activity,molecular_function
+PALES_13891,lpxD,always essential,4,4,4,UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase,lpxD,UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase,GO:0009245,lipid A biosynthetic process,biological_process
+PALES_13891,lpxD,always essential,4,4,4,UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase,lpxD,UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase,GO:0016410,N-acyltransferase activity,molecular_function
+PALES_13891,lpxD,always essential,4,4,4,UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase,lpxD,UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase,GO:0016747,"transferase activity, transferring acyl groups other than amino-acyl groups",molecular_function
+PALES_13911,lpxA,always essential,4,4,4,UDP-N-acetylglucosamine acyltransferase,lpxA,UDP-N-acetylglucosamine acyltransferase,GO:0008610,lipid biosynthetic process,biological_process
+PALES_13911,lpxA,always essential,4,4,4,UDP-N-acetylglucosamine acyltransferase,lpxA,UDP-N-acetylglucosamine acyltransferase,GO:0008780,acyl-[acyl-carrier-protein]-UDP-N-acetylglucosamine O-acyltransferase activity,molecular_function
+PALES_13911,lpxA,always essential,4,4,4,UDP-N-acetylglucosamine acyltransferase,lpxA,UDP-N-acetylglucosamine acyltransferase,GO:0016740,transferase activity,molecular_function
+PALES_13911,lpxA,always essential,4,4,4,UDP-N-acetylglucosamine acyltransferase,lpxA,UDP-N-acetylglucosamine acyltransferase,GO:0009103,lipopolysaccharide biosynthetic process,biological_process
+PALES_13921,lpxB,always essential,4,4,4,lipid-A-disaccharide synthase,lpxB,lipid-A-disaccharide synthase,GO:0008915,lipid-A-disaccharide synthase activity,molecular_function
+PALES_13921,lpxB,always essential,4,4,4,lipid-A-disaccharide synthase,lpxB,lipid-A-disaccharide synthase,GO:0009245,lipid A biosynthetic process,biological_process
+PALES_13931,rnhB,always essential,4,4,4,ribonuclease HII,rnhB,ribonuclease HII,GO:0004523,RNA-DNA hybrid ribonuclease activity,molecular_function
+PALES_13931,rnhB,always essential,4,4,4,ribonuclease HII,rnhB,ribonuclease HII,GO:0003676,nucleic acid binding,molecular_function
+PALES_13951,dnaE,always essential,4,4,4,DNA polymerase III subunit alpha,dnaE,DNA polymerase III subunit alpha,GO:0003824,catalytic activity,molecular_function
+PALES_13951,dnaE,always essential,4,4,4,DNA polymerase III subunit alpha,dnaE,DNA polymerase III subunit alpha,GO:0003676,nucleic acid binding,molecular_function
+PALES_13951,dnaE,always essential,4,4,4,DNA polymerase III subunit alpha,dnaE,DNA polymerase III subunit alpha,GO:0006260,DNA replication,biological_process
+PALES_13951,dnaE,always essential,4,4,4,DNA polymerase III subunit alpha,dnaE,DNA polymerase III subunit alpha,GO:0008408,3'-5' exonuclease activity,molecular_function
+PALES_13961,accA,always essential,4,4,4,acetyl-CoA carboxylase carboxyltransferase subunit alpha,accA,acetyl-CoA carboxylase carboxyltransferase subunit alpha,GO:0016874,ligase activity,molecular_function
+PALES_13961,accA,always essential,4,4,4,acetyl-CoA carboxylase carboxyltransferase subunit alpha,accA,acetyl-CoA carboxylase carboxyltransferase subunit alpha,GO:0003989,acetyl-CoA carboxylase activity,molecular_function
+PALES_13961,accA,always essential,4,4,4,acetyl-CoA carboxylase carboxyltransferase subunit alpha,accA,acetyl-CoA carboxylase carboxyltransferase subunit alpha,GO:0006633,fatty acid biosynthetic process,biological_process
+PALES_13961,accA,always essential,4,4,4,acetyl-CoA carboxylase carboxyltransferase subunit alpha,accA,acetyl-CoA carboxylase carboxyltransferase subunit alpha,GO:0009317,acetyl-CoA carboxylase complex,cellular_component
+PALES_13981,pyrG,always essential,4,4,4,CTP synthetase,pyrG,CTP synthetase,GO:0003883,CTP synthase activity,molecular_function
+PALES_13981,pyrG,always essential,4,4,4,CTP synthetase,pyrG,CTP synthetase,GO:0006241,CTP biosynthetic process,biological_process
+PALES_13981,pyrG,always essential,4,4,4,CTP synthetase,pyrG,CTP synthetase,GO:0006221,pyrimidine nucleotide biosynthetic process,biological_process
+PALES_14781,PALES_14781,always essential,4,4,4,putative polysaccharide deacetylase,PALES_14781,putative polysaccharide deacetylase,GO:0003824,catalytic activity,molecular_function
+PALES_14781,PALES_14781,always essential,4,4,4,putative polysaccharide deacetylase,PALES_14781,putative polysaccharide deacetylase,GO:0005975,carbohydrate metabolic process,biological_process
+PALES_14781,PALES_14781,always essential,4,4,4,putative polysaccharide deacetylase,PALES_14781,putative polysaccharide deacetylase,GO:0016811,"hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides",molecular_function
+PALES_14781,PALES_14781,always essential,4,4,4,putative polysaccharide deacetylase,PALES_14781,putative polysaccharide deacetylase,GO:0016810,"hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds",molecular_function
+PALES_15321,PALES_15321,always essential,4,4,4,NA,dcd,deoxycytidine triphosphate deaminase,GO:0006229,dUTP biosynthetic process,biological_process
+PALES_15321,PALES_15321,always essential,4,4,4,NA,dcd,deoxycytidine triphosphate deaminase,GO:0008829,dCTP deaminase activity,molecular_function
+PALES_16181,PALES_16181,always essential,4,4,4,NA,ssuB,aliphatic sulfonates transport ATP-binding subunit,GO:0005524,ATP binding,molecular_function
+PALES_16181,PALES_16181,always essential,4,4,4,NA,ssuB,aliphatic sulfonates transport ATP-binding subunit,GO:0016887,ATPase activity,molecular_function
+PALES_16181,PALES_16181,always essential,4,4,4,NA,ssuB,aliphatic sulfonates transport ATP-binding subunit,GO:0005886,plasma membrane,cellular_component
+PALES_16181,PALES_16181,always essential,4,4,4,NA,ssuB,aliphatic sulfonates transport ATP-binding subunit,GO:0006820,anion transport,biological_process
+PALES_16181,PALES_16181,always essential,4,4,4,NA,ssuB,aliphatic sulfonates transport ATP-binding subunit,GO:0008509,anion transmembrane transporter activity,molecular_function
+PALES_16761,phnC,always essential,4,4,4,ATP-binding component of ABC phosphonate transporter,phnC,ATP-binding component of ABC phosphonate transporter,GO:0005524,ATP binding,molecular_function
+PALES_16761,phnC,always essential,4,4,4,ATP-binding component of ABC phosphonate transporter,phnC,ATP-binding component of ABC phosphonate transporter,GO:0015416,ATPase-coupled organic phosphonate transmembrane transporter activity,molecular_function
+PALES_16761,phnC,always essential,4,4,4,ATP-binding component of ABC phosphonate transporter,phnC,ATP-binding component of ABC phosphonate transporter,GO:0015716,organic phosphonate transport,biological_process
+PALES_16761,phnC,always essential,4,4,4,ATP-binding component of ABC phosphonate transporter,phnC,ATP-binding component of ABC phosphonate transporter,GO:0016020,membrane,cellular_component
+PALES_16761,phnC,always essential,4,4,4,ATP-binding component of ABC phosphonate transporter,phnC,ATP-binding component of ABC phosphonate transporter,GO:0016887,ATPase activity,molecular_function
+PALES_17121,flgN,always essential,4,4,4,putative export chaperone involved in flagellar synthesis,flgN,putative export chaperone involved in flagellar synthesis,GO:0005515,protein binding,molecular_function
+PALES_17121,flgN,always essential,4,4,4,putative export chaperone involved in flagellar synthesis,flgN,putative export chaperone involved in flagellar synthesis,GO:0044780,bacterial-type flagellum assembly,biological_process
+PALES_18031,PALES_18031,always essential,4,4,4,putative transporter,PALES_18031,putative transporter,GO:0016020,membrane,cellular_component
+PALES_18081,PALES_18081,always essential,4,4,4,hypothetical protein,PALES_18081,hypothetical protein,GO:0005515,protein binding,molecular_function
+PALES_18221,minE,always essential,4,4,4,cell division topological specificity factor MinE,minE,cell division topological specificity factor MinE,GO:0032955,regulation of division septum assembly,biological_process
+PALES_18221,minE,always essential,4,4,4,cell division topological specificity factor MinE,minE,cell division topological specificity factor MinE,GO:0051301,cell division,biological_process
+PALES_18251,PALES_18251,always essential,4,4,4,lipid A biosynthesis lauroyl acyltransferase,PALES_18251,lipid A biosynthesis lauroyl acyltransferase,GO:0009245,lipid A biosynthetic process,biological_process
+PALES_18251,PALES_18251,always essential,4,4,4,lipid A biosynthesis lauroyl acyltransferase,PALES_18251,lipid A biosynthesis lauroyl acyltransferase,GO:0016021,integral component of membrane,cellular_component
+PALES_18251,PALES_18251,always essential,4,4,4,lipid A biosynthesis lauroyl acyltransferase,PALES_18251,lipid A biosynthesis lauroyl acyltransferase,GO:0016740,transferase activity,molecular_function
+PALES_18591,PALES_18591,always essential,4,4,4,putative nitroreductase family protein,PALES_18591,putative nitroreductase family protein,GO:0016491,oxidoreductase activity,molecular_function
+PALES_18621,PALES_18621,always essential,4,4,4,putative periplasmic inhibitor/zinc-resistance associated protein,PALES_18621,putative periplasmic inhibitor/zinc-resistance associated protein,GO:0042597,periplasmic space,cellular_component
+PALES_18861,pgl,always essential,4,4,4,6-phosphogluconolactonase,pgl,6-phosphogluconolactonase,GO:0005975,carbohydrate metabolic process,biological_process
+PALES_18861,pgl,always essential,4,4,4,6-phosphogluconolactonase,pgl,6-phosphogluconolactonase,GO:0006098,pentose-phosphate shunt,biological_process
+PALES_18861,pgl,always essential,4,4,4,6-phosphogluconolactonase,pgl,6-phosphogluconolactonase,GO:0017057,6-phosphogluconolactonase activity,molecular_function
+PALES_18871,PALES_18871,always essential,4,4,4,keto-hydroxyglutarate-aldolase/keto-deoxy- phosphogluconate aldolase,PALES_18871,keto-hydroxyglutarate-aldolase/keto-deoxy- phosphogluconate aldolase,GO:0003824,catalytic activity,molecular_function
+PALES_18871,PALES_18871,always essential,4,4,4,keto-hydroxyglutarate-aldolase/keto-deoxy- phosphogluconate aldolase,PALES_18871,keto-hydroxyglutarate-aldolase/keto-deoxy- phosphogluconate aldolase,GO:0016829,lyase activity,molecular_function
+PALES_19001,gyrA,always essential,4,4,4,DNA gyrase subunit A,gyrA,DNA gyrase subunit A,GO:0003677,DNA binding,molecular_function
+PALES_19001,gyrA,always essential,4,4,4,DNA gyrase subunit A,gyrA,DNA gyrase subunit A,GO:0003918,"DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity",molecular_function
+PALES_19001,gyrA,always essential,4,4,4,DNA gyrase subunit A,gyrA,DNA gyrase subunit A,GO:0005524,ATP binding,molecular_function
+PALES_19001,gyrA,always essential,4,4,4,DNA gyrase subunit A,gyrA,DNA gyrase subunit A,GO:0005694,chromosome,cellular_component
+PALES_19001,gyrA,always essential,4,4,4,DNA gyrase subunit A,gyrA,DNA gyrase subunit A,GO:0006265,DNA topological change,biological_process
+PALES_19001,gyrA,always essential,4,4,4,DNA gyrase subunit A,gyrA,DNA gyrase subunit A,GO:0006259,DNA metabolic process,biological_process
+PALES_19001,gyrA,always essential,4,4,4,DNA gyrase subunit A,gyrA,DNA gyrase subunit A,GO:0003916,DNA topoisomerase activity,molecular_function
+PALES_19051,cmk,always essential,4,4,4,cytidylate kinase,cmk,cytidylate kinase,GO:0004127,cytidylate kinase activity,molecular_function
+PALES_19051,cmk,always essential,4,4,4,cytidylate kinase,cmk,cytidylate kinase,GO:0005524,ATP binding,molecular_function
+PALES_19051,cmk,always essential,4,4,4,cytidylate kinase,cmk,cytidylate kinase,GO:0006139,nucleobase-containing compound metabolic process,biological_process
+PALES_19251,gltX,always essential,4,4,4,glutamyl-tRNA synthetase,gltX,glutamyl-tRNA synthetase,GO:0004812,aminoacyl-tRNA ligase activity,molecular_function
+PALES_19251,gltX,always essential,4,4,4,glutamyl-tRNA synthetase,gltX,glutamyl-tRNA synthetase,GO:0005524,ATP binding,molecular_function
+PALES_19251,gltX,always essential,4,4,4,glutamyl-tRNA synthetase,gltX,glutamyl-tRNA synthetase,GO:0043039,tRNA aminoacylation,biological_process
+PALES_19251,gltX,always essential,4,4,4,glutamyl-tRNA synthetase,gltX,glutamyl-tRNA synthetase,GO:0000166,nucleotide binding,molecular_function
+PALES_19251,gltX,always essential,4,4,4,glutamyl-tRNA synthetase,gltX,glutamyl-tRNA synthetase,GO:0004818,glutamate-tRNA ligase activity,molecular_function
+PALES_19251,gltX,always essential,4,4,4,glutamyl-tRNA synthetase,gltX,glutamyl-tRNA synthetase,GO:0006424,glutamyl-tRNA aminoacylation,biological_process
+PALES_19251,gltX,always essential,4,4,4,glutamyl-tRNA synthetase,gltX,glutamyl-tRNA synthetase,GO:0000049,tRNA binding,molecular_function
+PALES_19251,gltX,always essential,4,4,4,glutamyl-tRNA synthetase,gltX,glutamyl-tRNA synthetase,GO:0008270,zinc ion binding,molecular_function
+PALES_19251,gltX,always essential,4,4,4,glutamyl-tRNA synthetase,gltX,glutamyl-tRNA synthetase,GO:0006418,tRNA aminoacylation for protein translation,biological_process
+PALES_19481,accD,always essential,4,4,4,acetyl-CoA carboxylase subunit beta,accD,acetyl-CoA carboxylase subunit beta,GO:0003989,acetyl-CoA carboxylase activity,molecular_function
+PALES_19481,accD,always essential,4,4,4,acetyl-CoA carboxylase subunit beta,accD,acetyl-CoA carboxylase subunit beta,GO:0006633,fatty acid biosynthetic process,biological_process
+PALES_19481,accD,always essential,4,4,4,acetyl-CoA carboxylase subunit beta,accD,acetyl-CoA carboxylase subunit beta,GO:0009317,acetyl-CoA carboxylase complex,cellular_component
+PALES_19641,xcpY,always essential,4,4,4,general secretion pathway protein L,xcpY,general secretion pathway protein L,GO:0009276,Gram-negative-bacterium-type cell wall,cellular_component
+PALES_19641,xcpY,always essential,4,4,4,general secretion pathway protein L,xcpY,general secretion pathway protein L,GO:0015627,type II protein secretion system complex,cellular_component
+PALES_19641,xcpY,always essential,4,4,4,general secretion pathway protein L,xcpY,general secretion pathway protein L,GO:0015628,protein secretion by the type II secretion system,biological_process
+PALES_19931,PALES_19931,always essential,4,4,4,NA,PALES_19931,putative transcriptional regulator,GO:0003700,DNA-binding transcription factor activity,molecular_function
+PALES_19931,PALES_19931,always essential,4,4,4,NA,PALES_19931,putative transcriptional regulator,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_20201,PALES_20201,always essential,4,4,4,hypothetical protein,PALES_20201,hypothetical protein,GO:0043022,ribosome binding,molecular_function
+PALES_20761,PALES_20761,always essential,4,4,4,"putative lipoprotein releasing system, permease protein",PALES_20761,"putative lipoprotein releasing system, permease protein",GO:0016021,integral component of membrane,cellular_component
+PALES_20761,PALES_20761,always essential,4,4,4,"putative lipoprotein releasing system, permease protein",PALES_20761,"putative lipoprotein releasing system, permease protein",GO:0042953,lipoprotein transport,biological_process
+PALES_20761,PALES_20761,always essential,4,4,4,"putative lipoprotein releasing system, permease protein",PALES_20761,"putative lipoprotein releasing system, permease protein",GO:0016020,membrane,cellular_component
+PALES_20811,lpxK,always essential,4,4,4,tetraacyldisaccharide 4'-kinase,lpxK,tetraacyldisaccharide 4'-kinase,GO:0005524,ATP binding,molecular_function
+PALES_20811,lpxK,always essential,4,4,4,tetraacyldisaccharide 4'-kinase,lpxK,tetraacyldisaccharide 4'-kinase,GO:0009029,tetraacyldisaccharide 4'-kinase activity,molecular_function
+PALES_20811,lpxK,always essential,4,4,4,tetraacyldisaccharide 4'-kinase,lpxK,tetraacyldisaccharide 4'-kinase,GO:0009245,lipid A biosynthetic process,biological_process
+PALES_20831,kdsB,always essential,4,4,4,3-deoxy-manno-octulosonate cytidylyltransferase,kdsB,3-deoxy-manno-octulosonate cytidylyltransferase,GO:0008690,3-deoxy-manno-octulosonate cytidylyltransferase activity,molecular_function
+PALES_20851,murB,always essential,4,4,4,UDP-N-acetylenolpyruvoylglucosamine reductase,murB,UDP-N-acetylenolpyruvoylglucosamine reductase,GO:0008762,UDP-N-acetylmuramate dehydrogenase activity,molecular_function
+PALES_20851,murB,always essential,4,4,4,UDP-N-acetylenolpyruvoylglucosamine reductase,murB,UDP-N-acetylenolpyruvoylglucosamine reductase,GO:0055114,oxidation-reduction process,biological_process
+PALES_20851,murB,always essential,4,4,4,UDP-N-acetylenolpyruvoylglucosamine reductase,murB,UDP-N-acetylenolpyruvoylglucosamine reductase,GO:0016491,oxidoreductase activity,molecular_function
+PALES_20851,murB,always essential,4,4,4,UDP-N-acetylenolpyruvoylglucosamine reductase,murB,UDP-N-acetylenolpyruvoylglucosamine reductase,GO:0050660,flavin adenine dinucleotide binding,molecular_function
+PALES_20851,murB,always essential,4,4,4,UDP-N-acetylenolpyruvoylglucosamine reductase,murB,UDP-N-acetylenolpyruvoylglucosamine reductase,GO:0071949,FAD binding,molecular_function
+PALES_20971,acpP,always essential,4,4,4,acyl carrier protein,acpP,acyl carrier protein,GO:0006633,fatty acid biosynthetic process,biological_process
+PALES_20971,acpP,always essential,4,4,4,acyl carrier protein,acpP,acyl carrier protein,GO:0031177,phosphopantetheine binding,molecular_function
+PALES_20991,pabC,always essential,4,4,4,4-amino-4-deoxychorismate lyase,pabC,4-amino-4-deoxychorismate lyase,GO:0008696,4-amino-4-deoxychorismate lyase activity,molecular_function
+PALES_20991,pabC,always essential,4,4,4,4-amino-4-deoxychorismate lyase,pabC,4-amino-4-deoxychorismate lyase,GO:0030170,pyridoxal phosphate binding,molecular_function
+PALES_20991,pabC,always essential,4,4,4,4-amino-4-deoxychorismate lyase,pabC,4-amino-4-deoxychorismate lyase,GO:0046656,folic acid biosynthetic process,biological_process
+PALES_20991,pabC,always essential,4,4,4,4-amino-4-deoxychorismate lyase,pabC,4-amino-4-deoxychorismate lyase,GO:0003824,catalytic activity,molecular_function
+PALES_21121,etfA,always essential,4,4,4,electron transfer flavoprotein alpha-subunit,etfA,electron transfer flavoprotein alpha-subunit,GO:0009055,electron transfer activity,molecular_function
+PALES_21121,etfA,always essential,4,4,4,electron transfer flavoprotein alpha-subunit,etfA,electron transfer flavoprotein alpha-subunit,GO:0050660,flavin adenine dinucleotide binding,molecular_function
+PALES_21301,PALES_21301,always essential,4,4,4,putative major facilitator superfamily (MFS) transporter,PALES_21301,putative major facilitator superfamily (MFS) transporter,GO:0005887,integral component of plasma membrane,cellular_component
+PALES_21301,PALES_21301,always essential,4,4,4,putative major facilitator superfamily (MFS) transporter,PALES_21301,putative major facilitator superfamily (MFS) transporter,GO:0055085,transmembrane transport,biological_process
+PALES_21831,PALES_21831,always essential,4,4,4,putative two-component response regulator,PALES_21831,putative two-component response regulator,GO:0000160,phosphorelay signal transduction system,biological_process
+PALES_22181,PALES_22181,always essential,4,4,4,putative transcriptional regulator,PALES_22181,putative transcriptional regulator,GO:0003700,DNA-binding transcription factor activity,molecular_function
+PALES_22181,PALES_22181,always essential,4,4,4,putative transcriptional regulator,PALES_22181,putative transcriptional regulator,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_22351,htpX,always essential,4,4,4,heat shock protein HtpX,htpX,heat shock protein HtpX,GO:0004222,metalloendopeptidase activity,molecular_function
+PALES_22351,htpX,always essential,4,4,4,heat shock protein HtpX,htpX,heat shock protein HtpX,GO:0006508,proteolysis,biological_process
+PALES_22531,PALES_22531,always essential,4,4,4,NA,PALES_22531,putative RNA polymerase sigma factor,GO:0003677,DNA binding,molecular_function
+PALES_22531,PALES_22531,always essential,4,4,4,NA,PALES_22531,putative RNA polymerase sigma factor,GO:0003700,DNA-binding transcription factor activity,molecular_function
+PALES_22531,PALES_22531,always essential,4,4,4,NA,PALES_22531,putative RNA polymerase sigma factor,GO:0006352,"DNA-templated transcription, initiation",biological_process
+PALES_22531,PALES_22531,always essential,4,4,4,NA,PALES_22531,putative RNA polymerase sigma factor,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_22531,PALES_22531,always essential,4,4,4,NA,PALES_22531,putative RNA polymerase sigma factor,GO:0016987,sigma factor activity,molecular_function
+PALES_23101,PALES_23101,always essential,4,4,4,putative transcriptional regulator,PALES_23101,putative transcriptional regulator,GO:0003677,DNA binding,molecular_function
+PALES_23421,rplT,always essential,4,4,4,50S ribosomal protein L20,rplT,50S ribosomal protein L20,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_23421,rplT,always essential,4,4,4,50S ribosomal protein L20,rplT,50S ribosomal protein L20,GO:0005840,ribosome,cellular_component
+PALES_23421,rplT,always essential,4,4,4,50S ribosomal protein L20,rplT,50S ribosomal protein L20,GO:0006412,translation,biological_process
+PALES_23421,rplT,always essential,4,4,4,50S ribosomal protein L20,rplT,50S ribosomal protein L20,GO:0019843,rRNA binding,molecular_function
+PALES_23441,pheT,always essential,4,4,4,phenylalanyl-tRNA synthetase subunit beta,pheT,phenylalanyl-tRNA synthetase subunit beta,GO:0000287,magnesium ion binding,molecular_function
+PALES_23441,pheT,always essential,4,4,4,phenylalanyl-tRNA synthetase subunit beta,pheT,phenylalanyl-tRNA synthetase subunit beta,GO:0003723,RNA binding,molecular_function
+PALES_23441,pheT,always essential,4,4,4,phenylalanyl-tRNA synthetase subunit beta,pheT,phenylalanyl-tRNA synthetase subunit beta,GO:0005524,ATP binding,molecular_function
+PALES_23441,pheT,always essential,4,4,4,phenylalanyl-tRNA synthetase subunit beta,pheT,phenylalanyl-tRNA synthetase subunit beta,GO:0006432,phenylalanyl-tRNA aminoacylation,biological_process
+PALES_23441,pheT,always essential,4,4,4,phenylalanyl-tRNA synthetase subunit beta,pheT,phenylalanyl-tRNA synthetase subunit beta,GO:0004826,phenylalanine-tRNA ligase activity,molecular_function
+PALES_23441,pheT,always essential,4,4,4,phenylalanyl-tRNA synthetase subunit beta,pheT,phenylalanyl-tRNA synthetase subunit beta,GO:0000049,tRNA binding,molecular_function
+PALES_23481,PALES_23481,always essential,4,4,4,transposase A,PALES_23481,transposase A,GO:0003677,DNA binding,molecular_function
+PALES_23481,PALES_23481,always essential,4,4,4,transposase A,PALES_23481,transposase A,GO:0004803,transposase activity,molecular_function
+PALES_23481,PALES_23481,always essential,4,4,4,transposase A,PALES_23481,transposase A,GO:0006313,"transposition, DNA-mediated",biological_process
+PALES_23491,PALES_23491,always essential,4,4,4,insertion sequence IS407 OrfB,PALES_23491,insertion sequence IS407 OrfB,GO:0015074,DNA integration,biological_process
+PALES_23491,PALES_23491,always essential,4,4,4,insertion sequence IS407 OrfB,PALES_23491,insertion sequence IS407 OrfB,GO:0003676,nucleic acid binding,molecular_function
+PALES_23721,PALES_23721,always essential,4,4,4,NA,PALES_23721,transposase A,GO:0003677,DNA binding,molecular_function
+PALES_23721,PALES_23721,always essential,4,4,4,NA,PALES_23721,transposase A,GO:0004803,transposase activity,molecular_function
+PALES_23721,PALES_23721,always essential,4,4,4,NA,PALES_23721,transposase A,GO:0006313,"transposition, DNA-mediated",biological_process
+PALES_24001,PALES_24001,always essential,4,4,4,putative transcriptional regulator,PALES_24001,putative transcriptional regulator,GO:0003677,DNA binding,molecular_function
+PALES_24001,PALES_24001,always essential,4,4,4,putative transcriptional regulator,PALES_24001,putative transcriptional regulator,GO:0003700,DNA-binding transcription factor activity,molecular_function
+PALES_24001,PALES_24001,always essential,4,4,4,putative transcriptional regulator,PALES_24001,putative transcriptional regulator,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_24001,PALES_24001,always essential,4,4,4,putative transcriptional regulator,PALES_24001,putative transcriptional regulator,GO:0043565,sequence-specific DNA binding,molecular_function
+PALES_24761,purB,always essential,4,4,4,adenylosuccinate lyase,purB,adenylosuccinate lyase,GO:0004018,"N6-(1,2-dicarboxyethyl)AMP AMP-lyase (fumarate-forming) activity",molecular_function
+PALES_24761,purB,always essential,4,4,4,adenylosuccinate lyase,purB,adenylosuccinate lyase,GO:0009152,purine ribonucleotide biosynthetic process,biological_process
+PALES_24761,purB,always essential,4,4,4,adenylosuccinate lyase,purB,adenylosuccinate lyase,GO:0003824,catalytic activity,molecular_function
+PALES_24761,purB,always essential,4,4,4,adenylosuccinate lyase,purB,adenylosuccinate lyase,GO:0006188,IMP biosynthetic process,biological_process
+PALES_24931,serS,always essential,4,4,4,seryl-tRNA synthetase,serS,seryl-tRNA synthetase,GO:0000166,nucleotide binding,molecular_function
+PALES_24931,serS,always essential,4,4,4,seryl-tRNA synthetase,serS,seryl-tRNA synthetase,GO:0004828,serine-tRNA ligase activity,molecular_function
+PALES_24931,serS,always essential,4,4,4,seryl-tRNA synthetase,serS,seryl-tRNA synthetase,GO:0005524,ATP binding,molecular_function
+PALES_24931,serS,always essential,4,4,4,seryl-tRNA synthetase,serS,seryl-tRNA synthetase,GO:0006434,seryl-tRNA aminoacylation,biological_process
+PALES_24931,serS,always essential,4,4,4,seryl-tRNA synthetase,serS,seryl-tRNA synthetase,GO:0004812,aminoacyl-tRNA ligase activity,molecular_function
+PALES_24931,serS,always essential,4,4,4,seryl-tRNA synthetase,serS,seryl-tRNA synthetase,GO:0006418,tRNA aminoacylation for protein translation,biological_process
+PALES_25091,PALES_25091,always essential,4,4,4,NA,PALES_25091,DNA methylase N-4/N-6,GO:0003677,DNA binding,molecular_function
+PALES_25091,PALES_25091,always essential,4,4,4,NA,PALES_25091,DNA methylase N-4/N-6,GO:0015667,site-specific DNA-methyltransferase (cytosine-N4-specific) activity,molecular_function
+PALES_25091,PALES_25091,always essential,4,4,4,NA,PALES_25091,DNA methylase N-4/N-6,GO:0090124,N-4 methylation of cytosine,biological_process
+PALES_25091,PALES_25091,always essential,4,4,4,NA,PALES_25091,DNA methylase N-4/N-6,GO:0006306,DNA methylation,biological_process
+PALES_25091,PALES_25091,always essential,4,4,4,NA,PALES_25091,DNA methylase N-4/N-6,GO:0008170,N-methyltransferase activity,molecular_function
+PALES_25121,PALES_25121,always essential,4,4,4,NA,PALES_25121,"transcriptional regulator, LuxR family",GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_25121,PALES_25121,always essential,4,4,4,NA,PALES_25121,"transcriptional regulator, LuxR family",GO:0003677,DNA binding,molecular_function
+PALES_25731,PALES_25731,always essential,4,4,4,putative acyl-CoA dehydrogenase,PALES_25731,putative acyl-CoA dehydrogenase,GO:0016627,"oxidoreductase activity, acting on the CH-CH group of donors",molecular_function
+PALES_25731,PALES_25731,always essential,4,4,4,putative acyl-CoA dehydrogenase,PALES_25731,putative acyl-CoA dehydrogenase,GO:0055114,oxidation-reduction process,biological_process
+PALES_25731,PALES_25731,always essential,4,4,4,putative acyl-CoA dehydrogenase,PALES_25731,putative acyl-CoA dehydrogenase,GO:0050660,flavin adenine dinucleotide binding,molecular_function
+PALES_26101,PALES_26101,always essential,4,4,4,NA,PALES_26101,Heavy metal transport/detoxification protein,GO:0030001,metal ion transport,biological_process
+PALES_26101,PALES_26101,always essential,4,4,4,NA,PALES_26101,Heavy metal transport/detoxification protein,GO:0046872,metal ion binding,molecular_function
+PALES_26271,PALES_26271,always essential,4,4,4,NA,PALES_26271,"efflux transporter, RND family, MFP subunit",GO:0016020,membrane,cellular_component
+PALES_26271,PALES_26271,always essential,4,4,4,NA,PALES_26271,"efflux transporter, RND family, MFP subunit",GO:0022857,transmembrane transporter activity,molecular_function
+PALES_26271,PALES_26271,always essential,4,4,4,NA,PALES_26271,"efflux transporter, RND family, MFP subunit",GO:0055085,transmembrane transport,biological_process
+PALES_27741,czcB,always essential,4,4,4,Resistance-Nodulation-Cell Division (RND) divalent metal cation efflux membrane fusion protein CzcB precursor,czcB,Resistance-Nodulation-Cell Division (RND) divalent metal cation efflux membrane fusion protein CzcB precursor,GO:0016020,membrane,cellular_component
+PALES_27741,czcB,always essential,4,4,4,Resistance-Nodulation-Cell Division (RND) divalent metal cation efflux membrane fusion protein CzcB precursor,czcB,Resistance-Nodulation-Cell Division (RND) divalent metal cation efflux membrane fusion protein CzcB precursor,GO:0022857,transmembrane transporter activity,molecular_function
+PALES_27741,czcB,always essential,4,4,4,Resistance-Nodulation-Cell Division (RND) divalent metal cation efflux membrane fusion protein CzcB precursor,czcB,Resistance-Nodulation-Cell Division (RND) divalent metal cation efflux membrane fusion protein CzcB precursor,GO:0055085,transmembrane transport,biological_process
+PALES_27861,catB,always essential,4,4,4,muconate cycloisomerase I,catB,muconate cycloisomerase I,GO:0018849,muconate cycloisomerase activity,molecular_function
+PALES_27861,catB,always essential,4,4,4,muconate cycloisomerase I,catB,muconate cycloisomerase I,GO:0018850,chloromuconate cycloisomerase activity,molecular_function
+PALES_27861,catB,always essential,4,4,4,muconate cycloisomerase I,catB,muconate cycloisomerase I,GO:0030145,manganese ion binding,molecular_function
+PALES_27861,catB,always essential,4,4,4,muconate cycloisomerase I,catB,muconate cycloisomerase I,GO:0009063,cellular amino acid catabolic process,biological_process
+PALES_27971,PALES_27971,always essential,4,4,4,hypothetical protein,PALES_27971,hypothetical protein,GO:0005515,protein binding,molecular_function
+PALES_28001,oprN,always essential,4,4,4,Multidrug efflux outer membrane protein OprN precursor,oprN,Multidrug efflux outer membrane protein OprN precursor,GO:0016020,membrane,cellular_component
+PALES_28001,oprN,always essential,4,4,4,Multidrug efflux outer membrane protein OprN precursor,oprN,Multidrug efflux outer membrane protein OprN precursor,GO:0022857,transmembrane transporter activity,molecular_function
+PALES_28001,oprN,always essential,4,4,4,Multidrug efflux outer membrane protein OprN precursor,oprN,Multidrug efflux outer membrane protein OprN precursor,GO:0055085,transmembrane transport,biological_process
+PALES_28001,oprN,always essential,4,4,4,Multidrug efflux outer membrane protein OprN precursor,oprN,Multidrug efflux outer membrane protein OprN precursor,GO:0015562,efflux transmembrane transporter activity,molecular_function
+PALES_28081,PALES_28081,always essential,4,4,4,putative transcriptional regulator,PALES_28081,putative transcriptional regulator,GO:0003700,DNA-binding transcription factor activity,molecular_function
+PALES_28081,PALES_28081,always essential,4,4,4,putative transcriptional regulator,PALES_28081,putative transcriptional regulator,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_28081,PALES_28081,always essential,4,4,4,putative transcriptional regulator,PALES_28081,putative transcriptional regulator,GO:0043565,sequence-specific DNA binding,molecular_function
+PALES_28081,PALES_28081,always essential,4,4,4,putative transcriptional regulator,PALES_28081,putative transcriptional regulator,GO:0003677,DNA binding,molecular_function
+PALES_28161,PALES_28161,always essential,4,4,4,putative two-component sensor,PALES_28161,putative two-component sensor,GO:0000155,phosphorelay sensor kinase activity,molecular_function
+PALES_28161,PALES_28161,always essential,4,4,4,putative two-component sensor,PALES_28161,putative two-component sensor,GO:0007165,signal transduction,biological_process
+PALES_28161,PALES_28161,always essential,4,4,4,putative two-component sensor,PALES_28161,putative two-component sensor,GO:0016310,phosphorylation,biological_process
+PALES_28161,PALES_28161,always essential,4,4,4,putative two-component sensor,PALES_28161,putative two-component sensor,GO:0016772,"transferase activity, transferring phosphorus-containing groups",molecular_function
+PALES_28861,PALES_28861,always essential,4,4,4,"putative ABC transporter, periplasmic substrate-binding protein",PALES_28861,"putative ABC transporter, periplasmic substrate-binding protein",GO:0030001,metal ion transport,biological_process
+PALES_28861,PALES_28861,always essential,4,4,4,"putative ABC transporter, periplasmic substrate-binding protein",PALES_28861,"putative ABC transporter, periplasmic substrate-binding protein",GO:0046872,metal ion binding,molecular_function
+PALES_28991,pvdE,always essential,4,4,4,pyoverdine biosynthesis protein PvdE,pvdE,pyoverdine biosynthesis protein PvdE,GO:0005524,ATP binding,molecular_function
+PALES_28991,pvdE,always essential,4,4,4,pyoverdine biosynthesis protein PvdE,pvdE,pyoverdine biosynthesis protein PvdE,GO:0016021,integral component of membrane,cellular_component
+PALES_28991,pvdE,always essential,4,4,4,pyoverdine biosynthesis protein PvdE,pvdE,pyoverdine biosynthesis protein PvdE,GO:0042626,ATPase-coupled transmembrane transporter activity,molecular_function
+PALES_28991,pvdE,always essential,4,4,4,pyoverdine biosynthesis protein PvdE,pvdE,pyoverdine biosynthesis protein PvdE,GO:0055085,transmembrane transport,biological_process
+PALES_28991,pvdE,always essential,4,4,4,pyoverdine biosynthesis protein PvdE,pvdE,pyoverdine biosynthesis protein PvdE,GO:0016887,ATPase activity,molecular_function
+PALES_28991,pvdE,always essential,4,4,4,pyoverdine biosynthesis protein PvdE,pvdE,pyoverdine biosynthesis protein PvdE,GO:0015833,peptide transport,biological_process
+PALES_28991,pvdE,always essential,4,4,4,pyoverdine biosynthesis protein PvdE,pvdE,pyoverdine biosynthesis protein PvdE,GO:1904680,peptide transmembrane transporter activity,molecular_function
+PALES_29021,pvdE2,always essential,4,4,4,pyoverdine biosynthesis protein,pvdE2,pyoverdine biosynthesis protein,GO:0005524,ATP binding,molecular_function
+PALES_29021,pvdE2,always essential,4,4,4,pyoverdine biosynthesis protein,pvdE2,pyoverdine biosynthesis protein,GO:0016021,integral component of membrane,cellular_component
+PALES_29021,pvdE2,always essential,4,4,4,pyoverdine biosynthesis protein,pvdE2,pyoverdine biosynthesis protein,GO:0042626,ATPase-coupled transmembrane transporter activity,molecular_function
+PALES_29021,pvdE2,always essential,4,4,4,pyoverdine biosynthesis protein,pvdE2,pyoverdine biosynthesis protein,GO:0055085,transmembrane transport,biological_process
+PALES_29021,pvdE2,always essential,4,4,4,pyoverdine biosynthesis protein,pvdE2,pyoverdine biosynthesis protein,GO:0016887,ATPase activity,molecular_function
+PALES_29021,pvdE2,always essential,4,4,4,pyoverdine biosynthesis protein,pvdE2,pyoverdine biosynthesis protein,GO:0015833,peptide transport,biological_process
+PALES_29021,pvdE2,always essential,4,4,4,pyoverdine biosynthesis protein,pvdE2,pyoverdine biosynthesis protein,GO:1904680,peptide transmembrane transporter activity,molecular_function
+PALES_29051,pvdE3,always essential,4,4,4,pyoverdine biosynthesis protein,pvdE3,pyoverdine biosynthesis protein,GO:0005524,ATP binding,molecular_function
+PALES_29051,pvdE3,always essential,4,4,4,pyoverdine biosynthesis protein,pvdE3,pyoverdine biosynthesis protein,GO:0016021,integral component of membrane,cellular_component
+PALES_29051,pvdE3,always essential,4,4,4,pyoverdine biosynthesis protein,pvdE3,pyoverdine biosynthesis protein,GO:0042626,ATPase-coupled transmembrane transporter activity,molecular_function
+PALES_29051,pvdE3,always essential,4,4,4,pyoverdine biosynthesis protein,pvdE3,pyoverdine biosynthesis protein,GO:0055085,transmembrane transport,biological_process
+PALES_29051,pvdE3,always essential,4,4,4,pyoverdine biosynthesis protein,pvdE3,pyoverdine biosynthesis protein,GO:0016887,ATPase activity,molecular_function
+PALES_29051,pvdE3,always essential,4,4,4,pyoverdine biosynthesis protein,pvdE3,pyoverdine biosynthesis protein,GO:0015833,peptide transport,biological_process
+PALES_29051,pvdE3,always essential,4,4,4,pyoverdine biosynthesis protein,pvdE3,pyoverdine biosynthesis protein,GO:1904680,peptide transmembrane transporter activity,molecular_function
+PALES_29061,pvdF,always essential,4,4,4,pyoverdine synthetase F,pvdF,pyoverdine synthetase F,GO:0009058,biosynthetic process,biological_process
+PALES_29061,pvdF,always essential,4,4,4,pyoverdine synthetase F,pvdF,pyoverdine synthetase F,GO:0016742,"hydroxymethyl-, formyl- and related transferase activity",molecular_function
+PALES_29151,PALES_29151,always essential,4,4,4,RNA polymerase sigma factor,PALES_29151,RNA polymerase sigma factor,GO:0003700,DNA-binding transcription factor activity,molecular_function
+PALES_29151,PALES_29151,always essential,4,4,4,RNA polymerase sigma factor,PALES_29151,RNA polymerase sigma factor,GO:0006352,"DNA-templated transcription, initiation",biological_process
+PALES_29151,PALES_29151,always essential,4,4,4,RNA polymerase sigma factor,PALES_29151,RNA polymerase sigma factor,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_29151,PALES_29151,always essential,4,4,4,RNA polymerase sigma factor,PALES_29151,RNA polymerase sigma factor,GO:0003677,DNA binding,molecular_function
+PALES_29151,PALES_29151,always essential,4,4,4,RNA polymerase sigma factor,PALES_29151,RNA polymerase sigma factor,GO:0016987,sigma factor activity,molecular_function
+PALES_29261,PALES_29261,always essential,4,4,4,putative transcriptional regulator,PALES_29261,putative transcriptional regulator,GO:0000160,phosphorelay signal transduction system,biological_process
+PALES_29261,PALES_29261,always essential,4,4,4,putative transcriptional regulator,PALES_29261,putative transcriptional regulator,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_29261,PALES_29261,always essential,4,4,4,putative transcriptional regulator,PALES_29261,putative transcriptional regulator,GO:0003677,DNA binding,molecular_function
+PALES_29731,PALES_29731,always essential,4,4,4,putative acyl-CoA dehydrogenase,PALES_29731,putative acyl-CoA dehydrogenase,GO:0016627,"oxidoreductase activity, acting on the CH-CH group of donors",molecular_function
+PALES_29731,PALES_29731,always essential,4,4,4,putative acyl-CoA dehydrogenase,PALES_29731,putative acyl-CoA dehydrogenase,GO:0050660,flavin adenine dinucleotide binding,molecular_function
+PALES_29731,PALES_29731,always essential,4,4,4,putative acyl-CoA dehydrogenase,PALES_29731,putative acyl-CoA dehydrogenase,GO:0055114,oxidation-reduction process,biological_process
+PALES_29841,PALES_29841,always essential,4,4,4,gluconokinase,PALES_29841,gluconokinase,GO:0005975,carbohydrate metabolic process,biological_process
+PALES_29841,PALES_29841,always essential,4,4,4,gluconokinase,PALES_29841,gluconokinase,GO:0016301,kinase activity,molecular_function
+PALES_30431,PALES_30431,always essential,4,4,4,putative 2-ketogluconate kinase,PALES_30431,putative 2-ketogluconate kinase,GO:0016773,"phosphotransferase activity, alcohol group as acceptor",molecular_function
+PALES_31321,hcnA,always essential,4,4,4,hydrogen cyanide synthase HcnA,hcnA,hydrogen cyanide synthase HcnA,GO:0009055,electron transfer activity,molecular_function
+PALES_31321,hcnA,always essential,4,4,4,hydrogen cyanide synthase HcnA,hcnA,hydrogen cyanide synthase HcnA,GO:0051536,iron-sulfur cluster binding,molecular_function
+PALES_31781,PALES_31781,always essential,4,4,4,putative Mg(2+) transporter,PALES_31781,putative Mg(2+) transporter,GO:0016020,membrane,cellular_component
+PALES_31901,PALES_31901,always essential,4,4,4,putative histidine kinase,PALES_31901,putative histidine kinase,GO:0000160,phosphorelay signal transduction system,biological_process
+PALES_32231,PALES_32231,always essential,4,4,4,putative esterase/deacetylase,PALES_32231,putative esterase/deacetylase,GO:0016787,hydrolase activity,molecular_function
+PALES_32481,PALES_32481,always essential,4,4,4,NA,PALES_32481,hypothetical protein,GO:0006807,nitrogen compound metabolic process,biological_process
+PALES_32591,PALES_32591,always essential,4,4,4,putative pyridoxal-phosphate dependent enzyme,PALES_32591,putative pyridoxal-phosphate dependent enzyme,GO:0003824,catalytic activity,molecular_function
+PALES_33051,PALES_33051,always essential,4,4,4,multidrug efflux protein,PALES_33051,multidrug efflux protein,GO:0015562,efflux transmembrane transporter activity,molecular_function
+PALES_33051,PALES_33051,always essential,4,4,4,multidrug efflux protein,PALES_33051,multidrug efflux protein,GO:0016021,integral component of membrane,cellular_component
+PALES_33051,PALES_33051,always essential,4,4,4,multidrug efflux protein,PALES_33051,multidrug efflux protein,GO:0042908,xenobiotic transport,biological_process
+PALES_33051,PALES_33051,always essential,4,4,4,multidrug efflux protein,PALES_33051,multidrug efflux protein,GO:0016020,membrane,cellular_component
+PALES_33051,PALES_33051,always essential,4,4,4,multidrug efflux protein,PALES_33051,multidrug efflux protein,GO:0022857,transmembrane transporter activity,molecular_function
+PALES_33051,PALES_33051,always essential,4,4,4,multidrug efflux protein,PALES_33051,multidrug efflux protein,GO:0055085,transmembrane transport,biological_process
+PALES_33151,fahA,always essential,4,4,4,fumarylacetoacetase,fahA,fumarylacetoacetase,GO:0004334,fumarylacetoacetase activity,molecular_function
+PALES_33151,fahA,always essential,4,4,4,fumarylacetoacetase,fahA,fumarylacetoacetase,GO:0009072,aromatic amino acid family metabolic process,biological_process
+PALES_33151,fahA,always essential,4,4,4,fumarylacetoacetase,fahA,fumarylacetoacetase,GO:0003824,catalytic activity,molecular_function
+PALES_33351,pqqD,always essential,4,4,4,pyrroloquinoline quinone biosynthesis protein PqqD,pqqD,pyrroloquinoline quinone biosynthesis protein PqqD,GO:0018189,pyrroloquinoline quinone biosynthetic process,biological_process
+PALES_33351,pqqD,always essential,4,4,4,pyrroloquinoline quinone biosynthesis protein PqqD,pqqD,pyrroloquinoline quinone biosynthesis protein PqqD,GO:0048038,quinone binding,molecular_function
+PALES_33421,PALES_33421,always essential,4,4,4,putative two-component response regulator,PALES_33421,putative two-component response regulator,GO:0000160,phosphorelay signal transduction system,biological_process
+PALES_33421,PALES_33421,always essential,4,4,4,putative two-component response regulator,PALES_33421,putative two-component response regulator,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_33421,PALES_33421,always essential,4,4,4,putative two-component response regulator,PALES_33421,putative two-component response regulator,GO:0003677,DNA binding,molecular_function
+PALES_33421,PALES_33421,always essential,4,4,4,putative two-component response regulator,PALES_33421,putative two-component response regulator,GO:0045893,"positive regulation of transcription, DNA-templated",biological_process
+PALES_33431,PALES_33431,always essential,4,4,4,putative two-component sensor,PALES_33431,putative two-component sensor,GO:0000155,phosphorelay sensor kinase activity,molecular_function
+PALES_33431,PALES_33431,always essential,4,4,4,putative two-component sensor,PALES_33431,putative two-component sensor,GO:0000160,phosphorelay signal transduction system,biological_process
+PALES_33431,PALES_33431,always essential,4,4,4,putative two-component sensor,PALES_33431,putative two-component sensor,GO:0016021,integral component of membrane,cellular_component
+PALES_33431,PALES_33431,always essential,4,4,4,putative two-component sensor,PALES_33431,putative two-component sensor,GO:0046983,protein dimerization activity,molecular_function
+PALES_33431,PALES_33431,always essential,4,4,4,putative two-component sensor,PALES_33431,putative two-component sensor,GO:0045893,"positive regulation of transcription, DNA-templated",biological_process
+PALES_33571,PALES_33571,always essential,4,4,4,putative 5-carboxymethyl-2-hydroxymuconate isomerase,PALES_33571,putative 5-carboxymethyl-2-hydroxymuconate isomerase,GO:0008704,5-carboxymethyl-2-hydroxymuconate delta-isomerase activity,molecular_function
+PALES_33571,PALES_33571,always essential,4,4,4,putative 5-carboxymethyl-2-hydroxymuconate isomerase,PALES_33571,putative 5-carboxymethyl-2-hydroxymuconate isomerase,GO:0019439,aromatic compound catabolic process,biological_process
+PALES_33731,rbsK,always essential,4,4,4,ribokinase,rbsK,ribokinase,GO:0004747,ribokinase activity,molecular_function
+PALES_33731,rbsK,always essential,4,4,4,ribokinase,rbsK,ribokinase,GO:0006014,D-ribose metabolic process,biological_process
+PALES_33731,rbsK,always essential,4,4,4,ribokinase,rbsK,ribokinase,GO:0016301,kinase activity,molecular_function
+PALES_33731,rbsK,always essential,4,4,4,ribokinase,rbsK,ribokinase,GO:0016773,"phosphotransferase activity, alcohol group as acceptor",molecular_function
+PALES_34191,phzG2,always essential,4,4,4,putative pyridoxamine 5'-phosphate oxidase,phzG2,putative pyridoxamine 5'-phosphate oxidase,GO:0016638,"oxidoreductase activity, acting on the CH-NH2 group of donors",molecular_function
+PALES_34191,phzG2,always essential,4,4,4,putative pyridoxamine 5'-phosphate oxidase,phzG2,putative pyridoxamine 5'-phosphate oxidase,GO:0055114,oxidation-reduction process,biological_process
+PALES_34191,phzG2,always essential,4,4,4,putative pyridoxamine 5'-phosphate oxidase,phzG2,putative pyridoxamine 5'-phosphate oxidase,GO:0004733,pyridoxamine-phosphate oxidase activity,molecular_function
+PALES_34191,phzG2,always essential,4,4,4,putative pyridoxamine 5'-phosphate oxidase,phzG2,putative pyridoxamine 5'-phosphate oxidase,GO:0008615,pyridoxine biosynthetic process,biological_process
+PALES_34191,phzG2,always essential,4,4,4,putative pyridoxamine 5'-phosphate oxidase,phzG2,putative pyridoxamine 5'-phosphate oxidase,GO:0010181,FMN binding,molecular_function
+PALES_34191,phzG2,always essential,4,4,4,putative pyridoxamine 5'-phosphate oxidase,phzG2,putative pyridoxamine 5'-phosphate oxidase,GO:0048037,obsolete cofactor binding,molecular_function
+PALES_34201,phzF2,always essential,4,4,4,putative phenazine biosynthesis protein,phzF2,putative phenazine biosynthesis protein,GO:0003824,catalytic activity,molecular_function
+PALES_34201,phzF2,always essential,4,4,4,putative phenazine biosynthesis protein,phzF2,putative phenazine biosynthesis protein,GO:0009058,biosynthetic process,biological_process
+PALES_34211,phzE2,always essential,4,4,4,phenazine biosynthesis protein PhzE,phzE2,phenazine biosynthesis protein PhzE,GO:0009058,biosynthetic process,biological_process
+PALES_34221,phzD2,always essential,4,4,4,phenazine biosynthesis protein PhzD,phzD2,phenazine biosynthesis protein PhzD,GO:0008908,isochorismatase activity,molecular_function
+PALES_34221,phzD2,always essential,4,4,4,phenazine biosynthesis protein PhzD,phzD2,phenazine biosynthesis protein PhzD,GO:0003824,catalytic activity,molecular_function
+PALES_34231,phzC2,always essential,4,4,4,phenazine biosynthesis protein PhzC,phzC2,phenazine biosynthesis protein PhzC,GO:0003849,3-deoxy-7-phosphoheptulonate synthase activity,molecular_function
+PALES_34231,phzC2,always essential,4,4,4,phenazine biosynthesis protein PhzC,phzC2,phenazine biosynthesis protein PhzC,GO:0009073,aromatic amino acid family biosynthetic process,biological_process
+PALES_34231,phzC2,always essential,4,4,4,phenazine biosynthesis protein PhzC,phzC2,phenazine biosynthesis protein PhzC,GO:0003824,catalytic activity,molecular_function
+PALES_34241,phzG,always essential,4,4,4,putative phenazine biosynthesis protein,phzG,putative phenazine biosynthesis protein,GO:0017000,antibiotic biosynthetic process,biological_process
+PALES_34251,phzA2,always essential,4,4,4,putative phenazine biosynthesis protein,phzA2,putative phenazine biosynthesis protein,GO:0017000,antibiotic biosynthetic process,biological_process
+PALES_34251,phzA2,always essential,4,4,4,putative phenazine biosynthesis protein,phzA2,putative phenazine biosynthesis protein,GO:0002047,phenazine biosynthetic process,biological_process
+PALES_34651,PALES_34651,always essential,4,4,4,putative transcriptional regulator,PALES_34651,putative transcriptional regulator,GO:0003700,DNA-binding transcription factor activity,molecular_function
+PALES_34651,PALES_34651,always essential,4,4,4,putative transcriptional regulator,PALES_34651,putative transcriptional regulator,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_35351,glnS,always essential,4,4,4,glutaminyl-tRNA synthetase,glnS,glutaminyl-tRNA synthetase,GO:0000166,nucleotide binding,molecular_function
+PALES_35351,glnS,always essential,4,4,4,glutaminyl-tRNA synthetase,glnS,glutaminyl-tRNA synthetase,GO:0004812,aminoacyl-tRNA ligase activity,molecular_function
+PALES_35351,glnS,always essential,4,4,4,glutaminyl-tRNA synthetase,glnS,glutaminyl-tRNA synthetase,GO:0005524,ATP binding,molecular_function
+PALES_35351,glnS,always essential,4,4,4,glutaminyl-tRNA synthetase,glnS,glutaminyl-tRNA synthetase,GO:0006418,tRNA aminoacylation for protein translation,biological_process
+PALES_35351,glnS,always essential,4,4,4,glutaminyl-tRNA synthetase,glnS,glutaminyl-tRNA synthetase,GO:0005737,cytoplasm,cellular_component
+PALES_35351,glnS,always essential,4,4,4,glutaminyl-tRNA synthetase,glnS,glutaminyl-tRNA synthetase,GO:0043039,tRNA aminoacylation,biological_process
+PALES_35351,glnS,always essential,4,4,4,glutaminyl-tRNA synthetase,glnS,glutaminyl-tRNA synthetase,GO:0006412,translation,biological_process
+PALES_35351,glnS,always essential,4,4,4,glutaminyl-tRNA synthetase,glnS,glutaminyl-tRNA synthetase,GO:0004819,glutamine-tRNA ligase activity,molecular_function
+PALES_35351,glnS,always essential,4,4,4,glutaminyl-tRNA synthetase,glnS,glutaminyl-tRNA synthetase,GO:0006425,glutaminyl-tRNA aminoacylation,biological_process
+PALES_35371,PALES_35371,always essential,4,4,4,"UDP-2,3-diacylglucosamine hydrolase",PALES_35371,"UDP-2,3-diacylglucosamine hydrolase",GO:0016787,hydrolase activity,molecular_function
+PALES_35371,PALES_35371,always essential,4,4,4,"UDP-2,3-diacylglucosamine hydrolase",PALES_35371,"UDP-2,3-diacylglucosamine hydrolase",GO:0005737,cytoplasm,cellular_component
+PALES_35371,PALES_35371,always essential,4,4,4,"UDP-2,3-diacylglucosamine hydrolase",PALES_35371,"UDP-2,3-diacylglucosamine hydrolase",GO:0009245,lipid A biosynthetic process,biological_process
+PALES_35371,PALES_35371,always essential,4,4,4,"UDP-2,3-diacylglucosamine hydrolase",PALES_35371,"UDP-2,3-diacylglucosamine hydrolase",GO:0016462,pyrophosphatase activity,molecular_function
+PALES_35421,acnB,always essential,4,4,4,bifunctional aconitate hydratase 2/2-methylisocitrate dehydratase,acnB,bifunctional aconitate hydratase 2/2-methylisocitrate dehydratase,GO:0003994,aconitate hydratase activity,molecular_function
+PALES_35421,acnB,always essential,4,4,4,bifunctional aconitate hydratase 2/2-methylisocitrate dehydratase,acnB,bifunctional aconitate hydratase 2/2-methylisocitrate dehydratase,GO:0006099,tricarboxylic acid cycle,biological_process
+PALES_35421,acnB,always essential,4,4,4,bifunctional aconitate hydratase 2/2-methylisocitrate dehydratase,acnB,bifunctional aconitate hydratase 2/2-methylisocitrate dehydratase,GO:0005829,cytosol,cellular_component
+PALES_35421,acnB,always essential,4,4,4,bifunctional aconitate hydratase 2/2-methylisocitrate dehydratase,acnB,bifunctional aconitate hydratase 2/2-methylisocitrate dehydratase,GO:0051539,"4 iron, 4 sulfur cluster binding",molecular_function
+PALES_36041,pscL,always essential,4,4,4,type III secretion system protein,pscL,type III secretion system protein,GO:0030254,protein secretion by the type III secretion system,biological_process
+PALES_36071,pscI,always essential,4,4,4,type III export protein PscI,pscI,type III export protein PscI,GO:0009306,protein secretion,biological_process
+PALES_36071,pscI,always essential,4,4,4,type III export protein PscI,pscI,type III export protein PscI,GO:0030254,protein secretion by the type III secretion system,biological_process
+PALES_36081,pscH,always essential,4,4,4,type III export protein PscH,pscH,type III export protein PscH,GO:0009405,pathogenesis,biological_process
+PALES_36081,pscH,always essential,4,4,4,type III export protein PscH,pscH,type III export protein PscH,GO:0030257,type III protein secretion system complex,cellular_component
+PALES_36081,pscH,always essential,4,4,4,type III export protein PscH,pscH,type III export protein PscH,GO:0030254,protein secretion by the type III secretion system,biological_process
+PALES_36091,pscG,always essential,4,4,4,type III export protein PscG,pscG,type III export protein PscG,GO:0009405,pathogenesis,biological_process
+PALES_36091,pscG,always essential,4,4,4,type III export protein PscG,pscG,type III export protein PscG,GO:0005515,protein binding,molecular_function
+PALES_36091,pscG,always essential,4,4,4,type III export protein PscG,pscG,type III export protein PscG,GO:0030254,protein secretion by the type III secretion system,biological_process
+PALES_36251,PALES_36251,always essential,4,4,4,hypothetical protein in type III secretion,PALES_36251,hypothetical protein in type III secretion,GO:0005515,protein binding,molecular_function
+PALES_36251,PALES_36251,always essential,4,4,4,hypothetical protein in type III secretion,PALES_36251,hypothetical protein in type III secretion,GO:0030254,protein secretion by the type III secretion system,biological_process
+PALES_36281,PALES_36281,always essential,4,4,4,putative protein in type III secretion,PALES_36281,putative protein in type III secretion,GO:0050709,negative regulation of protein secretion,biological_process
+PALES_36401,alkA,always essential,4,4,4,DNA-3-methyladenine glycosidase II,alkA,DNA-3-methyladenine glycosidase II,GO:0006284,base-excision repair,biological_process
+PALES_36401,alkA,always essential,4,4,4,DNA-3-methyladenine glycosidase II,alkA,DNA-3-methyladenine glycosidase II,GO:0003824,catalytic activity,molecular_function
+PALES_36401,alkA,always essential,4,4,4,DNA-3-methyladenine glycosidase II,alkA,DNA-3-methyladenine glycosidase II,GO:0006281,DNA repair,biological_process
+PALES_36741,PALES_36741,always essential,4,4,4,putative transcriptional regulator,PALES_36741,putative transcriptional regulator,GO:0003700,DNA-binding transcription factor activity,molecular_function
+PALES_36741,PALES_36741,always essential,4,4,4,putative transcriptional regulator,PALES_36741,putative transcriptional regulator,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_37071,PALES_37071,always essential,4,4,4,putative threonine efflux protein,PALES_37071,putative threonine efflux protein,GO:0006865,amino acid transport,biological_process
+PALES_37071,PALES_37071,always essential,4,4,4,putative threonine efflux protein,PALES_37071,putative threonine efflux protein,GO:0016020,membrane,cellular_component
+PALES_37111,PALES_37111,always essential,4,4,4,putative phosphohistidine phosphatase SixA,PALES_37111,putative phosphohistidine phosphatase SixA,GO:0005737,cytoplasm,cellular_component
+PALES_37111,PALES_37111,always essential,4,4,4,putative phosphohistidine phosphatase SixA,PALES_37111,putative phosphohistidine phosphatase SixA,GO:0006464,cellular protein modification process,biological_process
+PALES_37111,PALES_37111,always essential,4,4,4,putative phosphohistidine phosphatase SixA,PALES_37111,putative phosphohistidine phosphatase SixA,GO:0101006,protein histidine phosphatase activity,molecular_function
+PALES_37241,PALES_37241,always essential,4,4,4,putative transcriptional regulator,PALES_37241,putative transcriptional regulator,GO:0003700,DNA-binding transcription factor activity,molecular_function
+PALES_37241,PALES_37241,always essential,4,4,4,putative transcriptional regulator,PALES_37241,putative transcriptional regulator,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_37961,dnaX,always essential,4,4,4,DNA polymerase III subunits gamma and tau,dnaX,DNA polymerase III subunits gamma and tau,GO:0003887,DNA-directed DNA polymerase activity,molecular_function
+PALES_37961,dnaX,always essential,4,4,4,DNA polymerase III subunits gamma and tau,dnaX,DNA polymerase III subunits gamma and tau,GO:0005524,ATP binding,molecular_function
+PALES_37961,dnaX,always essential,4,4,4,DNA polymerase III subunits gamma and tau,dnaX,DNA polymerase III subunits gamma and tau,GO:0003677,DNA binding,molecular_function
+PALES_37961,dnaX,always essential,4,4,4,DNA polymerase III subunits gamma and tau,dnaX,DNA polymerase III subunits gamma and tau,GO:0009360,DNA polymerase III complex,cellular_component
+PALES_37961,dnaX,always essential,4,4,4,DNA polymerase III subunits gamma and tau,dnaX,DNA polymerase III subunits gamma and tau,GO:0043846,"DNA polymerase III, clamp loader complex",cellular_component
+PALES_37961,dnaX,always essential,4,4,4,DNA polymerase III subunits gamma and tau,dnaX,DNA polymerase III subunits gamma and tau,GO:0006260,DNA replication,biological_process
+PALES_38821,PALES_38821,always essential,4,4,4,"putative sigma-70 factor, ECF subfamily",PALES_38821,"putative sigma-70 factor, ECF subfamily",GO:0003700,DNA-binding transcription factor activity,molecular_function
+PALES_38821,PALES_38821,always essential,4,4,4,"putative sigma-70 factor, ECF subfamily",PALES_38821,"putative sigma-70 factor, ECF subfamily",GO:0006352,"DNA-templated transcription, initiation",biological_process
+PALES_38821,PALES_38821,always essential,4,4,4,"putative sigma-70 factor, ECF subfamily",PALES_38821,"putative sigma-70 factor, ECF subfamily",GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_38821,PALES_38821,always essential,4,4,4,"putative sigma-70 factor, ECF subfamily",PALES_38821,"putative sigma-70 factor, ECF subfamily",GO:0003677,DNA binding,molecular_function
+PALES_38821,PALES_38821,always essential,4,4,4,"putative sigma-70 factor, ECF subfamily",PALES_38821,"putative sigma-70 factor, ECF subfamily",GO:0016987,sigma factor activity,molecular_function
+PALES_39331,ccmF,always essential,4,4,4,cytochrome C-type biogenesis protein CcmF,ccmF,cytochrome C-type biogenesis protein CcmF,GO:0017004,cytochrome complex assembly,biological_process
+PALES_39331,ccmF,always essential,4,4,4,cytochrome C-type biogenesis protein CcmF,ccmF,cytochrome C-type biogenesis protein CcmF,GO:0020037,heme binding,molecular_function
+PALES_39331,ccmF,always essential,4,4,4,cytochrome C-type biogenesis protein CcmF,ccmF,cytochrome C-type biogenesis protein CcmF,GO:0015232,heme transmembrane transporter activity,molecular_function
+PALES_39331,ccmF,always essential,4,4,4,cytochrome C-type biogenesis protein CcmF,ccmF,cytochrome C-type biogenesis protein CcmF,GO:0015886,heme transport,biological_process
+PALES_39331,ccmF,always essential,4,4,4,cytochrome C-type biogenesis protein CcmF,ccmF,cytochrome C-type biogenesis protein CcmF,GO:0016020,membrane,cellular_component
+PALES_39331,ccmF,always essential,4,4,4,cytochrome C-type biogenesis protein CcmF,ccmF,cytochrome C-type biogenesis protein CcmF,GO:0002049,pyoverdine biosynthetic process,biological_process
+PALES_39331,ccmF,always essential,4,4,4,cytochrome C-type biogenesis protein CcmF,ccmF,cytochrome C-type biogenesis protein CcmF,GO:0071978,bacterial-type flagellum-dependent swarming motility,biological_process
+PALES_39331,ccmF,always essential,4,4,4,cytochrome C-type biogenesis protein CcmF,ccmF,cytochrome C-type biogenesis protein CcmF,GO:0071977,bacterial-type flagellum-dependent swimming motility,biological_process
+PALES_39331,ccmF,always essential,4,4,4,cytochrome C-type biogenesis protein CcmF,ccmF,cytochrome C-type biogenesis protein CcmF,GO:0043107,type IV pilus-dependent motility,biological_process
+PALES_39331,ccmF,always essential,4,4,4,cytochrome C-type biogenesis protein CcmF,ccmF,cytochrome C-type biogenesis protein CcmF,GO:0004096,catalase activity,molecular_function
+PALES_39351,PALES_39351,always essential,4,4,4,putative heme exporter protein,PALES_39351,putative heme exporter protein,GO:0015886,heme transport,biological_process
+PALES_39351,PALES_39351,always essential,4,4,4,putative heme exporter protein,PALES_39351,putative heme exporter protein,GO:0016021,integral component of membrane,cellular_component
+PALES_39351,PALES_39351,always essential,4,4,4,putative heme exporter protein,PALES_39351,putative heme exporter protein,GO:0017004,cytochrome complex assembly,biological_process
+PALES_39361,ccmC,always essential,4,4,4,heme exporter protein CcmC,ccmC,heme exporter protein CcmC,GO:0015232,heme transmembrane transporter activity,molecular_function
+PALES_39361,ccmC,always essential,4,4,4,heme exporter protein CcmC,ccmC,heme exporter protein CcmC,GO:0015886,heme transport,biological_process
+PALES_39361,ccmC,always essential,4,4,4,heme exporter protein CcmC,ccmC,heme exporter protein CcmC,GO:0016020,membrane,cellular_component
+PALES_39361,ccmC,always essential,4,4,4,heme exporter protein CcmC,ccmC,heme exporter protein CcmC,GO:0017004,cytochrome complex assembly,biological_process
+PALES_39361,ccmC,always essential,4,4,4,heme exporter protein CcmC,ccmC,heme exporter protein CcmC,GO:0020037,heme binding,molecular_function
+PALES_39361,ccmC,always essential,4,4,4,heme exporter protein CcmC,ccmC,heme exporter protein CcmC,GO:0002049,pyoverdine biosynthetic process,biological_process
+PALES_39361,ccmC,always essential,4,4,4,heme exporter protein CcmC,ccmC,heme exporter protein CcmC,GO:0071978,bacterial-type flagellum-dependent swarming motility,biological_process
+PALES_39361,ccmC,always essential,4,4,4,heme exporter protein CcmC,ccmC,heme exporter protein CcmC,GO:0071977,bacterial-type flagellum-dependent swimming motility,biological_process
+PALES_39361,ccmC,always essential,4,4,4,heme exporter protein CcmC,ccmC,heme exporter protein CcmC,GO:0043107,type IV pilus-dependent motility,biological_process
+PALES_39361,ccmC,always essential,4,4,4,heme exporter protein CcmC,ccmC,heme exporter protein CcmC,GO:0009247,glycolipid biosynthetic process,biological_process
+PALES_39361,ccmC,always essential,4,4,4,heme exporter protein CcmC,ccmC,heme exporter protein CcmC,GO:0004096,catalase activity,molecular_function
+PALES_39381,ccmA,always essential,4,4,4,cytochrome c biogenesis protein CcmA,ccmA,cytochrome c biogenesis protein CcmA,GO:0005524,ATP binding,molecular_function
+PALES_39381,ccmA,always essential,4,4,4,cytochrome c biogenesis protein CcmA,ccmA,cytochrome c biogenesis protein CcmA,GO:0016887,ATPase activity,molecular_function
+PALES_39381,ccmA,always essential,4,4,4,cytochrome c biogenesis protein CcmA,ccmA,cytochrome c biogenesis protein CcmA,GO:0017004,cytochrome complex assembly,biological_process
+PALES_39381,ccmA,always essential,4,4,4,cytochrome c biogenesis protein CcmA,ccmA,cytochrome c biogenesis protein CcmA,GO:0022857,transmembrane transporter activity,molecular_function
+PALES_40341,cobU,always essential,4,4,4,adenosylcobinamide kinase/adenosylcobinamide-phosphate guanylyltransferase,cobU,adenosylcobinamide kinase/adenosylcobinamide-phosphate guanylyltransferase,GO:0000166,nucleotide binding,molecular_function
+PALES_40341,cobU,always essential,4,4,4,adenosylcobinamide kinase/adenosylcobinamide-phosphate guanylyltransferase,cobU,adenosylcobinamide kinase/adenosylcobinamide-phosphate guanylyltransferase,GO:0009236,cobalamin biosynthetic process,biological_process
+PALES_40341,cobU,always essential,4,4,4,adenosylcobinamide kinase/adenosylcobinamide-phosphate guanylyltransferase,cobU,adenosylcobinamide kinase/adenosylcobinamide-phosphate guanylyltransferase,GO:0043752,adenosylcobinamide kinase activity,molecular_function
+PALES_40341,cobU,always essential,4,4,4,adenosylcobinamide kinase/adenosylcobinamide-phosphate guanylyltransferase,cobU,adenosylcobinamide kinase/adenosylcobinamide-phosphate guanylyltransferase,GO:0051188,obsolete cofactor biosynthetic process,biological_process
+PALES_40361,cobC,always essential,4,4,4,threonine-phosphate decarboxylase,cobC,threonine-phosphate decarboxylase,GO:0003824,catalytic activity,molecular_function
+PALES_40361,cobC,always essential,4,4,4,threonine-phosphate decarboxylase,cobC,threonine-phosphate decarboxylase,GO:0009236,cobalamin biosynthetic process,biological_process
+PALES_40361,cobC,always essential,4,4,4,threonine-phosphate decarboxylase,cobC,threonine-phosphate decarboxylase,GO:0009058,biosynthetic process,biological_process
+PALES_40361,cobC,always essential,4,4,4,threonine-phosphate decarboxylase,cobC,threonine-phosphate decarboxylase,GO:0030170,pyridoxal phosphate binding,molecular_function
+PALES_40371,cobD,always essential,4,4,4,cobalamin biosynthesis protein,cobD,cobalamin biosynthesis protein,GO:0009236,cobalamin biosynthetic process,biological_process
+PALES_40371,cobD,always essential,4,4,4,cobalamin biosynthesis protein,cobD,cobalamin biosynthesis protein,GO:0016021,integral component of membrane,cellular_component
+PALES_40371,cobD,always essential,4,4,4,cobalamin biosynthesis protein,cobD,cobalamin biosynthesis protein,GO:0048472,threonine-phosphate decarboxylase activity,molecular_function
+PALES_40401,cobO,always essential,4,4,4,"cob(I)yrinic acid a,c-diamide adenosyltransferase",cobO,"cob(I)yrinic acid a,c-diamide adenosyltransferase",GO:0005524,ATP binding,molecular_function
+PALES_40401,cobO,always essential,4,4,4,"cob(I)yrinic acid a,c-diamide adenosyltransferase",cobO,"cob(I)yrinic acid a,c-diamide adenosyltransferase",GO:0008817,"cob(I)yrinic acid a,c-diamide adenosyltransferase activity",molecular_function
+PALES_40401,cobO,always essential,4,4,4,"cob(I)yrinic acid a,c-diamide adenosyltransferase",cobO,"cob(I)yrinic acid a,c-diamide adenosyltransferase",GO:0009236,cobalamin biosynthetic process,biological_process
+PALES_40461,PALES_40461,always essential,4,4,4,putative oxidoreductase,PALES_40461,putative oxidoreductase,GO:0016491,oxidoreductase activity,molecular_function
+PALES_40461,PALES_40461,always essential,4,4,4,putative oxidoreductase,PALES_40461,putative oxidoreductase,GO:0055114,oxidation-reduction process,biological_process
+PALES_40491,PALES_40491,always essential,4,4,4,hypothetical protein,PALES_40491,hypothetical protein,GO:0003677,DNA binding,molecular_function
+PALES_41371,PALES_41371,always essential,4,4,4,putative transcriptional regulator,PALES_41371,putative transcriptional regulator,GO:0003700,DNA-binding transcription factor activity,molecular_function
+PALES_41371,PALES_41371,always essential,4,4,4,putative transcriptional regulator,PALES_41371,putative transcriptional regulator,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_41451,napF,always essential,4,4,4,ferredoxin protein NapF,napF,ferredoxin protein NapF,GO:0051539,"4 iron, 4 sulfur cluster binding",molecular_function
+PALES_41561,pcpS,always essential,4,4,4,PcpS,pcpS,PcpS,GO:0000287,magnesium ion binding,molecular_function
+PALES_41561,pcpS,always essential,4,4,4,PcpS,pcpS,PcpS,GO:0008897,holo-[acyl-carrier-protein] synthase activity,molecular_function
+PALES_41561,pcpS,always essential,4,4,4,PcpS,pcpS,PcpS,GO:0009239,enterobactin biosynthetic process,biological_process
+PALES_41561,pcpS,always essential,4,4,4,PcpS,pcpS,PcpS,GO:0009366,enterobactin synthetase complex,cellular_component
+PALES_41561,pcpS,always essential,4,4,4,PcpS,pcpS,PcpS,GO:0016780,"phosphotransferase activity, for other substituted phosphate groups",molecular_function
+PALES_41561,pcpS,always essential,4,4,4,PcpS,pcpS,PcpS,GO:0016740,transferase activity,molecular_function
+PALES_41591,dapE,always essential,4,4,4,succinyl-diaminopimelate desuccinylase,dapE,succinyl-diaminopimelate desuccinylase,GO:0016787,hydrolase activity,molecular_function
+PALES_41591,dapE,always essential,4,4,4,succinyl-diaminopimelate desuccinylase,dapE,succinyl-diaminopimelate desuccinylase,GO:0009014,succinyl-diaminopimelate desuccinylase activity,molecular_function
+PALES_41591,dapE,always essential,4,4,4,succinyl-diaminopimelate desuccinylase,dapE,succinyl-diaminopimelate desuccinylase,GO:0009089,lysine biosynthetic process via diaminopimelate,biological_process
+PALES_41591,dapE,always essential,4,4,4,succinyl-diaminopimelate desuccinylase,dapE,succinyl-diaminopimelate desuccinylase,GO:0006508,proteolysis,biological_process
+PALES_41591,dapE,always essential,4,4,4,succinyl-diaminopimelate desuccinylase,dapE,succinyl-diaminopimelate desuccinylase,GO:0008237,metallopeptidase activity,molecular_function
+PALES_41621,PALES_41621,always essential,4,4,4,putative cold-shock protein,PALES_41621,putative cold-shock protein,GO:0003676,nucleic acid binding,molecular_function
+PALES_41651,nrdA,always essential,4,4,4,ribonucleotide-diphosphate reductase subunit alpha,nrdA,ribonucleotide-diphosphate reductase subunit alpha,GO:0006260,DNA replication,biological_process
+PALES_41651,nrdA,always essential,4,4,4,ribonucleotide-diphosphate reductase subunit alpha,nrdA,ribonucleotide-diphosphate reductase subunit alpha,GO:0055114,oxidation-reduction process,biological_process
+PALES_41651,nrdA,always essential,4,4,4,ribonucleotide-diphosphate reductase subunit alpha,nrdA,ribonucleotide-diphosphate reductase subunit alpha,GO:0004748,"ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor",molecular_function
+PALES_41651,nrdA,always essential,4,4,4,ribonucleotide-diphosphate reductase subunit alpha,nrdA,ribonucleotide-diphosphate reductase subunit alpha,GO:0005524,ATP binding,molecular_function
+PALES_41651,nrdA,always essential,4,4,4,ribonucleotide-diphosphate reductase subunit alpha,nrdA,ribonucleotide-diphosphate reductase subunit alpha,GO:0005971,ribonucleoside-diphosphate reductase complex,cellular_component
+PALES_42711,PALES_42711,always essential,4,4,4,Putative glycerate kinase,PALES_42711,Putative glycerate kinase,GO:0008887,glycerate kinase activity,molecular_function
+PALES_42711,PALES_42711,always essential,4,4,4,Putative glycerate kinase,PALES_42711,Putative glycerate kinase,GO:0031388,organic acid phosphorylation,biological_process
+PALES_43001,PALES_43001,always essential,4,4,4,2-Nitropropane Dioxygenase,PALES_43001,2-Nitropropane Dioxygenase,GO:0003824,catalytic activity,molecular_function
+PALES_43001,PALES_43001,always essential,4,4,4,2-Nitropropane Dioxygenase,PALES_43001,2-Nitropropane Dioxygenase,GO:0018580,nitronate monooxygenase activity,molecular_function
+PALES_43001,PALES_43001,always essential,4,4,4,2-Nitropropane Dioxygenase,PALES_43001,2-Nitropropane Dioxygenase,GO:0055114,oxidation-reduction process,biological_process
+PALES_43431,tolA,always essential,4,4,4,TolA protein,tolA,TolA protein,GO:0016021,integral component of membrane,cellular_component
+PALES_43431,tolA,always essential,4,4,4,TolA protein,tolA,TolA protein,GO:0019534,toxin transmembrane transporter activity,molecular_function
+PALES_43431,tolA,always essential,4,4,4,TolA protein,tolA,TolA protein,GO:0043213,bacteriocin transport,biological_process
+PALES_43441,tolR,always essential,4,4,4,TolR protein,tolR,TolR protein,GO:0022857,transmembrane transporter activity,molecular_function
+PALES_43441,tolR,always essential,4,4,4,TolR protein,tolR,TolR protein,GO:0055085,transmembrane transport,biological_process
+PALES_43441,tolR,always essential,4,4,4,TolR protein,tolR,TolR protein,GO:0015031,protein transport,biological_process
+PALES_43441,tolR,always essential,4,4,4,TolR protein,tolR,TolR protein,GO:0016021,integral component of membrane,cellular_component
+PALES_43581,proS,always essential,4,4,4,prolyl-tRNA synthetase,proS,prolyl-tRNA synthetase,GO:0004827,proline-tRNA ligase activity,molecular_function
+PALES_43581,proS,always essential,4,4,4,prolyl-tRNA synthetase,proS,prolyl-tRNA synthetase,GO:0005524,ATP binding,molecular_function
+PALES_43581,proS,always essential,4,4,4,prolyl-tRNA synthetase,proS,prolyl-tRNA synthetase,GO:0005737,cytoplasm,cellular_component
+PALES_43581,proS,always essential,4,4,4,prolyl-tRNA synthetase,proS,prolyl-tRNA synthetase,GO:0006433,prolyl-tRNA aminoacylation,biological_process
+PALES_43581,proS,always essential,4,4,4,prolyl-tRNA synthetase,proS,prolyl-tRNA synthetase,GO:0002161,aminoacyl-tRNA editing activity,molecular_function
+PALES_43581,proS,always essential,4,4,4,prolyl-tRNA synthetase,proS,prolyl-tRNA synthetase,GO:0000166,nucleotide binding,molecular_function
+PALES_43581,proS,always essential,4,4,4,prolyl-tRNA synthetase,proS,prolyl-tRNA synthetase,GO:0004812,aminoacyl-tRNA ligase activity,molecular_function
+PALES_43581,proS,always essential,4,4,4,prolyl-tRNA synthetase,proS,prolyl-tRNA synthetase,GO:0006418,tRNA aminoacylation for protein translation,biological_process
+PALES_44131,alaS,always essential,4,4,4,alanyl-tRNA synthetase,alaS,alanyl-tRNA synthetase,GO:0003676,nucleic acid binding,molecular_function
+PALES_44131,alaS,always essential,4,4,4,alanyl-tRNA synthetase,alaS,alanyl-tRNA synthetase,GO:0000166,nucleotide binding,molecular_function
+PALES_44131,alaS,always essential,4,4,4,alanyl-tRNA synthetase,alaS,alanyl-tRNA synthetase,GO:0004813,alanine-tRNA ligase activity,molecular_function
+PALES_44131,alaS,always essential,4,4,4,alanyl-tRNA synthetase,alaS,alanyl-tRNA synthetase,GO:0005524,ATP binding,molecular_function
+PALES_44131,alaS,always essential,4,4,4,alanyl-tRNA synthetase,alaS,alanyl-tRNA synthetase,GO:0006419,alanyl-tRNA aminoacylation,biological_process
+PALES_44131,alaS,always essential,4,4,4,alanyl-tRNA synthetase,alaS,alanyl-tRNA synthetase,GO:0005737,cytoplasm,cellular_component
+PALES_44131,alaS,always essential,4,4,4,alanyl-tRNA synthetase,alaS,alanyl-tRNA synthetase,GO:0004812,aminoacyl-tRNA ligase activity,molecular_function
+PALES_44131,alaS,always essential,4,4,4,alanyl-tRNA synthetase,alaS,alanyl-tRNA synthetase,GO:0043039,tRNA aminoacylation,biological_process
+PALES_44331,PALES_44331,always essential,4,4,4,putative acyl-CoA lyase beta chain,PALES_44331,putative acyl-CoA lyase beta chain,GO:0003824,catalytic activity,molecular_function
+PALES_44991,PALES_44991,always essential,4,4,4,hypothetical protein,PALES_44991,hypothetical protein,GO:0003677,DNA binding,molecular_function
+PALES_44991,PALES_44991,always essential,4,4,4,hypothetical protein,PALES_44991,hypothetical protein,GO:0004803,transposase activity,molecular_function
+PALES_44991,PALES_44991,always essential,4,4,4,hypothetical protein,PALES_44991,hypothetical protein,GO:0006313,"transposition, DNA-mediated",biological_process
+PALES_45261,PALES_45261,always essential,4,4,4,putative transcriptional regulator,PALES_45261,putative transcriptional regulator,GO:0003700,DNA-binding transcription factor activity,molecular_function
+PALES_45261,PALES_45261,always essential,4,4,4,putative transcriptional regulator,PALES_45261,putative transcriptional regulator,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_46001,PALES_46001,always essential,4,4,4,putative 3-hydroxyisobutyrate dehydrogenase,PALES_46001,putative 3-hydroxyisobutyrate dehydrogenase,GO:0016491,oxidoreductase activity,molecular_function
+PALES_46001,PALES_46001,always essential,4,4,4,putative 3-hydroxyisobutyrate dehydrogenase,PALES_46001,putative 3-hydroxyisobutyrate dehydrogenase,GO:0055114,oxidation-reduction process,biological_process
+PALES_46001,PALES_46001,always essential,4,4,4,putative 3-hydroxyisobutyrate dehydrogenase,PALES_46001,putative 3-hydroxyisobutyrate dehydrogenase,GO:0008442,3-hydroxyisobutyrate dehydrogenase activity,molecular_function
+PALES_46001,PALES_46001,always essential,4,4,4,putative 3-hydroxyisobutyrate dehydrogenase,PALES_46001,putative 3-hydroxyisobutyrate dehydrogenase,GO:0051287,NAD binding,molecular_function
+PALES_46001,PALES_46001,always essential,4,4,4,putative 3-hydroxyisobutyrate dehydrogenase,PALES_46001,putative 3-hydroxyisobutyrate dehydrogenase,GO:0050661,NADP binding,molecular_function
+PALES_46291,PALES_46291,always essential,4,4,4,putative transcriptional regulator,PALES_46291,putative transcriptional regulator,GO:0003700,DNA-binding transcription factor activity,molecular_function
+PALES_46291,PALES_46291,always essential,4,4,4,putative transcriptional regulator,PALES_46291,putative transcriptional regulator,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_46361,exbD2,always essential,4,4,4,transport protein ExbD,exbD2,transport protein ExbD,GO:0022857,transmembrane transporter activity,molecular_function
+PALES_46361,exbD2,always essential,4,4,4,transport protein ExbD,exbD2,transport protein ExbD,GO:0055085,transmembrane transport,biological_process
+PALES_46441,PALES_46441,always essential,4,4,4,putative type II secretion system protein,PALES_46441,putative type II secretion system protein,GO:0005524,ATP binding,molecular_function
+PALES_46441,PALES_46441,always essential,4,4,4,putative type II secretion system protein,PALES_46441,putative type II secretion system protein,GO:0015627,type II protein secretion system complex,cellular_component
+PALES_46441,PALES_46441,always essential,4,4,4,putative type II secretion system protein,PALES_46441,putative type II secretion system protein,GO:0015628,protein secretion by the type II secretion system,biological_process
+PALES_46481,PALES_46481,always essential,4,4,4,HxcT pseudopilin,PALES_46481,HxcT pseudopilin,GO:0015627,type II protein secretion system complex,cellular_component
+PALES_46481,PALES_46481,always essential,4,4,4,HxcT pseudopilin,PALES_46481,HxcT pseudopilin,GO:0015628,protein secretion by the type II secretion system,biological_process
+PALES_46571,hemO,always essential,4,4,4,heme oxygenase,hemO,heme oxygenase,GO:0004392,heme oxygenase (decyclizing) activity,molecular_function
+PALES_46571,hemO,always essential,4,4,4,heme oxygenase,hemO,heme oxygenase,GO:0006788,heme oxidation,biological_process
+PALES_46571,hemO,always essential,4,4,4,heme oxygenase,hemO,heme oxygenase,GO:0055114,oxidation-reduction process,biological_process
+PALES_47761,panE,always essential,4,4,4,2-dehydropantoate 2-reductase,panE,2-dehydropantoate 2-reductase,GO:0055114,oxidation-reduction process,biological_process
+PALES_47761,panE,always essential,4,4,4,2-dehydropantoate 2-reductase,panE,2-dehydropantoate 2-reductase,GO:0016491,oxidoreductase activity,molecular_function
+PALES_47761,panE,always essential,4,4,4,2-dehydropantoate 2-reductase,panE,2-dehydropantoate 2-reductase,GO:0008677,2-dehydropantoate 2-reductase activity,molecular_function
+PALES_47761,panE,always essential,4,4,4,2-dehydropantoate 2-reductase,panE,2-dehydropantoate 2-reductase,GO:0015940,pantothenate biosynthetic process,biological_process
+PALES_47861,ftsZ,always essential,4,4,4,cell division protein FtsZ,ftsZ,cell division protein FtsZ,GO:0005525,GTP binding,molecular_function
+PALES_47861,ftsZ,always essential,4,4,4,cell division protein FtsZ,ftsZ,cell division protein FtsZ,GO:0003924,GTPase activity,molecular_function
+PALES_47901,murC,always essential,4,4,4,UDP-N-acetylmuramate--L-alanine ligase,murC,UDP-N-acetylmuramate--L-alanine ligase,GO:0005524,ATP binding,molecular_function
+PALES_47901,murC,always essential,4,4,4,UDP-N-acetylmuramate--L-alanine ligase,murC,UDP-N-acetylmuramate--L-alanine ligase,GO:0009058,biosynthetic process,biological_process
+PALES_47901,murC,always essential,4,4,4,UDP-N-acetylmuramate--L-alanine ligase,murC,UDP-N-acetylmuramate--L-alanine ligase,GO:0016874,ligase activity,molecular_function
+PALES_47901,murC,always essential,4,4,4,UDP-N-acetylmuramate--L-alanine ligase,murC,UDP-N-acetylmuramate--L-alanine ligase,GO:0008763,UDP-N-acetylmuramate-L-alanine ligase activity,molecular_function
+PALES_47911,murG,always essential,4,4,4,undecaprenyldiphospho-muramoylpentapeptide beta-N- acetylglucosaminyltransferase,murG,undecaprenyldiphospho-muramoylpentapeptide beta-N- acetylglucosaminyltransferase,GO:0016758,"transferase activity, transferring hexosyl groups",molecular_function
+PALES_47911,murG,always essential,4,4,4,undecaprenyldiphospho-muramoylpentapeptide beta-N- acetylglucosaminyltransferase,murG,undecaprenyldiphospho-muramoylpentapeptide beta-N- acetylglucosaminyltransferase,GO:0050511,undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase activity,molecular_function
+PALES_47911,murG,always essential,4,4,4,undecaprenyldiphospho-muramoylpentapeptide beta-N- acetylglucosaminyltransferase,murG,undecaprenyldiphospho-muramoylpentapeptide beta-N- acetylglucosaminyltransferase,GO:0005975,carbohydrate metabolic process,biological_process
+PALES_47911,murG,always essential,4,4,4,undecaprenyldiphospho-muramoylpentapeptide beta-N- acetylglucosaminyltransferase,murG,undecaprenyldiphospho-muramoylpentapeptide beta-N- acetylglucosaminyltransferase,GO:0030259,lipid glycosylation,biological_process
+PALES_47941,mraY,always essential,4,4,4,phospho-N-acetylmuramoyl-pentapeptide- transferase,mraY,phospho-N-acetylmuramoyl-pentapeptide- transferase,GO:0008963,phospho-N-acetylmuramoyl-pentapeptide-transferase activity,molecular_function
+PALES_47941,mraY,always essential,4,4,4,phospho-N-acetylmuramoyl-pentapeptide- transferase,mraY,phospho-N-acetylmuramoyl-pentapeptide- transferase,GO:0016020,membrane,cellular_component
+PALES_47941,mraY,always essential,4,4,4,phospho-N-acetylmuramoyl-pentapeptide- transferase,mraY,phospho-N-acetylmuramoyl-pentapeptide- transferase,GO:0016021,integral component of membrane,cellular_component
+PALES_47951,murF,always essential,4,4,4,"UDP-N-acetylmuramoylalanyl-D-glutamyl-2, 6-diaminopimelate--D-alanyl-D-alanyl ligase",murF,"UDP-N-acetylmuramoylalanyl-D-glutamyl-2, 6-diaminopimelate--D-alanyl-D-alanyl ligase",GO:0005524,ATP binding,molecular_function
+PALES_47951,murF,always essential,4,4,4,"UDP-N-acetylmuramoylalanyl-D-glutamyl-2, 6-diaminopimelate--D-alanyl-D-alanyl ligase",murF,"UDP-N-acetylmuramoylalanyl-D-glutamyl-2, 6-diaminopimelate--D-alanyl-D-alanyl ligase",GO:0009058,biosynthetic process,biological_process
+PALES_47951,murF,always essential,4,4,4,"UDP-N-acetylmuramoylalanyl-D-glutamyl-2, 6-diaminopimelate--D-alanyl-D-alanyl ligase",murF,"UDP-N-acetylmuramoylalanyl-D-glutamyl-2, 6-diaminopimelate--D-alanyl-D-alanyl ligase",GO:0016874,ligase activity,molecular_function
+PALES_47951,murF,always essential,4,4,4,"UDP-N-acetylmuramoylalanyl-D-glutamyl-2, 6-diaminopimelate--D-alanyl-D-alanyl ligase",murF,"UDP-N-acetylmuramoylalanyl-D-glutamyl-2, 6-diaminopimelate--D-alanyl-D-alanyl ligase",GO:0047480,UDP-N-acetylmuramoyl-tripeptide-D-alanyl-D-alanine ligase activity,molecular_function
+PALES_47951,murF,always essential,4,4,4,"UDP-N-acetylmuramoylalanyl-D-glutamyl-2, 6-diaminopimelate--D-alanyl-D-alanyl ligase",murF,"UDP-N-acetylmuramoylalanyl-D-glutamyl-2, 6-diaminopimelate--D-alanyl-D-alanyl ligase",GO:0071555,cell wall organization,biological_process
+PALES_47981,ftsL,always essential,4,4,4,cell division protein FtsL,ftsL,cell division protein FtsL,GO:0016021,integral component of membrane,cellular_component
+PALES_47981,ftsL,always essential,4,4,4,cell division protein FtsL,ftsL,cell division protein FtsL,GO:0051301,cell division,biological_process
+PALES_47991,PALES_47991,always essential,4,4,4,NA,mraW,S-adenosyl-methyltransferase MraW,GO:0008168,methyltransferase activity,molecular_function
+PALES_48121,rplM,always essential,4,4,4,50S ribosomal protein L13,rplM,50S ribosomal protein L13,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_48121,rplM,always essential,4,4,4,50S ribosomal protein L13,rplM,50S ribosomal protein L13,GO:0005840,ribosome,cellular_component
+PALES_48121,rplM,always essential,4,4,4,50S ribosomal protein L13,rplM,50S ribosomal protein L13,GO:0006412,translation,biological_process
+PALES_48181,trpS,always essential,4,4,4,tryptophanyl-tRNA synthetase,trpS,tryptophanyl-tRNA synthetase,GO:0000166,nucleotide binding,molecular_function
+PALES_48181,trpS,always essential,4,4,4,tryptophanyl-tRNA synthetase,trpS,tryptophanyl-tRNA synthetase,GO:0004812,aminoacyl-tRNA ligase activity,molecular_function
+PALES_48181,trpS,always essential,4,4,4,tryptophanyl-tRNA synthetase,trpS,tryptophanyl-tRNA synthetase,GO:0005524,ATP binding,molecular_function
+PALES_48181,trpS,always essential,4,4,4,tryptophanyl-tRNA synthetase,trpS,tryptophanyl-tRNA synthetase,GO:0006418,tRNA aminoacylation for protein translation,biological_process
+PALES_48181,trpS,always essential,4,4,4,tryptophanyl-tRNA synthetase,trpS,tryptophanyl-tRNA synthetase,GO:0004830,tryptophan-tRNA ligase activity,molecular_function
+PALES_48181,trpS,always essential,4,4,4,tryptophanyl-tRNA synthetase,trpS,tryptophanyl-tRNA synthetase,GO:0006436,tryptophanyl-tRNA aminoacylation,biological_process
+PALES_48391,PALES_48391,always essential,4,4,4,hypothetical protein,PALES_48391,hypothetical protein,GO:0001530,lipopolysaccharide binding,molecular_function
+PALES_48391,PALES_48391,always essential,4,4,4,hypothetical protein,PALES_48391,hypothetical protein,GO:0015920,lipopolysaccharide transport,biological_process
+PALES_48391,PALES_48391,always essential,4,4,4,hypothetical protein,PALES_48391,hypothetical protein,GO:0042597,periplasmic space,cellular_component
+PALES_48401,PALES_48401,always essential,4,4,4,putative ATP-binding component of ABC transporter,PALES_48401,putative ATP-binding component of ABC transporter,GO:0043190,ATP-binding cassette (ABC) transporter complex,cellular_component
+PALES_48401,PALES_48401,always essential,4,4,4,putative ATP-binding component of ABC transporter,PALES_48401,putative ATP-binding component of ABC transporter,GO:0055085,transmembrane transport,biological_process
+PALES_48401,PALES_48401,always essential,4,4,4,putative ATP-binding component of ABC transporter,PALES_48401,putative ATP-binding component of ABC transporter,GO:0005524,ATP binding,molecular_function
+PALES_48401,PALES_48401,always essential,4,4,4,putative ATP-binding component of ABC transporter,PALES_48401,putative ATP-binding component of ABC transporter,GO:0016887,ATPase activity,molecular_function
+PALES_48591,mreC,always essential,4,4,4,rod shape-determining protein MreC,mreC,rod shape-determining protein MreC,GO:0008360,regulation of cell shape,biological_process
+PALES_48641,gatB,always essential,4,4,4,aspartyl/glutamyl-tRNA amidotransferase subunit B,gatB,aspartyl/glutamyl-tRNA amidotransferase subunit B,GO:0003824,catalytic activity,molecular_function
+PALES_48641,gatB,always essential,4,4,4,aspartyl/glutamyl-tRNA amidotransferase subunit B,gatB,aspartyl/glutamyl-tRNA amidotransferase subunit B,GO:0016884,"carbon-nitrogen ligase activity, with glutamine as amido-N-donor",molecular_function
+PALES_48641,gatB,always essential,4,4,4,aspartyl/glutamyl-tRNA amidotransferase subunit B,gatB,aspartyl/glutamyl-tRNA amidotransferase subunit B,GO:0016874,ligase activity,molecular_function
+PALES_49121,coaE,always essential,4,4,4,dephospho-CoA kinase,coaE,dephospho-CoA kinase,GO:0004140,dephospho-CoA kinase activity,molecular_function
+PALES_49121,coaE,always essential,4,4,4,dephospho-CoA kinase,coaE,dephospho-CoA kinase,GO:0005524,ATP binding,molecular_function
+PALES_49121,coaE,always essential,4,4,4,dephospho-CoA kinase,coaE,dephospho-CoA kinase,GO:0015937,coenzyme A biosynthetic process,biological_process
+PALES_49421,lspA,always essential,4,4,4,lipoprotein signal peptidase,lspA,lipoprotein signal peptidase,GO:0004190,aspartic-type endopeptidase activity,molecular_function
+PALES_49421,lspA,always essential,4,4,4,lipoprotein signal peptidase,lspA,lipoprotein signal peptidase,GO:0006508,proteolysis,biological_process
+PALES_49421,lspA,always essential,4,4,4,lipoprotein signal peptidase,lspA,lipoprotein signal peptidase,GO:0016020,membrane,cellular_component
+PALES_50491,moeB,always essential,4,4,4,molybdopterin biosynthesis protein MoeB,moeB,molybdopterin biosynthesis protein MoeB,GO:0008641,ubiquitin-like modifier activating enzyme activity,molecular_function
+PALES_50541,PALES_50541,always essential,4,4,4,NA,lolB,outer membrane lipoprotein LolB,GO:0009279,cell outer membrane,cellular_component
+PALES_50541,PALES_50541,always essential,4,4,4,NA,lolB,outer membrane lipoprotein LolB,GO:0015031,protein transport,biological_process
+PALES_50551,ipk,always essential,4,4,4,4-diphosphocytidyl-2-C-methyl-D-erythritol kinase,ipk,4-diphosphocytidyl-2-C-methyl-D-erythritol kinase,GO:0005524,ATP binding,molecular_function
+PALES_50551,ipk,always essential,4,4,4,4-diphosphocytidyl-2-C-methyl-D-erythritol kinase,ipk,4-diphosphocytidyl-2-C-methyl-D-erythritol kinase,GO:0016114,terpenoid biosynthetic process,biological_process
+PALES_50551,ipk,always essential,4,4,4,4-diphosphocytidyl-2-C-methyl-D-erythritol kinase,ipk,4-diphosphocytidyl-2-C-methyl-D-erythritol kinase,GO:0050515,4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase activity,molecular_function
+PALES_50561,prs,always essential,4,4,4,ribose-phosphate pyrophosphokinase,prs,ribose-phosphate pyrophosphokinase,GO:0004749,ribose phosphate diphosphokinase activity,molecular_function
+PALES_50561,prs,always essential,4,4,4,ribose-phosphate pyrophosphokinase,prs,ribose-phosphate pyrophosphokinase,GO:0000287,magnesium ion binding,molecular_function
+PALES_50561,prs,always essential,4,4,4,ribose-phosphate pyrophosphokinase,prs,ribose-phosphate pyrophosphokinase,GO:0009165,nucleotide biosynthetic process,biological_process
+PALES_50561,prs,always essential,4,4,4,ribose-phosphate pyrophosphokinase,prs,ribose-phosphate pyrophosphokinase,GO:0009156,ribonucleoside monophosphate biosynthetic process,biological_process
+PALES_50561,prs,always essential,4,4,4,ribose-phosphate pyrophosphokinase,prs,ribose-phosphate pyrophosphokinase,GO:0044249,cellular biosynthetic process,biological_process
+PALES_50561,prs,always essential,4,4,4,ribose-phosphate pyrophosphokinase,prs,ribose-phosphate pyrophosphokinase,GO:0009116,nucleoside metabolic process,biological_process
+PALES_51151,panC,always essential,4,4,4,pantoate--beta-alanine ligase,panC,pantoate--beta-alanine ligase,GO:0004592,pantoate-beta-alanine ligase activity,molecular_function
+PALES_51151,panC,always essential,4,4,4,pantoate--beta-alanine ligase,panC,pantoate--beta-alanine ligase,GO:0015940,pantothenate biosynthetic process,biological_process
+PALES_51151,panC,always essential,4,4,4,pantoate--beta-alanine ligase,panC,pantoate--beta-alanine ligase,GO:0003824,catalytic activity,molecular_function
+PALES_51151,panC,always essential,4,4,4,pantoate--beta-alanine ligase,panC,pantoate--beta-alanine ligase,GO:0009058,biosynthetic process,biological_process
+PALES_51261,rpsO,always essential,4,4,4,30S ribosomal protein S15,rpsO,30S ribosomal protein S15,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_51261,rpsO,always essential,4,4,4,30S ribosomal protein S15,rpsO,30S ribosomal protein S15,GO:0005840,ribosome,cellular_component
+PALES_51261,rpsO,always essential,4,4,4,30S ribosomal protein S15,rpsO,30S ribosomal protein S15,GO:0006412,translation,biological_process
+PALES_51291,infB,always essential,4,4,4,translation initiation factor IF-2,infB,translation initiation factor IF-2,GO:0003743,translation initiation factor activity,molecular_function
+PALES_51291,infB,always essential,4,4,4,translation initiation factor IF-2,infB,translation initiation factor IF-2,GO:0005525,GTP binding,molecular_function
+PALES_51291,infB,always essential,4,4,4,translation initiation factor IF-2,infB,translation initiation factor IF-2,GO:0003924,GTPase activity,molecular_function
+PALES_51291,infB,always essential,4,4,4,translation initiation factor IF-2,infB,translation initiation factor IF-2,GO:0006413,translational initiation,biological_process
+PALES_51301,nusA,always essential,4,4,4,transcription elongation factor NusA,nusA,transcription elongation factor NusA,GO:0003723,RNA binding,molecular_function
+PALES_51301,nusA,always essential,4,4,4,transcription elongation factor NusA,nusA,transcription elongation factor NusA,GO:0003700,DNA-binding transcription factor activity,molecular_function
+PALES_51301,nusA,always essential,4,4,4,transcription elongation factor NusA,nusA,transcription elongation factor NusA,GO:0031554,"regulation of DNA-templated transcription, termination",biological_process
+PALES_51301,nusA,always essential,4,4,4,transcription elongation factor NusA,nusA,transcription elongation factor NusA,GO:0003676,nucleic acid binding,molecular_function
+PALES_51301,nusA,always essential,4,4,4,transcription elongation factor NusA,nusA,transcription elongation factor NusA,GO:0006353,"DNA-templated transcription, termination",biological_process
+PALES_51301,nusA,always essential,4,4,4,transcription elongation factor NusA,nusA,transcription elongation factor NusA,GO:0031564,transcription antitermination,biological_process
+PALES_51301,nusA,always essential,4,4,4,transcription elongation factor NusA,nusA,transcription elongation factor NusA,GO:0000166,nucleotide binding,molecular_function
+PALES_51341,glmM,always essential,4,4,4,phosphoglucosamine mutase,glmM,phosphoglucosamine mutase,GO:0016868,"intramolecular transferase activity, phosphotransferases",molecular_function
+PALES_51341,glmM,always essential,4,4,4,phosphoglucosamine mutase,glmM,phosphoglucosamine mutase,GO:0071704,organic substance metabolic process,biological_process
+PALES_51341,glmM,always essential,4,4,4,phosphoglucosamine mutase,glmM,phosphoglucosamine mutase,GO:0000287,magnesium ion binding,molecular_function
+PALES_51341,glmM,always essential,4,4,4,phosphoglucosamine mutase,glmM,phosphoglucosamine mutase,GO:0005975,carbohydrate metabolic process,biological_process
+PALES_51341,glmM,always essential,4,4,4,phosphoglucosamine mutase,glmM,phosphoglucosamine mutase,GO:0008966,phosphoglucosamine mutase activity,molecular_function
+PALES_51341,glmM,always essential,4,4,4,phosphoglucosamine mutase,glmM,phosphoglucosamine mutase,GO:0004615,phosphomannomutase activity,molecular_function
+PALES_51341,glmM,always essential,4,4,4,phosphoglucosamine mutase,glmM,phosphoglucosamine mutase,GO:0004614,phosphoglucomutase activity,molecular_function
+PALES_51341,glmM,always essential,4,4,4,phosphoglucosamine mutase,glmM,phosphoglucosamine mutase,GO:0009252,peptidoglycan biosynthetic process,biological_process
+PALES_51351,folP,always essential,4,4,4,dihydropteroate synthase,folP,dihydropteroate synthase,GO:0044237,cellular metabolic process,biological_process
+PALES_51351,folP,always essential,4,4,4,dihydropteroate synthase,folP,dihydropteroate synthase,GO:0042558,pteridine-containing compound metabolic process,biological_process
+PALES_51351,folP,always essential,4,4,4,dihydropteroate synthase,folP,dihydropteroate synthase,GO:0009396,folic acid-containing compound biosynthetic process,biological_process
+PALES_51351,folP,always essential,4,4,4,dihydropteroate synthase,folP,dihydropteroate synthase,GO:0004156,dihydropteroate synthase activity,molecular_function
+PALES_51361,ftsH,always essential,4,4,4,cell division protein FtsH,ftsH,cell division protein FtsH,GO:0004222,metalloendopeptidase activity,molecular_function
+PALES_51361,ftsH,always essential,4,4,4,cell division protein FtsH,ftsH,cell division protein FtsH,GO:0005524,ATP binding,molecular_function
+PALES_51361,ftsH,always essential,4,4,4,cell division protein FtsH,ftsH,cell division protein FtsH,GO:0006508,proteolysis,biological_process
+PALES_51361,ftsH,always essential,4,4,4,cell division protein FtsH,ftsH,cell division protein FtsH,GO:0016020,membrane,cellular_component
+PALES_51361,ftsH,always essential,4,4,4,cell division protein FtsH,ftsH,cell division protein FtsH,GO:0008270,zinc ion binding,molecular_function
+PALES_51361,ftsH,always essential,4,4,4,cell division protein FtsH,ftsH,cell division protein FtsH,GO:0016021,integral component of membrane,cellular_component
+PALES_51361,ftsH,always essential,4,4,4,cell division protein FtsH,ftsH,cell division protein FtsH,GO:0071236,cellular response to antibiotic,biological_process
+PALES_51451,dnaJ,always essential,4,4,4,DnaJ protein,dnaJ,DnaJ protein,GO:0005524,ATP binding,molecular_function
+PALES_51451,dnaJ,always essential,4,4,4,DnaJ protein,dnaJ,DnaJ protein,GO:0006457,protein folding,biological_process
+PALES_51451,dnaJ,always essential,4,4,4,DnaJ protein,dnaJ,DnaJ protein,GO:0009408,response to heat,biological_process
+PALES_51451,dnaJ,always essential,4,4,4,DnaJ protein,dnaJ,DnaJ protein,GO:0051082,unfolded protein binding,molecular_function
+PALES_51451,dnaJ,always essential,4,4,4,DnaJ protein,dnaJ,DnaJ protein,GO:0031072,heat shock protein binding,molecular_function
+PALES_51691,PALES_51691,always essential,4,4,4,putative transcriptional regulator,PALES_51691,putative transcriptional regulator,GO:0043565,sequence-specific DNA binding,molecular_function
+PALES_51691,PALES_51691,always essential,4,4,4,putative transcriptional regulator,PALES_51691,putative transcriptional regulator,GO:0003700,DNA-binding transcription factor activity,molecular_function
+PALES_51691,PALES_51691,always essential,4,4,4,putative transcriptional regulator,PALES_51691,putative transcriptional regulator,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_52321,accB,always essential,4,4,4,acetyl-CoA carboxylase biotin carboxyl carrier protein subunit,accB,acetyl-CoA carboxylase biotin carboxyl carrier protein subunit,GO:0003989,acetyl-CoA carboxylase activity,molecular_function
+PALES_52321,accB,always essential,4,4,4,acetyl-CoA carboxylase biotin carboxyl carrier protein subunit,accB,acetyl-CoA carboxylase biotin carboxyl carrier protein subunit,GO:0006633,fatty acid biosynthetic process,biological_process
+PALES_52321,accB,always essential,4,4,4,acetyl-CoA carboxylase biotin carboxyl carrier protein subunit,accB,acetyl-CoA carboxylase biotin carboxyl carrier protein subunit,GO:0009317,acetyl-CoA carboxylase complex,cellular_component
+PALES_52471,PALES_52471,always essential,4,4,4,putative ATP-binding component of ABC transporter,PALES_52471,putative ATP-binding component of ABC transporter,GO:0005524,ATP binding,molecular_function
+PALES_52471,PALES_52471,always essential,4,4,4,putative ATP-binding component of ABC transporter,PALES_52471,putative ATP-binding component of ABC transporter,GO:0016887,ATPase activity,molecular_function
+PALES_52561,PALES_52561,always essential,4,4,4,hypothetical protein,PALES_52561,hypothetical protein,GO:0008270,zinc ion binding,molecular_function
+PALES_53061,nadE,always essential,4,4,4,NAD synthetase,nadE,NAD synthetase,GO:0003952,NAD+ synthase (glutamine-hydrolyzing) activity,molecular_function
+PALES_53061,nadE,always essential,4,4,4,NAD synthetase,nadE,NAD synthetase,GO:0004359,glutaminase activity,molecular_function
+PALES_53061,nadE,always essential,4,4,4,NAD synthetase,nadE,NAD synthetase,GO:0005737,cytoplasm,cellular_component
+PALES_53061,nadE,always essential,4,4,4,NAD synthetase,nadE,NAD synthetase,GO:0009435,NAD biosynthetic process,biological_process
+PALES_53061,nadE,always essential,4,4,4,NAD synthetase,nadE,NAD synthetase,GO:0008795,NAD+ synthase activity,molecular_function
+PALES_53211,rpsF,always essential,4,4,4,30S ribosomal protein S6,rpsF,30S ribosomal protein S6,GO:0003735,structural constituent of ribosome,molecular_function
+PALES_53211,rpsF,always essential,4,4,4,30S ribosomal protein S6,rpsF,30S ribosomal protein S6,GO:0005840,ribosome,cellular_component
+PALES_53211,rpsF,always essential,4,4,4,30S ribosomal protein S6,rpsF,30S ribosomal protein S6,GO:0006412,translation,biological_process
+PALES_53211,rpsF,always essential,4,4,4,30S ribosomal protein S6,rpsF,30S ribosomal protein S6,GO:0019843,rRNA binding,molecular_function
+PALES_53301,hfq,always essential,4,4,4,RNA-binding protein Hfq,hfq,RNA-binding protein Hfq,GO:0003723,RNA binding,molecular_function
+PALES_53301,hfq,always essential,4,4,4,RNA-binding protein Hfq,hfq,RNA-binding protein Hfq,GO:0006355,"regulation of transcription, DNA-templated",biological_process
+PALES_53431,psd,always essential,4,4,4,phosphatidylserine decarboxylase,psd,phosphatidylserine decarboxylase,GO:0004609,phosphatidylserine decarboxylase activity,molecular_function
+PALES_53431,psd,always essential,4,4,4,phosphatidylserine decarboxylase,psd,phosphatidylserine decarboxylase,GO:0008654,phospholipid biosynthetic process,biological_process
+PALES_53531,parE,always essential,4,4,4,DNA topoisomerase IV subunit B,parE,DNA topoisomerase IV subunit B,GO:0003677,DNA binding,molecular_function
+PALES_53531,parE,always essential,4,4,4,DNA topoisomerase IV subunit B,parE,DNA topoisomerase IV subunit B,GO:0005524,ATP binding,molecular_function
+PALES_53531,parE,always essential,4,4,4,DNA topoisomerase IV subunit B,parE,DNA topoisomerase IV subunit B,GO:0005694,chromosome,cellular_component
+PALES_53531,parE,always essential,4,4,4,DNA topoisomerase IV subunit B,parE,DNA topoisomerase IV subunit B,GO:0006265,DNA topological change,biological_process
+PALES_53531,parE,always essential,4,4,4,DNA topoisomerase IV subunit B,parE,DNA topoisomerase IV subunit B,GO:0009340,DNA topoisomerase IV complex,cellular_component
+PALES_53531,parE,always essential,4,4,4,DNA topoisomerase IV subunit B,parE,DNA topoisomerase IV subunit B,GO:0003918,"DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity",molecular_function
+PALES_53851,rfaE,always essential,4,4,4,bifunctional heptose 7-phosphate kinase/heptose 1-phosphate adenyltransferase,rfaE,bifunctional heptose 7-phosphate kinase/heptose 1-phosphate adenyltransferase,GO:0005975,carbohydrate metabolic process,biological_process
+PALES_53851,rfaE,always essential,4,4,4,bifunctional heptose 7-phosphate kinase/heptose 1-phosphate adenyltransferase,rfaE,bifunctional heptose 7-phosphate kinase/heptose 1-phosphate adenyltransferase,GO:0016773,"phosphotransferase activity, alcohol group as acceptor",molecular_function
+PALES_53851,rfaE,always essential,4,4,4,bifunctional heptose 7-phosphate kinase/heptose 1-phosphate adenyltransferase,rfaE,bifunctional heptose 7-phosphate kinase/heptose 1-phosphate adenyltransferase,GO:0016779,nucleotidyltransferase activity,molecular_function
+PALES_53851,rfaE,always essential,4,4,4,bifunctional heptose 7-phosphate kinase/heptose 1-phosphate adenyltransferase,rfaE,bifunctional heptose 7-phosphate kinase/heptose 1-phosphate adenyltransferase,GO:0003824,catalytic activity,molecular_function
+PALES_53851,rfaE,always essential,4,4,4,bifunctional heptose 7-phosphate kinase/heptose 1-phosphate adenyltransferase,rfaE,bifunctional heptose 7-phosphate kinase/heptose 1-phosphate adenyltransferase,GO:0009058,biosynthetic process,biological_process
+PALES_53971,PALES_53971,always essential,4,4,4,putative lipopolysaccharide core biosynthesis protein,PALES_53971,putative lipopolysaccharide core biosynthesis protein,GO:0004672,protein kinase activity,molecular_function
+PALES_53971,PALES_53971,always essential,4,4,4,putative lipopolysaccharide core biosynthesis protein,PALES_53971,putative lipopolysaccharide core biosynthesis protein,GO:0006468,protein phosphorylation,biological_process
+PALES_54001,waaC,always essential,4,4,4,heptosyltransferase I,waaC,heptosyltransferase I,GO:0016757,"transferase activity, transferring glycosyl groups",molecular_function
+PALES_54001,waaC,always essential,4,4,4,heptosyltransferase I,waaC,heptosyltransferase I,GO:0008920,lipopolysaccharide heptosyltransferase activity,molecular_function
+PALES_54001,waaC,always essential,4,4,4,heptosyltransferase I,waaC,heptosyltransferase I,GO:0009244,lipopolysaccharide core region biosynthetic process,biological_process
+PALES_54011,waaF,always essential,4,4,4,heptosyltransferase II,waaF,heptosyltransferase II,GO:0009103,lipopolysaccharide biosynthetic process,biological_process
+PALES_54011,waaF,always essential,4,4,4,heptosyltransferase II,waaF,heptosyltransferase II,GO:0016757,"transferase activity, transferring glycosyl groups",molecular_function
+PALES_54401,priA,always essential,4,4,4,primosome assembly protein PriA,priA,primosome assembly protein PriA,GO:0003676,nucleic acid binding,molecular_function
+PALES_54401,priA,always essential,4,4,4,primosome assembly protein PriA,priA,primosome assembly protein PriA,GO:0005524,ATP binding,molecular_function
+PALES_54401,priA,always essential,4,4,4,primosome assembly protein PriA,priA,primosome assembly protein PriA,GO:0003677,DNA binding,molecular_function
+PALES_54401,priA,always essential,4,4,4,primosome assembly protein PriA,priA,primosome assembly protein PriA,GO:0003678,DNA helicase activity,molecular_function
+PALES_54401,priA,always essential,4,4,4,primosome assembly protein PriA,priA,primosome assembly protein PriA,GO:0006260,DNA replication,biological_process
+PALES_54401,priA,always essential,4,4,4,primosome assembly protein PriA,priA,primosome assembly protein PriA,GO:0032508,DNA duplex unwinding,biological_process
+PALES_54411,argS,always essential,4,4,4,arginyl-tRNA synthetase,argS,arginyl-tRNA synthetase,GO:0000166,nucleotide binding,molecular_function
+PALES_54411,argS,always essential,4,4,4,arginyl-tRNA synthetase,argS,arginyl-tRNA synthetase,GO:0004812,aminoacyl-tRNA ligase activity,molecular_function
+PALES_54411,argS,always essential,4,4,4,arginyl-tRNA synthetase,argS,arginyl-tRNA synthetase,GO:0005524,ATP binding,molecular_function
+PALES_54411,argS,always essential,4,4,4,arginyl-tRNA synthetase,argS,arginyl-tRNA synthetase,GO:0006418,tRNA aminoacylation for protein translation,biological_process
+PALES_54411,argS,always essential,4,4,4,arginyl-tRNA synthetase,argS,arginyl-tRNA synthetase,GO:0004814,arginine-tRNA ligase activity,molecular_function
+PALES_54411,argS,always essential,4,4,4,arginyl-tRNA synthetase,argS,arginyl-tRNA synthetase,GO:0005737,cytoplasm,cellular_component
+PALES_54411,argS,always essential,4,4,4,arginyl-tRNA synthetase,argS,arginyl-tRNA synthetase,GO:0006420,arginyl-tRNA aminoacylation,biological_process
+PALES_54421,PALES_54421,always essential,4,4,4,putative cell division protein,PALES_54421,putative cell division protein,GO:0042834,peptidoglycan binding,molecular_function
+PALES_54591,tatB,always essential,4,4,4,sec-independent translocase,tatB,sec-independent translocase,GO:0016020,membrane,cellular_component
+PALES_54591,tatB,always essential,4,4,4,sec-independent translocase,tatB,sec-independent translocase,GO:0043953,protein transport by the Tat complex,biological_process
+PALES_54591,tatB,always essential,4,4,4,sec-independent translocase,tatB,sec-independent translocase,GO:0015031,protein transport,biological_process
+PALES_55001,fbp,always essential,4,4,4,"fructose-1,6-bisphosphatase",fbp,"fructose-1,6-bisphosphatase",GO:0042132,"fructose 1,6-bisphosphate 1-phosphatase activity",molecular_function
+PALES_55001,fbp,always essential,4,4,4,"fructose-1,6-bisphosphatase",fbp,"fructose-1,6-bisphosphatase",GO:0005975,carbohydrate metabolic process,biological_process
+PALES_55001,fbp,always essential,4,4,4,"fructose-1,6-bisphosphatase",fbp,"fructose-1,6-bisphosphatase",GO:0016791,phosphatase activity,molecular_function
+PALES_56151,PALES_56151,always essential,4,4,4,"2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase",PALES_56151,"2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase",GO:0016709,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen",molecular_function
+PALES_56151,PALES_56151,always essential,4,4,4,"2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase",PALES_56151,"2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase",GO:0055114,oxidation-reduction process,biological_process
+PALES_56151,PALES_56151,always essential,4,4,4,"2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase",PALES_56151,"2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase",GO:0071949,FAD binding,molecular_function
+PALES_56151,PALES_56151,always essential,4,4,4,"2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase",PALES_56151,"2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase",GO:0006744,ubiquinone biosynthetic process,biological_process
+PALES_56151,PALES_56151,always essential,4,4,4,"2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase",PALES_56151,"2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase",GO:0050660,flavin adenine dinucleotide binding,molecular_function
+PALES_56171,ubiH,always essential,4,4,4,2-octaprenyl-6-methoxyphenyl hydroxylase,ubiH,2-octaprenyl-6-methoxyphenyl hydroxylase,GO:0006744,ubiquinone biosynthetic process,biological_process
+PALES_56171,ubiH,always essential,4,4,4,2-octaprenyl-6-methoxyphenyl hydroxylase,ubiH,2-octaprenyl-6-methoxyphenyl hydroxylase,GO:0008681,2-octaprenyl-6-methoxyphenol hydroxylase activity,molecular_function
+PALES_56171,ubiH,always essential,4,4,4,2-octaprenyl-6-methoxyphenyl hydroxylase,ubiH,2-octaprenyl-6-methoxyphenyl hydroxylase,GO:0071949,FAD binding,molecular_function
+PALES_56171,ubiH,always essential,4,4,4,2-octaprenyl-6-methoxyphenyl hydroxylase,ubiH,2-octaprenyl-6-methoxyphenyl hydroxylase,GO:0016709,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen",molecular_function
+PALES_56171,ubiH,always essential,4,4,4,2-octaprenyl-6-methoxyphenyl hydroxylase,ubiH,2-octaprenyl-6-methoxyphenyl hydroxylase,GO:0050660,flavin adenine dinucleotide binding,molecular_function
+PALES_56171,ubiH,always essential,4,4,4,2-octaprenyl-6-methoxyphenyl hydroxylase,ubiH,2-octaprenyl-6-methoxyphenyl hydroxylase,GO:0055114,oxidation-reduction process,biological_process
+PALES_56541,hemC,always essential,4,4,4,porphobilinogen deaminase,hemC,porphobilinogen deaminase,GO:0004418,hydroxymethylbilane synthase activity,molecular_function
+PALES_56541,hemC,always essential,4,4,4,porphobilinogen deaminase,hemC,porphobilinogen deaminase,GO:0033014,tetrapyrrole biosynthetic process,biological_process
+PALES_56541,hemC,always essential,4,4,4,porphobilinogen deaminase,hemC,porphobilinogen deaminase,GO:0018160,peptidyl-pyrromethane cofactor linkage,biological_process
+PALES_56701,PALES_56701,always essential,4,4,4,NA,cyaY,frataxin-like protein,GO:0008199,ferric iron binding,molecular_function
+PALES_56701,PALES_56701,always essential,4,4,4,NA,cyaY,frataxin-like protein,GO:0016226,iron-sulfur cluster assembly,biological_process
+PALES_57161,dut,always essential,4,4,4,deoxyuridine 5'-triphosphate nucleotidohydrolase,dut,deoxyuridine 5'-triphosphate nucleotidohydrolase,GO:0000287,magnesium ion binding,molecular_function
+PALES_57161,dut,always essential,4,4,4,deoxyuridine 5'-triphosphate nucleotidohydrolase,dut,deoxyuridine 5'-triphosphate nucleotidohydrolase,GO:0004170,dUTP diphosphatase activity,molecular_function
+PALES_57161,dut,always essential,4,4,4,deoxyuridine 5'-triphosphate nucleotidohydrolase,dut,deoxyuridine 5'-triphosphate nucleotidohydrolase,GO:0006226,dUMP biosynthetic process,biological_process
+PALES_57161,dut,always essential,4,4,4,deoxyuridine 5'-triphosphate nucleotidohydrolase,dut,deoxyuridine 5'-triphosphate nucleotidohydrolase,GO:0046081,dUTP catabolic process,biological_process
+PALES_57321,rpoZ,always essential,4,4,4,DNA-directed RNA polymerase subunit omega,rpoZ,DNA-directed RNA polymerase subunit omega,GO:0003677,DNA binding,molecular_function
+PALES_57321,rpoZ,always essential,4,4,4,DNA-directed RNA polymerase subunit omega,rpoZ,DNA-directed RNA polymerase subunit omega,GO:0003899,DNA-directed 5'-3' RNA polymerase activity,molecular_function
+PALES_57321,rpoZ,always essential,4,4,4,DNA-directed RNA polymerase subunit omega,rpoZ,DNA-directed RNA polymerase subunit omega,GO:0006351,"transcription, DNA-templated",biological_process
+PALES_57841,PALES_57841,always essential,4,4,4,"putative glycine betaine/L-proline ABC transporter, periplasmic substrate-binding protein",PALES_57841,"putative glycine betaine/L-proline ABC transporter, periplasmic substrate-binding protein",GO:0015871,choline transport,biological_process
+PALES_57841,PALES_57841,always essential,4,4,4,"putative glycine betaine/L-proline ABC transporter, periplasmic substrate-binding protein",PALES_57841,"putative glycine betaine/L-proline ABC transporter, periplasmic substrate-binding protein",GO:0033265,choline binding,molecular_function
+PALES_57841,PALES_57841,always essential,4,4,4,"putative glycine betaine/L-proline ABC transporter, periplasmic substrate-binding protein",PALES_57841,"putative glycine betaine/L-proline ABC transporter, periplasmic substrate-binding protein",GO:0042597,periplasmic space,cellular_component
+PALES_57841,PALES_57841,always essential,4,4,4,"putative glycine betaine/L-proline ABC transporter, periplasmic substrate-binding protein",PALES_57841,"putative glycine betaine/L-proline ABC transporter, periplasmic substrate-binding protein",GO:0022857,transmembrane transporter activity,molecular_function
+PALES_57841,PALES_57841,always essential,4,4,4,"putative glycine betaine/L-proline ABC transporter, periplasmic substrate-binding protein",PALES_57841,"putative glycine betaine/L-proline ABC transporter, periplasmic substrate-binding protein",GO:0043190,ATP-binding cassette (ABC) transporter complex,cellular_component
+PALES_57841,PALES_57841,always essential,4,4,4,"putative glycine betaine/L-proline ABC transporter, periplasmic substrate-binding protein",PALES_57841,"putative glycine betaine/L-proline ABC transporter, periplasmic substrate-binding protein",GO:0055085,transmembrane transport,biological_process
+PALES_57841,PALES_57841,always essential,4,4,4,"putative glycine betaine/L-proline ABC transporter, periplasmic substrate-binding protein",PALES_57841,"putative glycine betaine/L-proline ABC transporter, periplasmic substrate-binding protein",GO:0042413,carnitine catabolic process,biological_process
+PALES_57841,PALES_57841,always essential,4,4,4,"putative glycine betaine/L-proline ABC transporter, periplasmic substrate-binding protein",PALES_57841,"putative glycine betaine/L-proline ABC transporter, periplasmic substrate-binding protein",GO:0015879,carnitine transport,biological_process
+PALES_58201,purK,always essential,4,4,4,phosphoribosylaminoimidazole carboxylase ATPase subunit,purK,phosphoribosylaminoimidazole carboxylase ATPase subunit,GO:0004638,phosphoribosylaminoimidazole carboxylase activity,molecular_function
+PALES_58201,purK,always essential,4,4,4,phosphoribosylaminoimidazole carboxylase ATPase subunit,purK,phosphoribosylaminoimidazole carboxylase ATPase subunit,GO:0006189,'de novo' IMP biosynthetic process,biological_process
+PALES_58201,purK,always essential,4,4,4,phosphoribosylaminoimidazole carboxylase ATPase subunit,purK,phosphoribosylaminoimidazole carboxylase ATPase subunit,GO:0005524,ATP binding,molecular_function
+PALES_58201,purK,always essential,4,4,4,phosphoribosylaminoimidazole carboxylase ATPase subunit,purK,phosphoribosylaminoimidazole carboxylase ATPase subunit,GO:0046872,metal ion binding,molecular_function
+PALES_58211,purE,always essential,4,4,4,"phosphoribosylaminoimidazole carboxylase, catalytic subunit",purE,"phosphoribosylaminoimidazole carboxylase, catalytic subunit",GO:0006189,'de novo' IMP biosynthetic process,biological_process
+PALES_58651,PALES_58651,always essential,4,4,4,NA,prfH,peptide chain release factor-like protein,GO:0003747,translation release factor activity,molecular_function
+PALES_58651,PALES_58651,always essential,4,4,4,NA,prfH,peptide chain release factor-like protein,GO:0006415,translational termination,biological_process
+PALES_58991,PALES_58991,always essential,4,4,4,putative ATP-binding component of ABC transporter,PALES_58991,putative ATP-binding component of ABC transporter,GO:0005524,ATP binding,molecular_function
+PALES_58991,PALES_58991,always essential,4,4,4,putative ATP-binding component of ABC transporter,PALES_58991,putative ATP-binding component of ABC transporter,GO:0016887,ATPase activity,molecular_function
+PALES_59491,atpC,always essential,4,4,4,F0F1 ATP synthase subunit epsilon,atpC,F0F1 ATP synthase subunit epsilon,GO:0015986,ATP synthesis coupled proton transport,biological_process
+PALES_59491,atpC,always essential,4,4,4,F0F1 ATP synthase subunit epsilon,atpC,F0F1 ATP synthase subunit epsilon,GO:0045261,"proton-transporting ATP synthase complex, catalytic core F(1)",cellular_component
+PALES_59491,atpC,always essential,4,4,4,F0F1 ATP synthase subunit epsilon,atpC,F0F1 ATP synthase subunit epsilon,GO:0046933,"proton-transporting ATP synthase activity, rotational mechanism",molecular_function
+PALES_59521,atpA,always essential,4,4,4,F0F1 ATP synthase subunit alpha,atpA,F0F1 ATP synthase subunit alpha,GO:0046034,ATP metabolic process,biological_process
+PALES_59521,atpA,always essential,4,4,4,F0F1 ATP synthase subunit alpha,atpA,F0F1 ATP synthase subunit alpha,GO:1902600,proton transmembrane transport,biological_process
+PALES_59521,atpA,always essential,4,4,4,F0F1 ATP synthase subunit alpha,atpA,F0F1 ATP synthase subunit alpha,GO:0032559,adenyl ribonucleotide binding,molecular_function
+PALES_59521,atpA,always essential,4,4,4,F0F1 ATP synthase subunit alpha,atpA,F0F1 ATP synthase subunit alpha,GO:0015986,ATP synthesis coupled proton transport,biological_process
+PALES_59521,atpA,always essential,4,4,4,F0F1 ATP synthase subunit alpha,atpA,F0F1 ATP synthase subunit alpha,GO:0045261,"proton-transporting ATP synthase complex, catalytic core F(1)",cellular_component
+PALES_59521,atpA,always essential,4,4,4,F0F1 ATP synthase subunit alpha,atpA,F0F1 ATP synthase subunit alpha,GO:0046933,"proton-transporting ATP synthase activity, rotational mechanism",molecular_function
+PALES_59521,atpA,always essential,4,4,4,F0F1 ATP synthase subunit alpha,atpA,F0F1 ATP synthase subunit alpha,GO:0005524,ATP binding,molecular_function
+PALES_59531,atpH,always essential,4,4,4,F0F1 ATP synthase subunit delta,atpH,F0F1 ATP synthase subunit delta,GO:0015986,ATP synthesis coupled proton transport,biological_process
+PALES_59531,atpH,always essential,4,4,4,F0F1 ATP synthase subunit delta,atpH,F0F1 ATP synthase subunit delta,GO:0046933,"proton-transporting ATP synthase activity, rotational mechanism",molecular_function
+PALES_59551,atpE,always essential,4,4,4,F0F1 ATP synthase subunit C,atpE,F0F1 ATP synthase subunit C,GO:0015078,proton transmembrane transporter activity,molecular_function
+PALES_59551,atpE,always essential,4,4,4,F0F1 ATP synthase subunit C,atpE,F0F1 ATP synthase subunit C,GO:0033177,"proton-transporting two-sector ATPase complex, proton-transporting domain",cellular_component
+PALES_59551,atpE,always essential,4,4,4,F0F1 ATP synthase subunit C,atpE,F0F1 ATP synthase subunit C,GO:1902600,proton transmembrane transport,biological_process
+PALES_59551,atpE,always essential,4,4,4,F0F1 ATP synthase subunit C,atpE,F0F1 ATP synthase subunit C,GO:0015986,ATP synthesis coupled proton transport,biological_process
+PALES_59551,atpE,always essential,4,4,4,F0F1 ATP synthase subunit C,atpE,F0F1 ATP synthase subunit C,GO:0045263,"proton-transporting ATP synthase complex, coupling factor F(o)",cellular_component
+PALES_59561,atpB,always essential,4,4,4,F0F1 ATP synthase subunit A,atpB,F0F1 ATP synthase subunit A,GO:0015078,proton transmembrane transporter activity,molecular_function
+PALES_59561,atpB,always essential,4,4,4,F0F1 ATP synthase subunit A,atpB,F0F1 ATP synthase subunit A,GO:0015986,ATP synthesis coupled proton transport,biological_process
+PALES_59561,atpB,always essential,4,4,4,F0F1 ATP synthase subunit A,atpB,F0F1 ATP synthase subunit A,GO:0045263,"proton-transporting ATP synthase complex, coupling factor F(o)",cellular_component
+PALES_59641,PALES_59641,always essential,4,4,4,putative inner membrane protein translocase component YidC,PALES_59641,putative inner membrane protein translocase component YidC,GO:0016021,integral component of membrane,cellular_component
+PALES_59641,PALES_59641,always essential,4,4,4,putative inner membrane protein translocase component YidC,PALES_59641,putative inner membrane protein translocase component YidC,GO:0032977,membrane insertase activity,molecular_function
