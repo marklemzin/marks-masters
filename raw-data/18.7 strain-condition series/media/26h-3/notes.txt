@@ -1,0 +1,10 @@
+Perhaps Sa can interfere with Pa quorum-sensing molecule diffusion...
+We can try pqs-Ko in PA14 maybe.
+
+The 'collapsing' of structure at the edges of colonies reminds me of the 'sloughing' theory of biofilm development.
+Structure is a conseuqence of primarily horizontal expansion.
+
+For PA14 mono:
+0.5lb appears to form slightly smaller 'rosettes'
+2lb forms slightly diffuse rosettes
+0.5ag forms motility-dependent cloudbursts

@@ -1,0 +1,23 @@
+Gene,Essentiality,Control,Condition,Replicates,loci,description,old_loci
+SAUSA300_0054,probably always non-essential,0,1,4,NA,NA,NA
+SAUSA300_0471,probably always non-essential,0,1,4,SAUSA300_RS02530,Veg family protein,SAUSA300_0471
+SAUSA300_0529,inconsistent replicates,0,2,4,SAUSA300_RS02830,ribosomal L7Ae/L30e/S12e/Gadd45 family protein,SAUSA300_0529
+SAUSA300_0543,probably always non-essential,0,1,4,SAUSA300_RS02900,tRNA adenosine(34) deaminase TadA,SAUSA300_0543
+SAUSA300_0857,probably always non-essential,0,1,4,SAUSA300_RS04625,peptidylprolyl isomerase,SAUSA300_0857
+SAUSA300_0871,probably always non-essential,0,1,4,SAUSA300_RS04700,fumarylacetoacetate hydrolase family protein,SAUSA300_0871
+SAUSA300_1053,probably always non-essential,0,1,4,SAUSA300_RS05680,formyl peptide receptor-like 1 inhibitory protein,SAUSA300_1053
+SAUSA300_1057,probably always non-essential,0,1,4,SAUSA300_RS05715,hypothetical protein,SAUSA300_1057
+SAUSA300_1182,probably always non-essential,0,1,4,SAUSA300_RS06390,2-oxoacid:acceptor oxidoreductase subunit alpha,SAUSA300_1182
+SAUSA300_1204,probably always non-essential,0,1,4,SAUSA300_RS06510,hypothetical protein,SAUSA300_1204
+SAUSA300_1238,probably always non-essential,0,1,4,SAUSA300_RS06720,DUF896 domain-containing protein,SAUSA300_1238
+SAUSA300_1794,probably always non-essential,0,1,4,SAUSA300_RS09820,hypothetical protein,SAUSA300_1794
+SAUSA300_1963,probably always non-essential,0,1,4,SAUSA300_RS10765,DUF2482 family protein,SAUSA300_1963
+SAUSA300_2018,probably always non-essential,0,1,4,SAUSA300_RS11100,tRNA-Gly,SAUSA300_2018
+SAUSA300_2522,probably always non-essential,0,1,4,SAUSA300_RS13995,DUF4176 domain-containing protein,SAUSA300_2522
+SAUSA300_2560,probably always non-essential,0,1,4,SAUSA300_RS14245,hypothetical protein,SAUSA300_2560
+gpsA,probably always non-essential,0,1,4,NA,NA,NA
+lacF,probably always non-essential,0,1,4,NA,NA,NA
+nrdD,probably always non-essential,0,1,4,SAUSA300_RS14175,anaerobic ribonucleoside-triphosphate reductase,SAUSA300_2551
+pyrP,probably always non-essential,0,1,4,NA,NA,NA
+rpmI,probably always non-essential,0,1,4,SAUSA300_RS08870,50S ribosomal protein L35,SAUSA300_1626
+sarA,probably always non-essential,0,1,4,SAUSA300_RS03250,global transcriptional regulator SarA,SAUSA300_0605

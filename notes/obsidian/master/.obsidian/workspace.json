@@ -27,6 +27,104 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Reference/24.07 - flg influences.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "24.07 - flg influences"
+            }
+          },
+          {
+            "id": "a907c3b29d2a6b9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reference/22.07 - revisiting Deb's tn-screen.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "22.07 - revisiting Deb's tn-screen"
+            }
+          },
+          {
+            "id": "2e39da5c146e49fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reference/21.07 - anthropogenic influence on stoneflies.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "21.07 - anthropogenic influence on stoneflies"
+            }
+          },
+          {
+            "id": "1e304a941d5a48e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reference/25.07 - Sa transformations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "25.07 - Sa transformations"
+            }
+          },
+          {
+            "id": "d61c09f7acc8043a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reference/26.07 - biofilms as organ.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "26.07 - biofilms as organ"
+            }
+          },
+          {
+            "id": "d550a135849b884a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reference/23.07 - behaviour of heterogeneity R-script.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "23.07 - behaviour of heterogeneity R-script"
+            }
+          },
+          {
+            "id": "c9e3a41403ca0a7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reference/28.07 - ecology.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "28.07 - ecology"
+            }
+          },
+          {
+            "id": "b521c778ed7ae4da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Reference/09.07 - agar colony papers.md",
                 "mode": "source",
                 "source": false
@@ -36,175 +134,77 @@
             }
           },
           {
-            "id": "078085c46841441d",
+            "id": "14cbc0a9301d5a19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10.07.md",
+                "file": "Reference/29.07 - FarRed plasmid information.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10.07"
+              "title": "29.07 - FarRed plasmid information"
             }
           },
           {
-            "id": "942e09ca83553a04",
+            "id": "24af8f7ef4cce299",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Archive/31.05 - droplets.md",
+                "file": "Reference/26.07 - strain differences.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "31.05 - droplets"
+              "title": "26.07 - strain differences"
             }
           },
           {
-            "id": "757c7a4a20b89c75",
+            "id": "659e9fec6df06b34",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Archive/28.06 - ocean.md",
+                "file": "Reference/23.07 - behaviour of heterogeneity R-script.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "28.06 - ocean"
+              "title": "23.07 - behaviour of heterogeneity R-script"
             }
           },
           {
-            "id": "e426cb9818de021e",
+            "id": "5b973e845f99ecc1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/21.06.md",
+                "file": "29.07 - antibiotic agar series.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "21.06"
+              "title": "29.07 - antibiotic agar series"
             }
           },
           {
-            "id": "d172959108c97487",
+            "id": "eb453c2eee18c36d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reference/28.06.md",
+                "file": "29.07 - goofy drugs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "28.06"
-            }
-          },
-          {
-            "id": "fb96ef70c2dc0024",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reference/29.06.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "29.06"
-            }
-          },
-          {
-            "id": "37b53ca9e617559f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reference/01.07.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01.07"
-            }
-          },
-          {
-            "id": "3b9e33400128bd0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reference/02.07.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "02.07"
-            }
-          },
-          {
-            "id": "ea2fde62e9e8f812",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03.07.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "03.07"
-            }
-          },
-          {
-            "id": "c87929cf4317f714",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04.07.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "04.07"
-            }
-          },
-          {
-            "id": "3b5c8b565ec047f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reference/Volumetric Shit Compressor.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Volumetric Shit Compressor"
-            }
-          },
-          {
-            "id": "aba942ee508c8da8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mutants of Interest.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Mutants of Interest"
+              "title": "29.07 - goofy drugs"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -236,7 +236,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "plasmid",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -342,35 +342,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "078085c46841441d",
+  "active": "b521c778ed7ae4da",
   "lastOpenFiles": [
+    "Reference/29.07 - FarRed plasmid information.md",
+    "Reference/26.07 - strain differences.md",
+    "Reference/23.07 - behaviour of heterogeneity R-script.md",
+    "29.07 - antibiotic agar series.md",
+    "29.07 - goofy drugs.md",
     "Reference/09.07 - agar colony papers.md",
-    "10.07.md",
-    "Reference/12.03.md",
+    "Reference/28.07 - ecology.md",
+    "Reference/28.07 - swarming notes.md",
+    "Reference/24.07 - meeting with Daniel.md",
+    "Reference/24.07 - flg influences.md",
+    "Reference/22.07 - revisiting Deb's tn-screen.md",
+    "Reference/21.07 - anthropogenic influence on stoneflies.md",
+    "Reference/25.07 - Sa transformations.md",
+    "Reference/26.07 - biofilms as organ.md",
     "Reference/10.03.md",
-    "Reference/08.07.md",
-    "Untitled.canvas",
+    "Reference/21.06.md",
+    "Reference/25.05.md",
+    "Reference/09.05.md",
+    "Reference/07.05.md",
+    "Reference/17.07 - the homogeneity Rabbit-hole.md",
     "Reference/Volumetric Shit Compressor.md",
-    "2025-07-08.md",
-    "Reference/16.05.md",
-    "Reference/29.06.md",
-    "Reference/30.04.md",
-    "Reference/30.05.md",
-    "Reference/31.03.md",
-    "Reference/01.04.md",
-    "Reference/01.05.md",
-    "Reference/01.07.md",
-    "Reference/02.04.md",
-    "Reference/02.05.md",
-    "Reference/02.07.md",
-    "Reference/03.03.md",
-    "Reference/03.04.md",
-    "Reference/03.06.md",
-    "Reference/04.03.md",
-    "Reference/04.04.md",
-    "Reference/04.06.md",
-    "Reference/05.03.md",
-    "Reference/05.05.md",
+    "Reference/19.06.md",
+    "Reference/18.07 - RNAseq & tn-seq analysis.md",
+    "Archive/17.07 - meeting of the fates.md",
+    "Reference/10.07.md",
+    "Reference/12.03.md",
+    "Untitled.canvas",
     "Pasted image 20250619130449.png",
     "SA library.xls",
     "Untitled",

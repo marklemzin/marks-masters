@@ -1,0 +1,3 @@
+10ms bf for coculture
+5ms bf for monoculture & 446 coculture (& some 323 coculture apparently)
+Need to be careful with declaring bf

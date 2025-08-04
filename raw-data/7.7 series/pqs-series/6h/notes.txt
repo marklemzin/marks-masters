@@ -1,0 +1,2 @@
+Red is 700ms
+Bf is 10ms

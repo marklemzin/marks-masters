@@ -1,0 +1,1 @@
+For mono: bf is 5ms exposure (10ms for co)

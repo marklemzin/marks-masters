@@ -1,0 +1,3 @@
+Madness: enforcing colony constriction
+- Placing a ring of cells around another
+- Species-specific nutrients
